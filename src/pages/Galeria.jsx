@@ -9,4 +9,4 @@ function Galeria(props) {
 
 Galeria.propTypes = {}
 
-export default Galeria
+export default Galeria 
