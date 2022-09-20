@@ -13,7 +13,7 @@ import { Container, Grid } from "@mui/material";
 
 function App() {
   return (
-    <Container >  
+      
       <Router>
         <Routes>
           <Route
@@ -27,7 +27,7 @@ function App() {
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </Router>
-    </Container>
+    
   );
 }
 
