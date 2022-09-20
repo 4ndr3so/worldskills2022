@@ -9,13 +9,11 @@ import Galeria from "./pages/Galeria";
 import Equipo from "./pages/Equipo";
 import Competencia from "./pages/Competencia";
 import NotFound from "./pages/NotFound";
-import { Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 
 function App() {
   return (
-    <Grid container >
-      <div>
-      <h1>WorldSkills</h1>
+    <Container >  
       <Router>
         <Routes>
           <Route
@@ -29,8 +27,7 @@ function App() {
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </Router>
-    </div>
-    </Grid>
+    </Container>
   );
 }
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function Banner(props) {
   return (
-    <div>Banner</div>
+    <div className='full'>Banner</div>
   )
 }
 
