@@ -18,28 +18,28 @@ const MainMenu = () => {
 
   return(
   <div className={styles.MainMenu} data-testid="MainMenu">
-      <nav className={"navbar navbar-expand-lg bg-light px-0 "+styles.navbarN}>
-        <div className="container-fluid px-0">
-          <a className={"navbar-brand "+styles.colorInicio} href="#">Inicio</a>
+      <nav className={"navbar navbar-expand-lg  px-0 "}>
+        <div className={"container-fluid px-0 "+styles.navbarN}>
+          <a className={"navbar-brand "+styles.colorInicio} href="#">INICIO</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className={"navbar-nav me-auto mb-2 mb-lg-0 "}>
-              <li className="nav-item nav-link2">
-                <a className={"nav-link "+styles.navlink} aria-current="page" href="#">Competencia</a>
+              <li className="nav-item">
+                <a className={"nav-link "+styles.navlink} aria-current="page" href="#">COMPETENCIA</a>
               </li>
               <li className="nav-item">
-                <a className={"nav-link "+styles.navlink} href="#">Equipo</a>
+                <a className={"nav-link "+styles.navlink} href="#">EQUIPO</a>
               </li>
               <li className="nav-item">
-                <a className={"nav-link "+styles.navlink} href="#">Noticias</a>
+                <a className={"nav-link "+styles.navlink} href="#">NOTICIAS</a>
               </li>
               <li className="nav-item">
-                <a className={"nav-link "+styles.navlink} href="#">Galeria</a>
+                <a className={"nav-link "+styles.navlink} href="#">GALERIA</a>
               </li>
               <li className="nav-item">
-                <a className={"nav-link "+styles.navlink} href="#">Video</a>
+                <a className={"nav-link "+styles.navlink} href="#">VIDEO</a>
               </li>
         
             </ul>
