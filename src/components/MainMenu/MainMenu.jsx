@@ -18,48 +18,35 @@ const MainMenu = () => {
 
   return(
   <div className={styles.MainMenu} data-testid="MainMenu">
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >Inicio</Button>
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >COMPETENCIA</Button>
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >EQUIPO</Button>
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >NOTICIAS</Button>
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >GALERIA</Button>
-    <Button
-      id="Inicio_1"
-      aria-controls={open ? "Inicio" : undefined}
-      aria-haspopup="true"
-      aria-expanded={open ? "true" : undefined}
-      onClick={handleClick}
-    >VIDEOS</Button>
+      <nav className={"navbar navbar-expand-lg bg-light px-0 "+styles.navbarN}>
+        <div className="container-fluid px-0">
+          <a className={"navbar-brand "+styles.colorInicio} href="#">Inicio</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className={"navbar-nav me-auto mb-2 mb-lg-0 "}>
+              <li className="nav-item nav-link2">
+                <a className={"nav-link "+styles.navlink} aria-current="page" href="#">Competencia</a>
+              </li>
+              <li className="nav-item">
+                <a className={"nav-link "+styles.navlink} href="#">Equipo</a>
+              </li>
+              <li className="nav-item">
+                <a className={"nav-link "+styles.navlink} href="#">Noticias</a>
+              </li>
+              <li className="nav-item">
+                <a className={"nav-link "+styles.navlink} href="#">Galeria</a>
+              </li>
+              <li className="nav-item">
+                <a className={"nav-link "+styles.navlink} href="#">Video</a>
+              </li>
+        
+            </ul>
+
+          </div>
+        </div>
+      </nav>
   </div>)
 };
 

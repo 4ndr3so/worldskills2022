@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.module.scss";
 import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import Noticias from "./pages/Noticias";
@@ -10,6 +10,8 @@ import Equipo from "./pages/Equipo";
 import Competencia from "./pages/Competencia";
 import NotFound from "./pages/NotFound";
 import { Container, Grid } from "@mui/material";
+
+
 
 function App() {
   return (
