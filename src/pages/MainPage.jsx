@@ -9,7 +9,10 @@ import GaleriaVideHome from "./../components/GaleriaVideHome"
 import MainMenu from "./../components/MainMenu"
 import GaleriaImaHome from "./../components/GaleriaImaHome"
 import Slider from './../components/Slider'
-
+//imagenes
+import im1 from '../img/Recurso2-100.jpg'
+import im2 from '../img/Recurso3-100.jpg'
+import im3 from '../img/Recurso4-100.jpg'
 function MainPage(props) {
   return (
   
@@ -26,9 +29,9 @@ function MainPage(props) {
               <Slider></Slider>
           </Grid>
           <Grid container>
-            <Grid xs="4"><SobreWS></SobreWS></Grid>
-            <Grid xs="4"><SobreWS></SobreWS></Grid>
-            <Grid xs="4"><SobreWS></SobreWS></Grid>
+            <Grid xs="4"><SobreWS imgRe={im1} titulo={"¿QUÉ ES WORLDSKILLS?"} ></SobreWS></Grid>
+            <Grid xs="4"><SobreWS imgRe={im2} titulo={"COMPETENCIA"}></SobreWS></Grid>
+            <Grid xs="4"><SobreWS imgRe={im3} titulo={"EQUIPO"}></SobreWS></Grid>
           </Grid>
           <Grid container>
               <Grid xs="12"></Grid>
