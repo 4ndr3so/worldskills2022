@@ -1,1 +1,25 @@
-.Footer {}
+@import "../../utils/variables";
+
+.Footer {
+    color:white;
+    padding: 20px 0px 20px 0px;
+    
+}
+.Footer p{
+    margin: 0px;
+    padding: 0px;
+    font-family: $tip-princi;
+    font-weight: 100;
+}
+.footerBack{
+    margin-top: 30px;
+    background-color: $font-color-title;
+}
+.titleSena{
+    font-weight: bold;
+}
+
+.logos{
+    color:white;
+    padding: 20px 0px 20px 0px;
+}

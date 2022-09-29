@@ -1,1 +1,14 @@
+@import "../../utils/variables";
+
 .GaleriaImaHome {}
+
+.titulWs{
+    @extend .titulGe;
+    margin-top: 30px;
+}
+.imageGal{
+    width: 100%;
+}
+.conImgGal{
+    margin-top: 20px;
+}

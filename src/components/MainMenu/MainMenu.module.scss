@@ -1,5 +1,7 @@
+@import "../../utils/variables";
+
 .MainMenu {
-   
+    width: 100%;
 }
 .colorInicio{
     padding: 17px 10px 10px 10px;
@@ -9,22 +11,23 @@
     width: 160px;
     height: 56px;
     text-align: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: $tip-princi;
     font-size: 1em;
 }
 
 .navlink{
-    color: #000052 !important;
+    color: $font-color-title !important;
     font-weight: 500;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $tip-princi;
     margin-right: 50px;
 }
 .navbarN{
     border: 1px solid #c3c3c3;
     border-radius: 25px;
-    background-color: white !important;
+    background-color: $fondo-color !important;
     height: 57px;
     padding: 0px;
+  
 }
 
 .nav-item{

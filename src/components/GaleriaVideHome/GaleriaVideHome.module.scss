@@ -1,1 +1,10 @@
+
+@import "../../utils/variables";
+
 .GaleriaVideHome {}
+
+.titulWs{
+    @extend .titulGe;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

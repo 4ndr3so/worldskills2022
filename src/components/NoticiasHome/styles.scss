@@ -1,0 +1,75 @@
+@import "../../utils/variables";
+
+.titulWs{
+   @extend .titulGe;
+}
+.cuadroCate{
+    width: 30px;
+    background-color: #FF003C;
+    height: 30px;
+    float: left;
+}
+.textoCate{
+    
+}
+.cuadroConCa{
+    height: 31px;
+    width: 200px;
+    border: 1px solid #FF003C;
+    background-color: $fondo-color;
+}
+.contText{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    color:$font-color-title;
+    font-family: $tip-princi;
+    padding-left: 16px;
+}
+.contNoData{
+    background-color: $fondo-color;
+    padding: 20px 20px 20px 30px;
+
+}
+.tiDataNo{
+    font-family: $tip-princi;
+    color:$font-color-title;
+}
+
+.texDataNo{
+    font-family: $tip-princi;
+    color:$font-color-title;
+}
+
+.auDataNo{
+    font-family: $tip-princi;
+    color:$font-color-title;
+}
+.auDa1, .auDa2{
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttonNo{
+    background-color: $font-color-title;
+    color: $fondo-color;
+    border-radius: 10px;
+    border: 0px;
+    padding: 3px 10px 1px 10px;
+    font-family: $tip-princi;
+    position: absolute;
+    right: 3%;
+}.datacontNoti{
+   
+    margin-top: 30px;
+}
+.datacontNotiEsp{
+    margin-right: 30px;
+}
+.contBuDa{
+    position: relative;
+    height: 30px;
+}
+.buttonNoVerT{
+   @extend .buttonGe;
+}
