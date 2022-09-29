@@ -33,13 +33,13 @@ const GaleriaVideHome = ({videoData}) => (
   <div className={styles.GaleriaVideHome} data-testid="GaleriaVideHome">
     <div className={styles.titulWs}>VIDEOS</div>
     <Grid container>
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <VideoItem videoInf={videoData}></VideoItem>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <VideoItem videoInf={videoData}></VideoItem>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <VideoItem videoInf={videoData}></VideoItem>
       </Grid>
     </Grid>

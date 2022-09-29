@@ -28,13 +28,13 @@ function MainPage(props) {
         <Slider></Slider>
       </Grid>
       <Grid container>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <SobreWS imgRe={im1} titulo={"¿QUÉ ES WORLDSKILLS?"}></SobreWS>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <SobreWS imgRe={im2} titulo={"COMPETENCIA"}></SobreWS>
         </Grid>
-        <Grid item  xs={4}>
+        <Grid item  xs={12} md={4}>
           <SobreWS imgRe={im3} titulo={"EQUIPO"}></SobreWS>
         </Grid>
       </Grid>
@@ -43,11 +43,7 @@ function MainPage(props) {
           <NoticiasHome></NoticiasHome>
         </Grid>
       </Grid>
-      <Grid container>
-        <Grid item xs={12}></Grid>
-        <Grid item xs={6}></Grid>
-        <Grid item xs={6}></Grid>
-      </Grid>
+     
       <Grid container>
         <Grid item xs={12}>
           <GaleriaImaHome></GaleriaImaHome>

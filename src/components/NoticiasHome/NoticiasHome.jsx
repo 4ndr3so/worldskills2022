@@ -24,9 +24,9 @@ function NoticiasHome({noticiasCom}) {
     <>
     <div className='titulWs'>NOTICIAS</div>
     <Grid container>
-            <Grid item xs={12}><NotiComp notData={noticiasCom}></NotiComp></Grid>
-            <Grid item xs={6} ><NotiComp notData={"left"}></NotiComp></Grid>
-            <Grid item xs={6}><NotiComp notData={noticiasCom}></NotiComp></Grid>
+            <Grid item xs={12} md={12}><NotiComp notData={noticiasCom}></NotiComp></Grid>
+            <Grid item xs={12} md={6}><NotiComp notData={"left"}></NotiComp></Grid>
+            <Grid item xs={12} md={6}><NotiComp notData={noticiasCom}></NotiComp></Grid>
     </Grid>
     <div className='titulWsBu'><button className='buttonNoVerT'>Ver todas las noticias</button></div>
     </>
