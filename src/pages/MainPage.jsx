@@ -10,10 +10,15 @@ import MainMenu from "./../components/MainMenu";
 import GaleriaImaHome from "./../components/GaleriaImaHome";
 import Slider from "./../components/Slider";
 import Footer from "./../components/Footer";
-//imagenes
+//imagenes que es worldskills
 import im1 from "../img/Recurso2-100.jpg";
 import im2 from "../img/Recurso3-100.jpg";
 import im3 from "../img/Recurso4-100.jpg";
+//Datos slider
+
+
+
+
 function MainPage(props) {
   return (
     <>

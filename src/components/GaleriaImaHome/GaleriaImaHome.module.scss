@@ -1,6 +1,8 @@
 @import "../../utils/variables";
 
-.GaleriaImaHome {}
+.GaleriaImaHome {
+    
+}
 
 .titulWs{
     @extend .titulGe;
@@ -11,4 +13,20 @@
 }
 .conImgGal{
     margin-top: 20px;
+    position: relative;
+}
+.cuadroEncima{
+    position: absolute;
+    background: rgb(255,0,60,0.9);
+    width: 96%;
+    top: 5%;
+    left: 2%;
+    text-align: center;
+    height: 90%;
+    color: white;
+}
+
+
+.tituloGaleriaIm{
+    padding-top: 16%;
 }

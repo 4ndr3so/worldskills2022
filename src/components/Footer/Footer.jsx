@@ -2,6 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Footer.module.scss';
 import { Container, Grid } from "@mui/material";
+import logoblanco from "../../img/logos_blancos.png"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => (
   <div className={styles.footerBack}>
@@ -24,11 +29,14 @@ const Footer = () => (
         </Grid>
         <Grid item xs={4}>
           <Grid container className={styles.logos}>
-            <Grid item xs={12}>
-              Logo SENA
+            <Grid item xs={12} className={styles.alignEnd}>
+              <img src={logoblanco} alt="Logo del SENa y worldSkills" className={styles.logoblanco} />
             </Grid>
-            <Grid item xs={12}>
-              Redes
+            <Grid item xs={12} className={styles.alignEnd}>
+              <InstagramIcon fontSize={"large"} className={styles.iconsR}></InstagramIcon>
+              <FacebookIcon fontSize={"large"} className={styles.iconsR}></FacebookIcon>
+              <TwitterIcon fontSize={"large"} className={styles.iconsR}></TwitterIcon>
+              <YouTubeIcon fontSize={"large"} className={styles.iconsR}></YouTubeIcon>
             </Grid>
           </Grid>
         </Grid>

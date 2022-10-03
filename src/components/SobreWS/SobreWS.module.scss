@@ -3,14 +3,45 @@
 .SobreWs {
     color:$font-color-title;
     margin-top: 20px;
+    position: relative;
+    
 }
 
 .imSw{
     padding: 10px 20px 0px 0px;
+    cursor: pointer;
 }
 .imgIn{
     max-width: 100%;
 }
 .titulWs{
     @extend .titulGe;
+}
+.cuadroEncima{
+    background: rgb(0,0,82,0.9);
+    width: 85%;
+    height: 84%;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    color: white;
+    padding: 29px;
+}
+.cerrarBtn{
+
+}
+.tituloQueEsW{ 
+       font-size: 2.1rem;
+    }
+.btnStyle{
+    background-color: #ff003c;
+    width: 30px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 3px;
+    position: absolute;
+    right: 20px;
+    bottom: 5%;
+    color: white;
+
 }

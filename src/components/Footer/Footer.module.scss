@@ -5,21 +5,32 @@
     padding: 20px 0px 20px 0px;
     
 }
+.titleSena{
+    font-weight: 700 !important;
+}
+
 .Footer p{
     margin: 0px;
     padding: 0px;
     font-family: $tip-princi;
-    font-weight: 100;
+    font-weight: 200;
 }
 .footerBack{
     margin-top: 30px;
     background-color: $font-color-title;
 }
-.titleSena{
-    font-weight: bold;
-}
+
 
 .logos{
     color:white;
     padding: 20px 0px 20px 0px;
+}
+.iconsR{
+    margin-right: 5%;
+}
+.alignEnd{
+    text-align: end;
+}
+.logoBlanco{
+    margin-top: 15%;
 }

@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import "./styles.scss"
 import { Container, Grid } from '@mui/material'
 
-function NotiComp({notiData}) {
+function NotiComp({notData}) {
+ // console.log(notData)
   return (
-    <div className={ 'datacontNoti'}>
+    <div className={ 'datacontNoti ' + (notData==="left" ? "pr-5":"")} >
       <div className='cuadroConCa'>
         <div className='cuadroCate'></div><div className="contText">Categoria</div>
       </div>
@@ -24,9 +25,9 @@ function NoticiasHome({noticiasCom}) {
     <>
     <div className='titulWs'>NOTICIAS</div>
     <Grid container>
-            <Grid item xs={12} md={12}><NotiComp notData={noticiasCom}></NotiComp></Grid>
-            <Grid item xs={12} md={6}><NotiComp notData={"left"}></NotiComp></Grid>
-            <Grid item xs={12} md={6}><NotiComp notData={noticiasCom}></NotiComp></Grid>
+            <Grid item xs={12} md={12}><NotiComp ></NotiComp></Grid>
+            <Grid item xs={12} md={6}><NotiComp notData={"left"} ></NotiComp></Grid>
+            <Grid item xs={12} md={6}><NotiComp ></NotiComp></Grid>
     </Grid>
     <div className='titulWsBu'><button className='buttonNoVerT'>Ver todas las noticias</button></div>
     </>

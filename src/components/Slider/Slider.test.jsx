@@ -7,7 +7,7 @@ describe('<Slider />', () => {
   test('it should mount', () => {
     render(<Slider />);
     
-    const slider = screen.getByTestId('Slider');
+    const slider = screen.getByTestId('Carousel');
 
     expect(slider).toBeInTheDocument();
   });

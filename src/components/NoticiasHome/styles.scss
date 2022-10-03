@@ -59,7 +59,12 @@
     font-family: $tip-princi;
     position: absolute;
     right: 3%;
-}.datacontNoti{
+}
+
+.buttonNo:hover{
+    background-color:#ff003c;
+}
+.datacontNoti{
    
     margin-top: 30px;
 }
@@ -72,4 +77,10 @@
 }
 .buttonNoVerT{
    @extend .buttonGe;
+}
+.pr-5{
+    padding-right: 20px;
+}
+h3:hover{
+    color:#ff003c;
 }
