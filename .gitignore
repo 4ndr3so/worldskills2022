@@ -21,4 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# resources
 /src/video
+/src/video/WS-2019-web.mp4
