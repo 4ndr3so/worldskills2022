@@ -1,0 +1,66 @@
+@import "../../utils/variables";
+
+.HabilidadesCont {
+    max-width: 90%;
+    font-family: $tip-princi;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.imgCon{
+
+}
+.imgStyle{
+    width: 100%;
+}
+.numeroHa{
+    color: #ffc200;
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+.textoHa{
+    background-color:$font-color-title; ;
+    position:relative;   
+    overflow: hidden;
+    
+}
+.amimate1{
+ 
+    max-height: 32px;
+    transition: max-height 0.5s ease-in-out;
+    -webkit-transition: max-height 0.5s ease-in-out;
+	-moz-transition: max-height 0.5s ease-in-out;
+}
+.subTi,.textInf{
+    color: white;
+}
+.subTi{
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.openFle{
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.contTextStylo{
+    padding: 20px;
+}
+
+#menu #list {
+   
+    background: #d5d5d5;
+}
+
+
+.animateHeig{
+    
+    max-height: 376px;
+    transition: max-height 1s ease-in-out;
+    -webkit-transition: max-height 1s ease-in-out;
+	-moz-transition: max-height 1s ease-in-out;
+}

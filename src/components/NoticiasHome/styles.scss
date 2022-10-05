@@ -62,7 +62,7 @@
 }
 
 .buttonNo:hover{
-    background-color:#ff003c;
+    background-color:$colorSecun;
 }
 .datacontNoti{
    
@@ -82,5 +82,10 @@
     padding-right: 20px;
 }
 h3:hover{
-    color:#ff003c;
+    color:$colorSecun;
+}
+
+
+.contNoData:hover{
+    box-shadow: $shadow
 }

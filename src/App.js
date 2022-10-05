@@ -10,6 +10,7 @@ import Equipo from "./pages/Equipo";
 import Competencia from "./pages/Competencia";
 import NotFound from "./pages/NotFound";
 import { Container, Grid } from "@mui/material";
+import Habilidades from "./pages/Habilidades";
 
 
 
@@ -21,6 +22,10 @@ function App() {
           <Route
             path="/competencia"
             element={<Competencia></Competencia>}
+          ></Route>
+          <Route
+            path="/habilidades"
+            element={<Habilidades></Habilidades>}
           ></Route>
           <Route path="/equipo" element={<Equipo></Equipo>}></Route>
           <Route path="/noticias" element={<Noticias></Noticias>}></Route>

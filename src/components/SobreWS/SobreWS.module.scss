@@ -14,6 +14,10 @@
 .imgIn{
     max-width: 100%;
 }
+
+.imgIn:hover{
+    box-shadow: $shadow
+}
 .titulWs{
     @extend .titulGe;
 }

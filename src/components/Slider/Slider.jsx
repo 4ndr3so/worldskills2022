@@ -7,7 +7,7 @@ import Banner3 from "../../img/banner_3.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 
 const Slider = () => (
-  <Carousel>
+  <Carousel data-testid="Carousel">
   <Carousel.Item>
     <img
       className="d-block w-100"
