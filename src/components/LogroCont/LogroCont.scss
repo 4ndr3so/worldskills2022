@@ -1,0 +1,47 @@
+@import "../../utils/variables";
+
+.LogroCont {
+    background: white;
+    padding: 33px;
+}
+
+
+.oro{
+    border: 2px solid #FFC200;
+    margin-right: 20px;
+}
+.plata{
+    border: 2px solid #C9C9C9;
+    margin-right: 20px;
+}
+.bronec{
+    border: 2px solid #BC6B3F;
+    margin-right: 20px;
+}
+
+.oroL{
+    color:#FFC200;
+}
+.plataL{
+    color:#C9C9C9;
+}
+.bronceL{
+    color:#BC6B3F;
+}
+
+.tituloMeda{
+    text-align: center;
+    background: $font-color-title;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    height: 32px;
+    margin-bottom: 20px;
+
+}
+.ganador1{
+    font-size: 18px;
+    padding: 4px;
+}
+.tituloLogocon h3{
+    font-weight: 700;
+}

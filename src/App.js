@@ -11,7 +11,8 @@ import Competencia from "./pages/Competencia";
 import NotFound from "./pages/NotFound";
 import { Container, Grid } from "@mui/material";
 import Habilidades from "./pages/Habilidades";
-
+import WSNacional from "./pages/WSNacional";
+import Americas from "./pages/Americas";
 
 
 function App() {
@@ -26,6 +27,14 @@ function App() {
           <Route
             path="/habilidades"
             element={<Habilidades></Habilidades>}
+          ></Route>
+          <Route
+            path="/nacional"
+            element={<WSNacional></WSNacional>}
+          ></Route>
+          <Route
+            path="/americas"
+            element={<Americas></Americas>}
           ></Route>
           <Route path="/equipo" element={<Equipo></Equipo>}></Route>
           <Route path="/noticias" element={<Noticias></Noticias>}></Route>

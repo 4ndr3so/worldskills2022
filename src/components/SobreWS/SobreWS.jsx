@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './SobreWS.module.scss';
-
+import BotonCerrar from '../../utils/BotonCerrar';
 
 const SobreWs = ({imgRe,titulo}) =>{
 const [visible,setVisible]= useState(false);
@@ -18,13 +18,6 @@ function createMarkup() {
 }
 
 
-function BotonCerrar() {
-  return (
-    <div className={styles.btnStyle}>
-      <button type="button" className="btn-close btn-close-white" aria-label="Close" onClick={apareceInfo}></button>
-    </div>
-  )
-}
 
 function BotonVerM() {
   return (
@@ -49,7 +42,7 @@ return (
         <div className={styles.parrQueEsW}  dangerouslySetInnerHTML={createMarkup()}>
         </div>
             <div className={styles.cerrarBtn}>
-              <BotonCerrar></BotonCerrar>
+              <BotonCerrar apareceInfo={apareceInfo}></BotonCerrar>
             </div>
       </div>}
   </div>

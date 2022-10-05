@@ -1,0 +1,30 @@
+@import "../utils/variables";
+
+.btnStyle{
+    background-color: #ff003c;
+    width: 30px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 3px;
+    position: relative;
+    color: white;
+    float:right;
+    margin-bottom: 10px;
+
+}
+
+.butGenerico{
+    background-color: #000052;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    
+    font-family: "Josefin Sans", sans-serif;
+    float: right;
+    right: 3%;
+    text-align: center;
+}
+
+.butGenerico:hover {
+    background-color: $colorSecun;
+}

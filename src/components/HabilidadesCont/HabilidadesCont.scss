@@ -46,6 +46,7 @@
     width: 100%;
     left: 0;
     text-align: center;
+    cursor: pointer;
 }
 .contTextStylo{
     padding: 20px;
@@ -59,8 +60,19 @@
 
 .animateHeig{
     
-    max-height: 376px;
+    max-height: 450px;
     transition: max-height 1s ease-in-out;
     -webkit-transition: max-height 1s ease-in-out;
 	-moz-transition: max-height 1s ease-in-out;
+}
+.logoc{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.difumina{
+    float: left;
+    height: 25px;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(255,0,60,1) 0%, rgba(0,0,82,1) 100%);
 }

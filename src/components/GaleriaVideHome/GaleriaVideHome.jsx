@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./GaleriaVideHome.module.scss";
 import { Container, Grid } from "@mui/material";
 import VideoItem from "./VideoItem"
-
+import ButonVerMas from "../../utils/ButonVerMas"
 
 
 
@@ -22,7 +22,7 @@ const GaleriaVideHome = ({videoData}) => (
       </Grid>
     </Grid>
     <div className="titulWsBu">
-      <button className="buttonNoVerT">Ver todos los videos</button>
+    <ButonVerMas textNotic="Ver todos los videos" ancho={"100%"} mt="30px"></ButonVerMas>
     </div>
   </div>
 );
