@@ -2,16 +2,19 @@
 
 //estilos habilidades
 
-.habilidades{
+.generalPa{
     font-family:$tip-princi ;
     color: $font-color-title;
 }
-.titulohabilidades{
+.tituloGeneral{
     max-width: 1094px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+.tituloGeneral h3{
+    text-transform: uppercase;
 }
 
 //wsnacional
@@ -22,6 +25,11 @@
 }
 .contBlanco h3{
     color:$colorSecun;
+    text-transform: uppercase;
+}
+.contBlanco h3>span{
+    color: $font-color-title;
+    font-weight: 700;
 }
 .contLogros{ 
     background-color: white;

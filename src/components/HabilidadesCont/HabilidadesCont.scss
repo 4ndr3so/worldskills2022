@@ -5,6 +5,12 @@
     font-family: $tip-princi;
     position: relative;
     margin-bottom: 20px;
+    border: 2px solid #dfdfdf;
+    border-radius: 0px 0px 13px 13px;
+}
+
+.HabilidadesCont:hover{
+    box-shadow: 6px 5px 7px #afafaf;
 }
 
 .imgCon{
@@ -22,7 +28,7 @@
     background-color:$font-color-title; ;
     position:relative;   
     overflow: hidden;
-    
+    border-radius: 0px 0px 13px 13px;
 }
 .amimate1{
  
@@ -60,7 +66,7 @@
 
 .animateHeig{
     
-    max-height: 450px;
+    max-height: 520px;
     transition: max-height 1s ease-in-out;
     -webkit-transition: max-height 1s ease-in-out;
 	-moz-transition: max-height 1s ease-in-out;
@@ -75,4 +81,12 @@
     height: 25px;
     width: 80%;
     background: linear-gradient(90deg, rgba(255,0,60,1) 0%, rgba(0,0,82,1) 100%);
+}
+.nombreCam{
+    padding: 20px 20px 1px 20px;
+    background: white;
+}
+
+.nombreCam h3{
+    font-weight: 700;
 }

@@ -15,7 +15,8 @@ const datos={
     puesto:"PUESTO #2 EN GUATEMALA",
     medallas:[
         {oro:1},
-        {bronce:2}
+        {bronce:2},
+        {plata:3}
     ]
 }
 const Americas = props => {
@@ -28,8 +29,8 @@ const Americas = props => {
         <Grid container>
           <MainMenu></MainMenu>
         </Grid>
-        <Grid item xs={12} className="habilidades">
-          <div className="titulohabilidades">
+        <Grid item xs={12} className="generalPa">
+          <div className="tituloGeneral">
             <h3>WORLDSKILLS AMÉRICAS</h3>
             <p className="textoHabili">
             Esta versión de WorldSkills se realiza cada dos años en el continente americano, los competidores son los ganadores de las justas nacionales de cada uno de los <span style={{color:"#367BF6"}}>26 países miembros.</span>
@@ -47,6 +48,7 @@ const Americas = props => {
           </div>
           <div className="contLogros">
             <div className="tituloLogros"><h3>LOGROS DE LA SELECCIÓN COLOMBIA</h3></div>
+            <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
             <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
           </div>
         </Grid>

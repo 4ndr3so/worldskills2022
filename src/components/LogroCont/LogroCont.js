@@ -6,6 +6,7 @@ import imgMedaBronce from "../../img/medallaBronce.png";
 import imgMedaPlata from "../../img/medallaPlata.png";
 import imgBandera from "../../img/bandera.png";
 import { Container, Grid } from "@mui/material";
+import ButonVerMas from "../../utils/ButonVerMas"
 
 const MedallaCont = ({tipoMedalla,cantidad,ancho}) => {
   return (
@@ -16,7 +17,7 @@ const MedallaCont = ({tipoMedalla,cantidad,ancho}) => {
               alt="Worldskills Nacional"
               style={{padding: "7px 0px 8px 0px"}}
             />
-        <span className={tipoMedalla=="oro" ? "oroL": tipoMedalla=="plata" ? "plataL": tipoMedalla=="bronce" ? "bronceL":""} style={{fontSize: "36px",verticalAlign: "bottom",marginLeft: "30px"}}>{cantidad} </span>     {tipoMedalla=="oro" ? "MEDALLAS DE ORO": tipoMedalla=="plata" ? "MEDALLAS DE PLATA": tipoMedalla=="plata" ? "MEDALLAS DE BRONCE":""}
+        <span className={tipoMedalla=="oro" ? "oroL": tipoMedalla=="plata" ? "plataL": tipoMedalla=="bronce" ? "bronceL":""} style={{fontSize: "36px",verticalAlign: "bottom",marginLeft: "10px"}}>{cantidad} </span>     {tipoMedalla=="oro" ? "MEDALLAS DE ORO": tipoMedalla=="plata" ? "MEDALLAS DE PLATA": tipoMedalla=="bronce" ? "MEDALLAS DE BRONCE":""}
       </div>
    </Grid>
   )
@@ -24,7 +25,10 @@ const MedallaCont = ({tipoMedalla,cantidad,ancho}) => {
 
 
 
-const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) => (
+const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) =>{ 
+  
+  
+  return(
   <div className="LogroCont" data-testid="LogroCont">
     <div className='tituloLogocon'>
         <h3> {titulo1}</h3>
@@ -43,17 +47,20 @@ const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) => (
       <Grid container>
             
               {
-
-              medallas.map((titulo,index)=>(
-                <MedallaCont key={titulo.oro} cantidad ={3} tipoMedalla={"plata"} ancho={medallas.length}></MedallaCont>
-              ))
+                 
+              medallas.map((titulo,index)=>{
+               // console.log( Object.entries(titulo)[0][1],index )
+                return(
+                <MedallaCont key={titulo+index} cantidad ={Object.entries(titulo)[0][1]} tipoMedalla={Object.keys(titulo)} ancho={medallas.length}></MedallaCont>
+              )})
             }
       
       </Grid>
         </div>
     </div>
+      {<ButonVerMas textNotic="Ver más"></ButonVerMas>}
   </div>
-);
+)};
 
 LogroCont.propTypes = {};
 

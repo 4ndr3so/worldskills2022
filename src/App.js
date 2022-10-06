@@ -13,8 +13,10 @@ import { Container, Grid } from "@mui/material";
 import Habilidades from "./pages/Habilidades";
 import WSNacional from "./pages/WSNacional";
 import Americas from "./pages/Americas";
-
-
+import Internacional from "./pages/Internacional";
+import Empoderamiento from "./pages/Empoderamiento";
+import Delegados from "./pages/Delegados";
+import Expertos from "./pages/Expertos"
 function App() {
   return (
       
@@ -35,6 +37,22 @@ function App() {
           <Route
             path="/americas"
             element={<Americas></Americas>}
+          ></Route>
+          <Route
+            path="/internacional"
+            element={<Internacional></Internacional>}
+          ></Route>
+          <Route
+            path="/empoderamiento"
+            element={<Empoderamiento></Empoderamiento>}
+          ></Route>
+          <Route
+            path="/delegados"
+            element={<Delegados></Delegados>}
+          ></Route>
+          <Route
+            path="/expertos"
+            element={<Expertos></Expertos>}
           ></Route>
           <Route path="/equipo" element={<Equipo></Equipo>}></Route>
           <Route path="/noticias" element={<Noticias></Noticias>}></Route>
