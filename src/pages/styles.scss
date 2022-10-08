@@ -43,3 +43,67 @@
 .tituloLogros h3{
     font-weight: 700;
 }
+//competidores colombia
+
+.btn0{
+    margin: 0px 39px 0px 2px;
+}
+
+//noticias
+
+.noticiasMitad{
+        width: 50%;
+}
+  
+@media only screen and (max-width: 600px) {
+    .noticiasMitad{
+        width: 100%;
+    }
+  }
+//galeriaImagesn
+.imgale{
+    width: 100%;
+    margin-top: 20px;
+}
+//video
+.imgVio{
+    width: 100%;
+}
+
+.stilosVideo{
+    font-family:$tip-princi ;
+    color: $font-color-title;
+}
+.imgStVo{
+    padding: 10px;
+}
+.videoItm{
+    background: white;
+}
+.textConVi{
+    padding: 5% 12px 14px 9px;
+}
+.textConVi h3{
+    font-weight: 700;
+}
+.reproBut{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.buttonRev{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    top: 30%;
+    left: 36%;
+    background: #000000a3;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+}
+.buttonRev:hover{
+    background: rgb(255 0 0 / 64%)
+}

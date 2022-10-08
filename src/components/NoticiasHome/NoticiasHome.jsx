@@ -3,23 +3,34 @@ import PropTypes from 'prop-types'
 import "./styles.scss"
 import { Container, Grid } from '@mui/material'
 import ButonVerMas from "../../utils/ButonVerMas"
+import Pagination from '@mui/material/Pagination';
 
-function NotiComp({notData}) {
- // console.log(notData)
+function NotiComp({ children,notData, pos,place,indexNo}) {
+
   return (
-    <div className={ 'datacontNoti ' + (notData==="left" ? "pr-5":"")} >
-      <div className='cuadroConCa'>
+    <div className={'datacontNoti ' + (pos === "left" ? "pr-5 " : " ")}>
+      {
+        children
+      }
+      <div className={'cuadroConCa ' +(place === "historico" ? "vuelveAbso" : " ")}>
         <div className='cuadroCate'></div><div className="contText">Categoria</div>
       </div>
-      <div className="contNoData">
-        <h3 className='tiDataNo'>WorldSkills Colombia realizó competencia amistosa como preparación a competencia internacional
-</h3>
-        <p className='texDataNo'>La estrategia del SENA, WorldSkills Colombia, abrió sus puertas a la competencia amistosa en la que nuestro país fue anfitrión. Competidores, delegados y expertos  realizaron  un intercambio de conocimiento con delegaciones de otros países  para reconocer el talento en habilidades como: Cocina, Servicio de Restaurante y Soldadura.</p>
-        <div className='auDataNo'> 
-        <p className='auDa1'>Oficina Nacional de Comunicaciones / Zulma Lizeth Rincón. PC</p>
-        <p className='auDa2'>Viernes, 03 de junio de 2022</p> 
+      <div className={"contNoData " + (place === "historico" ? (indexNo === 0 ? "noticiasMitad ":" ") : " ")+(place === "historico" ? (indexNo === 0 ? "imgabsulte ":" ") : " ") }>
+        <h3 className='tiDataNo'>
+          {notData[1].titulo1}
+        </h3>
+        <p className='texDataNo'>
+          {notData[1].text1}
+        </p>
+        <div className='auDataNo'>
+          <p className='auDa1'>
+            {notData[1].autor}
+          </p>
+          <p className='auDa2'>
+            {notData[1].fecha}
+          </p>
           <div className='contBuDa'>
-          <ButonVerMas textNotic="Ver noticia"></ButonVerMas>
+            <ButonVerMas textNotic="Ver noticia"></ButonVerMas>
           </div>
         </div>
       </div>
@@ -27,16 +38,52 @@ function NotiComp({notData}) {
   )
 }
 
-function NoticiasHome({noticiasCom}) {
+function NotiComp2({ notData, pos,place,indexNo}) {
+
+  //console.log(notData)
+  return (
+    <NotiComp notData={notData} pos={pos} place={place} indexNo={indexNo}>
+      {
+        place === "historico" && <div>
+            <img src={notData[1].image} alt={notData[1].titulo1} className="imgHisNot" />
+        </div>
+      }
+    </NotiComp>
+  )
+}
+
+function NoticiasHome({ noticiasCom, place }) {
+  //console.log(noticiasCom)
   return (
     <>
-    <div className='titulWs'>NOTICIAS</div>
-    <Grid container>
-            <Grid item xs={12} md={12}><NotiComp ></NotiComp></Grid>
-            <Grid item xs={12} md={6}><NotiComp notData={"left"} ></NotiComp></Grid>
-            <Grid item xs={12} md={6}><NotiComp ></NotiComp></Grid>
-    </Grid>
-    <div className='titulWsBu'><ButonVerMas textNotic="Ver todas las noticias" ancho={"100%"} mt="30px"></ButonVerMas></div>
+      {
+        place === "home" && <div className='titulWs'>NOTICIAS</div>
+      }
+      <Grid container>
+        {
+          Object.entries(noticiasCom).map((element, index) => {
+            return (
+              index === 0 ? 
+                <Grid item xs={12} md={12} key={element[0] + index}>
+                  <NotiComp2 notData={element} pos={"left"} place={place} indexNo={index}></NotiComp2>
+                </Grid> :
+                <Grid item xs={12} md={6} key={element[0] + index}>
+                  <NotiComp2 notData={element} pos={"left"} place={place} indexNo={index}></NotiComp2>
+                </Grid>
+
+            )
+          })
+        }
+        
+          <Grid item xs={12} md={12}>
+            <div className='paginatorStyle'>
+            {
+              place ==="historico" && <Pagination count={10} variant="outlined" shape="rounded" />
+            }
+            </div>
+          </Grid>
+        
+      </Grid>
     </>
   )
 }

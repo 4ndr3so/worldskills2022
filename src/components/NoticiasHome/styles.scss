@@ -64,8 +64,8 @@
 .buttonNo:hover{
     background-color:$colorSecun;
 }
-.datacontNoti{
-   
+.datacontNoti{  
+    position: relative;
     margin-top: 30px;
 }
 .datacontNotiEsp{
@@ -88,4 +88,23 @@ h3:hover{
 
 .contNoData:hover{
     box-shadow: $shadow
+}
+
+//noticias con imagenes
+.imgHisNot{
+    width: 100%;
+}
+.vuelveAbso{
+    position: absolute;
+    top: 0;
+}
+.imgabsulte{
+    position: absolute;
+    bottom: 0;
+}
+
+.paginatorStyle{
+    margin: auto;
+    width: 400px;
+    padding-top: 35px;
 }

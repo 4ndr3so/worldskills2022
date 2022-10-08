@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import TemplatePrinci from "./../utils/TemplatePrinci"
 
 function Competencia(props) {
   return (
-    <div>Competencia</div>
+    <TemplatePrinci>Competencia</TemplatePrinci>
   )
 }
 

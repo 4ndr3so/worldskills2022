@@ -17,6 +17,10 @@ import Internacional from "./pages/Internacional";
 import Empoderamiento from "./pages/Empoderamiento";
 import Delegados from "./pages/Delegados";
 import Expertos from "./pages/Expertos"
+import CompetidoresColombia from "./pages/CompetidoresColombia"
+import JefeEquipos from "./pages/JefeEquipos"
+import GalImageDetalle from "./components/GalImageDetalle";
+import Videos from "./pages/Videos"
 function App() {
   return (
       
@@ -53,6 +57,22 @@ function App() {
           <Route
             path="/expertos"
             element={<Expertos></Expertos>}
+          ></Route>
+          <Route
+            path="/competidorescolombia"
+            element={<CompetidoresColombia></CompetidoresColombia>}
+          ></Route>
+          <Route
+            path="/jefe-quipos"
+            element={<JefeEquipos></JefeEquipos>}
+          ></Route>
+          <Route
+            path="/galeriaDetalle"
+            element={<GalImageDetalle></GalImageDetalle>}
+          ></Route>
+          <Route
+            path="/videos"
+            element={<Videos></Videos>}
           ></Route>
           <Route path="/equipo" element={<Equipo></Equipo>}></Route>
           <Route path="/noticias" element={<Noticias></Noticias>}></Route>

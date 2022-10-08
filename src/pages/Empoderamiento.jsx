@@ -6,18 +6,12 @@ import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
 import imgStat from "./../img/wsNacional-stat.jpg";
 import "./styles.scss";
+import TemplatePrinci from "./../utils/TemplatePrinci"
 
 import ButonVerMas from "../utils/ButonVerMas"
 const Empoderamiento = (props) => {
   return (
-    <>
-      <Container direction="column">
-        <Grid item xs={12}>
-          <Banner></Banner>
-        </Grid>
-        <Grid container>
-          <MainMenu></MainMenu>
-        </Grid>
+    <TemplatePrinci>
         <Grid item xs={12} className="generalPa">
           <div className="tituloGeneral">
             <h3>Empoderamientos Territoriales WorldSkills Colombia</h3>
@@ -51,9 +45,7 @@ const Empoderamiento = (props) => {
           </div>
         </Grid>
         <Grid container></Grid>
-      </Container>
-      <Footer></Footer>
-    </>
+    </TemplatePrinci>
   );
 };
 

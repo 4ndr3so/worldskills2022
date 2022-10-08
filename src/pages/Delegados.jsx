@@ -10,6 +10,7 @@ import SobreWS from "../components/SobreWS"
 
 import ButonVerMas from "../utils/ButonVerMas"
 import im1 from "../img/delegados/delegado1.png"
+import TemplatePrinci from "./../utils/TemplatePrinci"
 
 const data={
     delegado1:
@@ -28,41 +29,32 @@ const data={
 
 const Delegados = props => {
   return (
-    <>
-      <Container direction="column">
-        <Grid item xs={12}>
-          <Banner></Banner>
-        </Grid>
-        <Grid container>
-          <MainMenu></MainMenu>
-        </Grid>
-        <Grid item xs={12} className="generalPa">
-          <div className="tituloGeneral">
-            <h3>DELEGADOS</h3>
-            <p className="textoHabili">
-            Para el desarrollo de las competencias cada selección cuenta con un delegado oficial, un delegado técnico y dos delegados técnicos asistentes.
-            </p>
-          </div>
-        <Grid container>
-            {
-               
-                Object.entries(data).map((element, index) => {
-                    console.log(element[1].titulo1)
-                    return(
-                    <Grid item xs={12} md={4} key={element[0][0]+index}>
-                        <SobreWS imgRe={im1} titulo={element[1].titulo1} data={element[1]}></SobreWS>
-                    </Grid>)
-                 })
+    <TemplatePrinci>
+          <Grid item xs={12} className="generalPa">
+            <div className="tituloGeneral">
+              <h3>DELEGADOS</h3>
+              <p className="textoHabili">
+              Para el desarrollo de las competencias cada selección cuenta con un delegado oficial, un delegado técnico y dos delegados técnicos asistentes.
+              </p>
+            </div>
+          <Grid container>
+              {
                 
+                  Object.entries(data).map((element, index) => {
+                      console.log(element[1].titulo1)
+                      return(
+                      <Grid item xs={12} md={4} key={element[0][0]+index}>
+                          <SobreWS imgRe={im1} titulo={element[1].titulo1} data={element[1]}></SobreWS>
+                      </Grid>)
+                  })
+                  
 
-            }
-            
-        </Grid>
-        </Grid>
-        <Grid container></Grid>
-      </Container>
-      <Footer></Footer>
-    </>
+              }
+              
+          </Grid>
+          </Grid>
+          <Grid container></Grid>
+    </TemplatePrinci>
   )
 }
 

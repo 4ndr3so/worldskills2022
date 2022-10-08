@@ -7,6 +7,7 @@ import Footer from "./../components/Footer";
 import imgStat from "./../img/wsamericas_stat.jpg";
 import "./styles.scss";
 import LogroCont from "./../components/LogroCont"
+import TemplatePrinci from "./../utils/TemplatePrinci"
 
 
 const datos={
@@ -21,41 +22,31 @@ const datos={
 }
 const Americas = props => {
   return (
-    <>
-      <Container direction="column">
-        <Grid item xs={12}>
-          <Banner></Banner>
-        </Grid>
-        <Grid container>
-          <MainMenu></MainMenu>
-        </Grid>
-        <Grid item xs={12} className="generalPa">
-          <div className="tituloGeneral">
-            <h3>WORLDSKILLS AMÉRICAS</h3>
-            <p className="textoHabili">
-            Esta versión de WorldSkills se realiza cada dos años en el continente americano, los competidores son los ganadores de las justas nacionales de cada uno de los <span style={{color:"#367BF6"}}>26 países miembros.</span>
-            </p>
-            <p>
-            Las habilidades que compiten las define el país sede, de acuerdo con su sector productivo y las necesidades de interés.
-            </p>
-          </div>
-          <div className="imgCont">
-            <img
-              src={imgStat}
-              alt="Worldskills Nacional"
-              style={{ width: "100%" }}
-            />
-          </div>
-          <div className="contLogros">
-            <div className="tituloLogros"><h3>LOGROS DE LA SELECCIÓN COLOMBIA</h3></div>
-            <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
-            <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
-          </div>
-        </Grid>
-        <Grid container></Grid>
-      </Container>
-      <Footer></Footer>
-      </>
+    <TemplatePrinci>
+          <Grid item xs={12} className="generalPa">
+            <div className="tituloGeneral">
+              <h3>WORLDSKILLS AMÉRICAS</h3>
+              <p className="textoHabili">
+              Esta versión de WorldSkills se realiza cada dos años en el continente americano, los competidores son los ganadores de las justas nacionales de cada uno de los <span style={{color:"#367BF6"}}>26 países miembros.</span>
+              </p>
+              <p>
+              Las habilidades que compiten las define el país sede, de acuerdo con su sector productivo y las necesidades de interés.
+              </p>
+            </div>
+            <div className="imgCont">
+              <img
+                src={imgStat}
+                alt="Worldskills Nacional"
+                style={{ width: "100%" }}
+              />
+            </div>
+            <div className="contLogros">
+              <div className="tituloLogros"><h3>LOGROS DE LA SELECCIÓN COLOMBIA</h3></div>
+              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
+              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
+            </div>
+          </Grid>
+      </TemplatePrinci>
   )
 }
 

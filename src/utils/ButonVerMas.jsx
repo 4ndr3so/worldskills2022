@@ -5,9 +5,9 @@ import "./styles.scss"
 const styles={
     padding: "3px 10px 1px 10px",
 }
-const ButonVerMas = ({textNotic,ancho,mt}) => {
+const ButonVerMas = ({textNotic,ancho,mt,mb,accionBtnver}) => {
   return (
-    <button className='butGenerico' style={{...styles,width:ancho,marginTop:mt}}>{textNotic}</button>
+    <button className='butGenerico' style={{...styles,width:ancho,marginTop:mt,marginBottom:mb}} onClick={accionBtnver}>{textNotic}</button>
   )
 }
 
