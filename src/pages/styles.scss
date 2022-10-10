@@ -66,6 +66,10 @@
     margin-top: 20px;
 }
 //video
+.videoItmPrin{
+    margin-top: 30px;
+}
+
 .imgVio{
     width: 100%;
 }
@@ -106,4 +110,17 @@
 }
 .buttonRev:hover{
     background: rgb(255 0 0 / 64%)
+}
+.selecC{
+    background: #000052;
+    color: white;
+}
+
+.active{
+    color: $font-color-title;
+    background-color: white !important;
+    text-decoration: underline !important;
+    text-decoration-color: #ff003c !important;
+    text-underline-offset: 19px !important;
+    text-decoration-thickness: 3px !important;
 }

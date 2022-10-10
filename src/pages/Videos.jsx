@@ -21,21 +21,24 @@ const data={
 
 
 
- const VideoItem2 = ({dataV,reproVideo}) => {
+ const VideoItem2 = ({dataV,reproVideo,isSelected}) => {
 
-    
-    //console.log(dataV)
+  const reproVideoPrimer=(e,videoC)=>{
+    return reproVideo(e,dataV[1][0]);
+  }
+
+  //  console.log(isSelected)
   return (
-    <div className="videoItm">
+    <div className={"videoItm "+(isSelected && "selecC")}>
         <Grid container className="stilosVideo">
         <Grid item xs={12} md={5} className="imgStVo"> 
             <div className="reproBut">
                 <img src={dataV[1][3]} alt={dataV[1][1]} className="imgVio" />
-                <div className="buttonRev" onClick={(e)=>reproVideo(e,dataV[1][0])}><PlayArrowIcon sx={{ fontSize: 45 }}></PlayArrowIcon></div>
+                <div className={"buttonRev"} onClick={(e)=>reproVideoPrimer(e,dataV[1][0])}><PlayArrowIcon sx={{ fontSize: 45 }}></PlayArrowIcon></div>
             </div>
             
          </Grid>
-         <Grid item xs={12} md={7} className="textConVi"> 
+         <Grid item xs={12} md={7} className={"textConVi "+(isSelected && "selecC")} > 
             <h3 className="tituloVi">{dataV[1][1]}</h3>
             <p className="textov">{dataV[1][2]}</p>
         </Grid>
@@ -45,30 +48,46 @@ const data={
 }
 
 const Videos = props => {
+    const arraCambioColor=[true,false];
     const [videoRepro,setVideoRepro]=useState(data.vid1[0]);
+    const [arrSelec,setArrSelec]=useState(arraCambioColor);
+   
+    const reproVideo=(e,videoC,ind,data)=>{
 
-    const reproVideo=(e,videoC)=>{
-        console.log(videoC)
         setVideoRepro(videoC);
+        
+        
+        setArrSelec( arr => {
+        var temCoun=[];
+        Object.entries(data).map((element, index) =>{
+          temCoun.push(false);
+        })
+        //temCoun[ind]=true;
+        temCoun.splice(ind,1,true)
+        return temCoun
+        })
+
     }
+
+
+
 
 
     
     return (
    
     <TemplatePrinci>
-      <Grid item xs={12} className="videoItm">    
+      <Grid item xs={12} className="videoItmPrin" style={{marginTop: "30px"}}>    
           <video src={videoRepro} controls width="100%">
 
           Sorry, your browser doesn't support videos.
         </video>
       </Grid>
       { 
-            Object.entries(data).map((element, index) => {
-                //console.log(element)
+            Object.entries(data).map((element, index) => {         
                     return (
                         <Grid item xs={6} md={6} key={element[0] + index} >
-                            <VideoItem2 dataV={element} reproVideo={reproVideo}></VideoItem2>
+                            <VideoItem2 dataV={element} reproVideo={(e,f)=>reproVideo(e,f,index,data)} isSelected={arrSelec[index]}></VideoItem2>
                         </Grid>
                     )})
 

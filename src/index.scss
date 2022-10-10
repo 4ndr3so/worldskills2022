@@ -17,3 +17,6 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/mixins";
 // etc
 
+.active a{
+  color: red !important;
+}

@@ -6,20 +6,15 @@ import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
 import imgStat from "./../img/wsNacional-stat.jpg";
 import "./styles.scss";
+import TemplatePrinci from "./../utils/TemplatePrinci"
 
 import ButonVerMas from "../utils/ButonVerMas"
 const WSNacional = (props) => {
   return (
     <>
-      <Container direction="column">
-        <Grid item xs={12}>
-          <Banner></Banner>
-        </Grid>
-        <Grid container>
-          <MainMenu></MainMenu>
-        </Grid>
-        <Grid item xs={12} className="habilidades">
-          <div className="titulohabilidades">
+      <TemplatePrinci>
+        <Grid item xs={12} className="generalPa">
+          <div className="tituloGeneral">
             <h3>WORLDSKILLS NACIONAL</h3>
             <p className="textoHabili">
               Es una estrategia de la Dirección de Formación Profesional del
@@ -77,8 +72,7 @@ const WSNacional = (props) => {
           </div>
         </Grid>
         <Grid container></Grid>
-      </Container>
-      <Footer></Footer>
+      </TemplatePrinci>
     </>
   );
 };
