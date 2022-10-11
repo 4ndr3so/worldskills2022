@@ -16,6 +16,8 @@ import im2 from "../img/Recurso3-100.jpg";
 import im3 from "../img/Recurso4-100.jpg";
 import TemplatePrinci from "./../utils/TemplatePrinci"
 import ButonVerMas from "./../utils/ButonVerMas"
+import { NavLink } from "react-router-dom";
+import Confeti from "../utils/Confeti";
 //Datos slider
 
 
@@ -58,6 +60,7 @@ function MainPage(props) {
   return (
 
     <TemplatePrinci>
+      <Confeti></Confeti>
         <Grid item  xs={12}>
         <Slider></Slider>
       </Grid>
@@ -75,13 +78,13 @@ function MainPage(props) {
       <Grid container>
         <Grid item  xs={12}>
           <NoticiasHome noticiasCom={data2} place={"home"}></NoticiasHome>
-          <div className='titulWsBu'><ButonVerMas textNotic="Ver todas las noticias" ancho={"100%"} mt="30px"></ButonVerMas></div>
+          <div className='titulWsBu'><NavLink to={"/noticias"}><ButonVerMas textNotic="Ver todas las noticias" ancho={"100%"} mt="30px"></ButonVerMas></NavLink></div>
         </Grid>
       </Grid>
      
       <Grid container>
         <Grid item xs={12}>
-          <GaleriaImaHome></GaleriaImaHome>
+        <NavLink to={"/galeria"}><GaleriaImaHome></GaleriaImaHome></NavLink>
         </Grid>
       </Grid>
       <Grid container>

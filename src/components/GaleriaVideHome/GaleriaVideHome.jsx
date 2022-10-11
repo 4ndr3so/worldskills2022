@@ -4,7 +4,7 @@ import styles from "./GaleriaVideHome.module.scss";
 import { Container, Grid } from "@mui/material";
 import VideoItem from "./VideoItem"
 import ButonVerMas from "../../utils/ButonVerMas"
-
+import { NavLink } from "react-router-dom";
 
 
 const GaleriaVideHome = ({videoData}) => (
@@ -22,7 +22,7 @@ const GaleriaVideHome = ({videoData}) => (
       </Grid>
     </Grid>
     <div className="titulWsBu">
-    <ButonVerMas textNotic="Ver todos los videos" ancho={"100%"} mt="30px"></ButonVerMas>
+    <NavLink to={"/videos"}><ButonVerMas textNotic="Ver todos los videos" ancho={"100%"} mt="30px"></ButonVerMas></NavLink>
     </div>
   </div>
 );

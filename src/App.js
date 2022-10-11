@@ -21,10 +21,12 @@ import CompetidoresColombia from "./pages/CompetidoresColombia"
 import JefeEquipos from "./pages/JefeEquipos"
 import GalImageDetalle from "./components/GalImageDetalle";
 import Videos from "./pages/Videos"
+import ScrollTop from "./utils/ScrollTop";
 function App() {
   return (
       
       <Router>
+        <ScrollTop />
         <Routes>
           <Route
             path="/competencia"

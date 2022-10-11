@@ -5,6 +5,9 @@ import TemplatePrinci from "../../utils/TemplatePrinci"
 import Modal from '@mui/material/Modal';
 import { Container, Grid } from '@mui/material'
 import BotonCerrar from "../../utils/BotonCerrar"
+import { NavLink } from "react-router-dom";
+import ButonVerMas from "../../utils/ButonVerMas"
+
 const data={
   im1:"https://worldskills.sena.edu.co/imagen/kazan_2/ws_competencia_k2019_37.jpg",
   im2:"https://worldskills.sena.edu.co/imagen/kazan_2/ws_competencia_k2019_36.jpg",
@@ -32,9 +35,11 @@ const GalImageDetalle = ({}) =>{
 
   return(
     <TemplatePrinci  data-testid="GalImageDetalle">
+      <NavLink to={"/galeria"}><ButonVerMas textNotic="Volver a las galerías" ancho={"100%"} mt="30px" mb="20px"></ButonVerMas></NavLink>
       <Grid container className='GalImageDetalle'>
+      
         { 
-
+          
           Object.entries(data).map((element, index) => {
             //console.log(element)
                 return (

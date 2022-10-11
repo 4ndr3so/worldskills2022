@@ -42,9 +42,9 @@ function NotiComp2({ notData, pos,place,indexNo}) {
 
   //console.log(notData)
   return (
-    <NotiComp notData={notData} pos={pos} place={place} indexNo={indexNo}>
+    <NotiComp notData={notData} pos={pos} place={place} indexNo={indexNo} style={{position:"relative"}}>
       {
-        place === "historico" && <div>
+        place === "historico" && <div style={{position:"relative",minHeight: "312px"}}>
             <img src={notData[1].image} alt={notData[1].titulo1} className="imgHisNot" />
         </div>
       }
