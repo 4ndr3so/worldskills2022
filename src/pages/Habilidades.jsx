@@ -1,12 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Container, Grid } from "@mui/material";
+import React, { useEffect } from 'react'
+import PropTypes, { element } from 'prop-types'
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
 import "./styles.scss"
 import HabilidadesCont from "./../components/HabilidadesCont"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { useDispatch, useSelector } from 'react-redux';
+import { getHabilidadesError, getHabilidadesStatus, selectAllHabilidades } from '../redux/habilidadesSlice';
+import { fetchHabilidades } from '../api/apiData';
 
 const data={
   habilidades1:
@@ -31,6 +34,32 @@ const data={
 
 
 const Habilidades = props => {
+  
+  const habilidadesStatus=useSelector(getHabilidadesStatus);
+  const habilidades= useSelector(selectAllHabilidades);
+  const habiliError=useSelector(getHabilidadesError);
+  const dispatch=useDispatch();
+  const habiliSkele=["","","","","",""]
+  useEffect(() => {
+    
+    if(habilidadesStatus==="idle"){
+
+      dispatch(fetchHabilidades())
+      
+    }
+   }, [habilidadesStatus,dispatch]); 
+
+   const skeleNot=habiliSkele.map((element,index)=>
+   {
+
+    return <Grid item xs={12} md={4} key={index}>
+      <div className="mt-3 " style={{marginRight:"20px"}}>
+        
+        <Skeleton variant="rectangular"  height={200}></Skeleton>
+        <Skeleton variant="rounded"   height={30} ></Skeleton></div> 
+        </Grid>
+   })
+
   return (
     <TemplatePrinci>
           <Grid item xs={12} className="generalPa">
@@ -46,10 +75,12 @@ const Habilidades = props => {
           </Grid>
           <Grid container>
           {
-              Object.entries(data).map((element, index) => {
+            habilidadesStatus==="loading"? skeleNot:
+              Object.entries(habilidades).map((element, index) => {
+                //console.log(element[1].id)
                   return(
-                  <Grid item xs={12} md={4} key={element[0][0]+index}>
-                  <HabilidadesCont data={element}></HabilidadesCont>
+                  <Grid item xs={12} md={4} key={element[1].id+index}>
+                  <HabilidadesCont data={element[1]} ></HabilidadesCont>
               </Grid>)
               })
           }

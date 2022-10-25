@@ -7,7 +7,7 @@ import Banner3 from "../../img/banner_3.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 
 const Slider = () => (
-  <Carousel data-testid="Carousel">
+  <Carousel data-testid="Carousel" style={{minHeight:"200px"}}>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -19,7 +19,7 @@ const Slider = () => (
       <p>Conozca las fechas</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+ { /*<Carousel.Item>
     <img
       className="d-block w-100"
       src={Banner3}
@@ -44,7 +44,7 @@ const Slider = () => (
         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
       </p>
     </Carousel.Caption>
-  </Carousel.Item>
+</Carousel.Item>*/ }
 </Carousel>
 );
 

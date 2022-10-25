@@ -18,6 +18,14 @@ import TemplatePrinci from "./../utils/TemplatePrinci"
 import ButonVerMas from "./../utils/ButonVerMas"
 import { NavLink } from "react-router-dom";
 import Confeti from "../utils/Confeti";
+import { useSelector, useDispatch } from "react-redux";
+import {prub, selectAllNoticias,getNoticiasStatus,getNoticiasError } from "../redux/noticiaSlice"
+import { increment } from "../redux/counterSlice";
+import {getVideosStatus, selectAllVideos, selectThreeVideos, selectTres} from "../redux/videoSlice"
+import { useEffect } from "react";
+import { useState } from "react";
+import { fetchNoticias, fetchVideos } from "../api/apiData";
+
 //Datos slider
 
 
@@ -26,37 +34,43 @@ const data={
   text1:"Es un espacio donde estudiantes técnicos y tecnólogos de todo el mundo compiten en campeonatos nacionales, continentales y mundiales, para demostrar su destreza en habilidades para el trabajo.<br/> <br/> Con esta estrategia se promueve el desarrollo de habilidades vocacionales y se intercambian conocimientos que aportan a una mejor cualificación del talento humano."
 }
 
-const data2={
-  not1:
-      {
-        titulo1:"Aprendices SENA listos para participar en WorldSkills 2022 Special Edition",
-        text1:"Los instructores de bilingüismo actualizaron en el uso del idioma inglés a los expertos que viajarán a representar a Colombia en WorldSkills Shanghái este año.",
-        autor:"Oficina de Comunicaciones Regional Risaralda / Gerardo Calderón",
-        image:"https://www.sena.edu.co/es-co/Noticias/NoticiasImg/ws_risa_10042022.jpg",
-        link:"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=6168",
-        fecha:"Viernes, 29 de abril de 2022"
-      },
-  not2:
-    {
-      titulo1:"Atlántico, sede de la etapa preparatoria de worldskills internacional shanghái 2022",
-      text1:"El aprendiz Sebastián Arrieta de Atlántico,  recibió dos medallas de oro por mejor puntaje en la competencia.",
-      autor:"Oficina de Comunicaciones Regional Atlántico / Sharon M. Kalil. PC",
-      image:"https://www.sena.edu.co/es-co/Noticias/NoticiasImg/ws_risa_10042022.jpg",
-      link:"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=6168",
-      fecha:"Viernes, 29 de abril de 2022"
-     },
-  not3:
-    {
-      titulo1:"Caucano representó a Colombia en Worldskills Guatemala",
-      text1:"Se trata de David Santiago Rodríguez, aprendiz del SENA Regional Cauca, quien a sus 19 años tiene muy claros sus propósitos",
-      autor:"Oficina de Comunicaciones Regional Atlántico / Sharon M. Kalil. PC",
-      image:"https://www.sena.edu.co/es-co/Noticias/NoticiasImg/ws_risa_10042022.jpg",
-      link:"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=6168",
-      fecha:"Viernes, 29 de abril de 2022"
-    } 
-}
 
 function MainPage(props) {
+  const noticias= useSelector(selectAllNoticias);
+  const notiStatus= useSelector(getNoticiasStatus);
+  const notiError=useSelector(getNoticiasError);
+
+  const videos= useSelector(selectThreeVideos);
+  const videoStatus=useSelector(getVideosStatus);
+
+  const counter= useSelector((state) =>state.counter.count);
+  const dispatch=useDispatch();
+  const [contrSin,setConrSin]=useState(true);
+  console.log("REnderiza la main page")
+
+  const accionBtnver=(e)=>{
+    console.log("clic")
+    dispatch(increment());
+  }
+
+  useEffect(() => {
+    
+    if(notiStatus==="idle"){
+
+      dispatch(fetchNoticias())
+    }
+   }, [notiStatus,dispatch]);
+
+   useEffect(() => {
+    
+    if(videoStatus==="idle"){
+
+      dispatch(fetchVideos())
+    }
+   }, [videoStatus,dispatch]);
+
+
+ 
   return (
 
     <TemplatePrinci>
@@ -77,7 +91,7 @@ function MainPage(props) {
       </Grid>
       <Grid container>
         <Grid item  xs={12}>
-          <NoticiasHome noticiasCom={data2} place={"home"}></NoticiasHome>
+        <NoticiasHome noticiasCom={noticias} place={"home"} accionBtnver={accionBtnver} statusN={notiStatus} errorN={notiError}></NoticiasHome>
           <div className='titulWsBu'><NavLink to={"/noticias"}><ButonVerMas textNotic="Ver todas las noticias" ancho={"100%"} mt="30px"></ButonVerMas></NavLink></div>
         </Grid>
       </Grid>
@@ -89,7 +103,7 @@ function MainPage(props) {
       </Grid>
       <Grid container>
         <Grid item  xs={12}>
-          <GaleriaVideHome></GaleriaVideHome>
+          <GaleriaVideHome data={videos}></GaleriaVideHome>    
         </Grid> 
       </Grid>
     </TemplatePrinci>

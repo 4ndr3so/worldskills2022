@@ -6,6 +6,9 @@ import "./styles.scss";
 
 import TemplatePrinci from "./../utils/TemplatePrinci"
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import { useDispatch, useSelector } from "react-redux";
+import { getVideosStatus, selectAllVideos } from "../redux/videoSlice";
+import { fetchVideos } from "../api/apiData";
 
 const data={
     vid1:["https://worldskills.sena.edu.co/video/WS-2019-web.mp4",
@@ -24,23 +27,24 @@ const data={
  const VideoItem2 = ({dataV,reproVideo,isSelected}) => {
 
   const reproVideoPrimer=(e,videoC)=>{
-    return reproVideo(e,dataV[1][0]);
+    //console.log(dataV.link)
+    return reproVideo(e,dataV.link);
   }
 
-  //  console.log(isSelected)
+ 
   return (
     <div className={"videoItm "+(isSelected && "selecC")}>
         <Grid container className="stilosVideo">
         <Grid item xs={12} md={5} className="imgStVo"> 
             <div className="reproBut">
-                <img src={dataV[1][3]} alt={dataV[1][1]} className="imgVio" />
-                <div className={"buttonRev"} onClick={(e)=>reproVideoPrimer(e,dataV[1][0])}><PlayArrowIcon sx={{ fontSize: 45 }}></PlayArrowIcon></div>
+                <img src={dataV.img} alt={dataV.titulo} className="imgVio" />
+                <div className={"buttonRev"} onClick={(e)=>reproVideoPrimer(e,dataV.link)}><PlayArrowIcon sx={{ fontSize: 45 }}></PlayArrowIcon></div>
             </div>
             
          </Grid>
          <Grid item xs={12} md={7} className={"textConVi "+(isSelected && "selecC")} > 
-            <h3 className="tituloVi">{dataV[1][1]}</h3>
-            <p className="textov">{dataV[1][2]}</p>
+            <h3 className="tituloVi">{dataV.titulo}</h3>
+            <p className="textov">{dataV.destacado}</p>
         </Grid>
         </Grid>
     </div>
@@ -48,21 +52,40 @@ const data={
 }
 
 const Videos = props => {
-    const arraCambioColor=[true,false];
-    const [videoRepro,setVideoRepro]=useState(data.vid1[0]);
-    const [arrSelec,setArrSelec]=useState(arraCambioColor);
-   
-    const reproVideo=(e,videoC,ind,data)=>{
 
+    const arraCambioColor=[true];
+
+    const [arrSelec,setArrSelec]=useState(arraCambioColor);
+
+    const videos= useSelector(selectAllVideos);
+    const videoStatus=useSelector(getVideosStatus);
+
+    const dispatch=useDispatch();
+
+    const [videoRepro,setVideoRepro]=useState();
+
+    useEffect(() => {
+    
+      if(videoStatus==="idle"){
+  
+        dispatch(fetchVideos())
+        
+      }else if(videoStatus==="succed"){
+        setVideoRepro(videos[1].link)
+      }
+     }, [videoStatus,dispatch,videos]);
+
+     
+    const reproVideo=(e,videoC,ind,videos)=>{
+        //console.log(videoC,ind,videos)
         setVideoRepro(videoC);
-        
-        
         setArrSelec( arr => {
+
         var temCoun=[];
-        Object.entries(data).map((element, index) =>{
+        Object.entries(videos).map((element, index) =>{
           temCoun.push(false);
         })
-        //temCoun[ind]=true;
+        temCoun[ind]=true;
         temCoun.splice(ind,1,true)
         return temCoun
         })
@@ -84,10 +107,10 @@ const Videos = props => {
         </video>
       </Grid>
       { 
-            Object.entries(data).map((element, index) => {         
+            Object.entries(videos).map((element, index) => {         
                     return (
-                        <Grid item xs={6} md={6} key={element[0] + index} >
-                            <VideoItem2 dataV={element} reproVideo={(e,f)=>reproVideo(e,f,index,data)} isSelected={arrSelec[index]}></VideoItem2>
+                        <Grid item xs={6} md={6} key={element[1].id + index} >
+                            <VideoItem2 dataV={element[1]} reproVideo={(e,f)=>reproVideo(e,f,index,element[1])} isSelected={arrSelec[index]}></VideoItem2>
                         </Grid>
                     )})
 

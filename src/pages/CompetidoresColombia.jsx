@@ -9,6 +9,8 @@ import "./styles.scss";
 import HabilidadesCont from "./../components/HabilidadesCont"
 import ButonVerMas from "./../utils/ButonVerMas"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { useDispatch, useSelector } from "react-redux";
+import Equipo from "../components/Equipo";
 
 const data={
     expertos1:
@@ -74,22 +76,25 @@ const data3={
     }
 
 const CompetidoresColombia = props => {
+    const competidores= useSelector((state) =>state.competidores.records);
+
+    const dispatch=useDispatch();
 
 const animate1= "animate__animated animate__flipInY";
 
-    const [dataCompetidores,setDataCompetidores]=useState(data);
+    const [dataCompetidores,setDataCompetidores]=useState(competidores);
     const [animate,setAnimate]=useState(animate1);
 
 const manejarEvent =(lugar)=>{
     setAnimate(animate1);
     if(lugar==="guatemala"){
-        setDataCompetidores(data);
+        setDataCompetidores(competidores);
     }
     if(lugar==="kazan"){
-        setDataCompetidores(data2);
+        setDataCompetidores(competidores);
     }
     if(lugar==="chile"){
-        setDataCompetidores(data3);
+        setDataCompetidores(competidores);
     }
 }
 const onAnimationEnd = () => {
@@ -130,8 +135,8 @@ const onAnimationEnd = () => {
                 {
                     Object.entries(dataCompetidores).map((element, index) => {
                         return(
-                        <Grid item xs={12} md={4} key={element[0][0]+index} className={animate} onAnimationEnd={onAnimationEnd}>
-                            <HabilidadesCont data={element}></HabilidadesCont>
+                        <Grid item xs={12} md={4} key={element[1].id+index} className={animate} onAnimationEnd={onAnimationEnd}>
+                            <Equipo data={element[1]}></Equipo>
                     </Grid>)
                     })
                 }

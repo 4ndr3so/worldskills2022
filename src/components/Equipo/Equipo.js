@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './HabilidadesCont.scss';
+import './Equipo.scss';
 import im1 from "../../img/habilidades_1.png"
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { width } from '@mui/system';
 import BotonCerrar from '../../utils/BotonCerrar';
 import logoHabili1 from "../../img/logo_habilidad.png"
 
-const HabilidadesCont = ({data}) => {
+const Equipo = ({data}) => {
   const [visible,setVisible]= useState(false);
   const [tamano,setTamano]= useState("32px");
- 
+  //console.log(data)
   const apareceInfo=()=>{
     setVisible(!visible)
     if(visible){ setTamano("410px")}else{setTamano("32px")}
@@ -24,7 +24,7 @@ const HabilidadesCont = ({data}) => {
   }
 
   function createMarkup() {
-    return {__html: data.destacado};
+    return {__html: data.descripcion};
   }
 
 
@@ -32,10 +32,10 @@ const HabilidadesCont = ({data}) => {
 return(
   <div className="HabilidadesCont" data-testid="HabilidadesCont">
       <div className="imgCon">
-        <img src={data.img} alt="habilidad" className='imgStyle'/>
+        <img src={data.foto} alt="habilidad" className='imgStyle'/>
         </div>
         {   
-            <div className="nombreCam"><h3>{data.titulo}</h3><p>{data.evento}</p></div>
+            <div className="nombreCam"><h3>{data.nombre}</h3><p>{data.rol}</p></div>
         }
         <div className={'textoHa animate__animated animate__fadeIn '+(visible ? "animateHeig":"amimate1")} style={{...styles}}>
           <div className="openFle" onClick={apareceInfo} >
@@ -56,8 +56,9 @@ return(
   </div>
 )};
 
-HabilidadesCont.propTypes = {};
+Equipo.propTypes = {};
 
-HabilidadesCont.defaultProps = {};
+Equipo.defaultProps = {};
 
-export default HabilidadesCont;
+export default Equipo;
+

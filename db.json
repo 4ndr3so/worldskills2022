@@ -1,0 +1,796 @@
+{
+    "noticias": {
+        "records": [
+            {
+                "id": "57",
+                "titulo": "Juan Diego Mej\u00eda, aprendiz guajiro, gana Medalla a la Excelencia en WorldSkills 2022 Special Edition",
+                "destacado": "A los 12 a\u00f1os, Juan Diego tuvo un computador en sus manos por primera vez. Desde entonces, y con mucho esfuerzo, se ha enfocado en fortalecer sus conocimientos en sistemas inform\u00e1ticos y sigue disput\u00e1ndose las mejores preseas en habilidades TIC.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=6206",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WorldSkills_19102022.jpg"
+            },
+            {
+                "id": "56",
+                "titulo": "Nuestros aprendices demuestran su talento en el exterior",
+                "destacado": "Ever Daniel Hern\u00e1ndez, es un aprendiz de la Regional Nari\u00f1o que lleg\u00f3 a Antioquia con el sue\u00f1o de aprender y preparase para obtener la medalla de oro en la habilidad CAD de la competencia WorldSkills Special Edition 2022.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=6201",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/EverDaniel_10182022.jpg"
+            },
+            {
+                "id": "55",
+                "titulo": "Aprendices SENA listos para participar en WorldSkills 2022 Special Edition",
+                "destacado": "Competidores, expertos, delegados e int\u00e9rpretes viajan a 12 pa\u00edses diferentes para mostrar sus capacidades y en la b\u00fasqueda de la medalla de oro representando al pa\u00eds y a nuestra Entidad.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=6168",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/ws_risa_10042022.jpg"
+            },
+            {
+                "id": "54",
+                "titulo": "WorldSkills Colombia realiz\u00f3 competencia amistosa como preparaci\u00f3n a competencia internacional",
+                "destacado": "Aprendices SENA participaron de la competencia amistosa de Worldskills para medir sus habilidades.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5810",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/wsk_06032022.jpg"
+            },
+            {
+                "id": "53",
+                "titulo": "El SENA Risaralda fue sede del bootcamp de Biling\u00fcismo 2022",
+                "destacado": "Los instructores de biling\u00fcismo actualizaron en el uso del idioma ingl\u00e9s a los expertos que viajar\u00e1n a representar a Colombia en WorldSkills Shangh\u00e1i este a\u00f1o.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5699",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/RISARALDA_29042022.jpg"
+            },
+            {
+                "id": "52",
+                "titulo": "Atl\u00e1ntico, sede de la etapa preparatoria de WorldSkills Internacional Shangh\u00e1i 2022",
+                "destacado": "Durante el encuentro se hizo entrega de las medallas de worldSkills, en su fase Am\u00e9ricas. El aprendiz Sebasti\u00e1n Arrieta de Atl\u00e1ntico, recibi\u00f3 dos medallas de oro por mejor puntaje en la competencia y por ganar en la habilidad de Procesos Contables.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5655",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/atlantico_19042022.jpg"
+            },
+            {
+                "id": "51",
+                "titulo": "Caucano represent\u00f3 a Colombia en Worldskills Guatemala",
+                "destacado": "Se trata de David Santiago Rodr\u00edguez, aprendiz del SENA Regional Cauca, quien a sus 19 a\u00f1os tiene muy claros sus prop\u00f3sitos.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5427",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WorldskillsGuatemala_12102021.jpg"
+            },
+            {
+                "id": "50",
+                "titulo": "Meta, hogar de WorldSkills Colombia",
+                "destacado": "30 aprendices y diversos expertos se dar\u00e1n cita en el SENA Regional Meta, desde este 29 de noviembre hasta el 3 de diciembre, para el Empoderamiento Territorial Llanos.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5386",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/empoderamiento_27112021.jpg"
+            },
+            {
+                "id": "49",
+                "titulo": "Supertalentos SENA ganaron tres oros, tres platas y un bronce en WorldSkills Am\u00e9ricas Guatemala 2021",
+                "destacado": "Los aprendices e instructores que participaron en el certamen lograron medallas de oro en IT Administraci\u00f3n de Sistemas de Redes, Desarrollo de Aplicaciones M\u00f3viles y Procesos Contables.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5385",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/guatemala_27112021.jpg"
+            },
+            {
+                "id": "48",
+                "titulo": "El SENA en La Guajira gana medalla de oro en competencia WorldSkills Chile",
+                "destacado": "Los participantes mostraron sus habilidades en el desarrollo de aplicaciones para computadoras, competencia en la que Juan Diego Mej\u00eda, aprendiz oriundo de San Juan, La Guajira, logr\u00f3 imponerse en el primer lugar con la medalla de oro.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5348",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/guajira_22112021.jpg"
+            },
+            {
+                "id": "47",
+                "titulo": "Educaci\u00f3n Los Supertalentos SENA brillar\u00e1n una vez m\u00e1s en el mundo",
+                "destacado": "Aprendices representar\u00e1n a Colombia en dos competencias de habilidades para el trabajo, la primera es virtual, organizada por Guatemala, y la segunda de car\u00e1cter mundial y presencial con sede en Shangh\u00e1i.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5221",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/woskill_27092021.jpg"
+            },
+            {
+                "id": "46",
+                "titulo": "SENA Casanare brill\u00f3 en WorldSkills Colombia 2021",
+                "destacado": "Una medalla de bronce y otra de plata, fue el saldo para la delegaci\u00f3n casanare\u00f1a. Los metales, son los primeros que la regional obtiene en este tipo de competiciones.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5195",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Recibimiento_WorldSkills_21092021.jpg"
+            },
+            {
+                "id": "45",
+                "titulo": "El SENA finaliz\u00f3 competencias de \u2018WorldSkills Colombia\u2019",
+                "destacado": "Cartagena, por primera vez fue sede WorldSkills Colombia. 68 aprendices SENA participaron de las justas entre el 14 y 17 de septiembre demostrando sus habilidades en Servicios sociales y personales, Joyer\u00eda, Contabilidad y Agricultura de Precisi\u00f3n.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5185",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/bolivar_20092021.jpg"
+            },
+            {
+                "id": "44",
+                "titulo": "Bol\u00edvar, sede de competencias nacionales de WorldSkills Colombia",
+                "destacado": "Del 14 al 17 de septiembre se desarrollar\u00e1 la III fase de la estrategia de formaci\u00f3n que re\u00fane a talentosos aprendices de diferentes regiones del pa\u00eds, que compiten en 11 habilidades en las que ponen a prueba sus conocimientos.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5177",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WorldsKills_Colombia-Risaralda_15092021_2.jpg"
+            },
+            {
+                "id": "43",
+                "titulo": "SENA Risaralda, preparada para realizar la primera fase de WorldSkills Colombia",
+                "destacado": "WorldSkills significa habilidades para el trabajo y los mejores aprendices demostrar\u00e1n lo mejor de s\u00ed para aspirar a conformar la Selecci\u00f3n Colombia de habilidades para el trabajo.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5131",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Aprendices_accion_31082021.jpeg"
+            },
+            {
+                "id": "42",
+                "titulo": "4 casanare\u00f1os representar\u00e1n al SENA Regional en la competencia WorldSkills Colombia 2021",
+                "destacado": "Los competidores participar\u00e1n en las fases I y II que se llevar\u00e1n a cabo en Dos Quebradas, Risaralda y en la capital del Valle del Cauca durante el mes de septiembre",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5128",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/ws_30082021.JPG"
+            },
+            {
+                "id": "41",
+                "titulo": "Presentados los 13 aprendices que integran la Selecci\u00f3n Risaralda de WorldSkills",
+                "destacado": "La regional se apresta a ser la sede de la primera fase de la competencia WorldSkills Colombia entre el 31 de agosto y el 3 de septiembre pr\u00f3ximo.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5104",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/RISARALDA_SELCCI_WORLD_SKILLS-23082021.jpg"
+            },
+            {
+                "id": "40",
+                "titulo": "Talentos Caucanos competir\u00e1n en WorldSkills Colombia 2021",
+                "destacado": "13 aprendices del SENA Regional Cauca ganaron un cupo para WorldSkills Colombia 2021, luego de enfrentarse a 32 regionales en la fase eliminatoria.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5097",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WS_2_23082021.jpg"
+            },
+            {
+                "id": "39",
+                "titulo": "Delegaci\u00f3n WorldSkills Colombia lista para la competencia nacional",
+                "destacado": "Luego de tres semanas de una exigente jornada de preselecci\u00f3n, fueron elegidos los aprendices que se medir\u00e1n en las justas del 30 de agosto al 17 de septiembre en Risaralda, Valle y Bol\u00edvar.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5088",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WorldSkills_19082021.jpg"
+            },
+            {
+                "id": "38",
+                "titulo": "Colombia se prepara para la competencia nacional de WorldSkills",
+                "destacado": "Del 26 de julio al 13 de agosto, cerca de 400 aprendices del SENA a nivel nacional compiten en una preselecci\u00f3n que pretende definir a los competidores que participar\u00e1n en WorldSkills Colombia 2021.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=5058",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/worldskill_1082021.jpg"
+            },
+            {
+                "id": "37",
+                "titulo": "Aprendices participaron en una competencia amistosa virtual de Reino Unido",
+                "destacado": "El encuentro reuni\u00f3 a t\u00e9cnicos y tecn\u00f3logos de 26 pa\u00edses, los colombianos Johan y Diana ocuparon los puestos 19 y 20 entre 32 competidores.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4824",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/foto_londres_10052021.jpg"
+            },
+            {
+                "id": "36",
+                "titulo": "Competidores y expertos de WorldSkills son amigables con el planeta",
+                "destacado": "El Reciclaje, el uso de materiales verdes y la informaci\u00f3n digital son algunas de las acciones que implementa la delegaci\u00f3n colombiana en las competencias de habilidades para el trabajo.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4781",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Piezas_sostenible_3_23042021.png"
+            },
+            {
+                "id": "35",
+                "titulo": "Logros de Colombia en WorldSkills",
+                "destacado": "En Colombia, los aprendices del SENA son los \u00fanicos que representan al pa\u00eds en las competencias de WorldSkills y el pa\u00eds ocupa el primer lugar en el ranking de medaller\u00eda en Am\u00e9rica y es el n\u00famero 25 en el mundo.",
+                "link": "https:\/\/revistadigital.sena.edu.co\/2020\/09\/04\/articulo7\/",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Foto-25_Mesa-de-trabajo-1_26032021.png"
+            },
+            {
+                "id": "34",
+                "titulo": "Aprendices brillan en el continente",
+                "destacado": "Los j\u00f3venes participaron en las competencias virtuales de WorldSkills Chile y obtuvieron reconocimientos en las habilidades IT Administraci\u00f3n de Sistemas de Redes, Aplicaciones M\u00f3viles, Ingenier\u00eda Mec\u00e1nica CAD, Torno CNC y Control Industrial.",
+                "link": "https:\/\/revistadigital.sena.edu.co\/2021\/01\/18\/durante-la-pandemia-aprendices-brillan-en-el-continente\/",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Worldskills_26032021_1.jpg"
+            },
+            {
+                "id": "31",
+                "titulo": "Entidades de formaci\u00f3n t\u00e9cnica trabajan para mitigar los impactos del COVID-19",
+                "destacado": "Entidades de formaci\u00f3n t\u00e9cnica trabajan para mitigar los impactos del COVID-19",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4707",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/ws_competencia_k2019_24032021.jpg"
+            },
+            {
+                "id": "30",
+                "titulo": "Colombianos ganaron dos medallas de oro, una de plata y dos de bronce en WorldSkills Chile 2020",
+                "destacado": "La competencia, que se realiz\u00f3 de manera virtual, cont\u00f3 con la participaci\u00f3n de expertos colombianos en 16 habilidades, de las cuales seis tuvieron competidores de Colombia.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4706",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/worldSkills_24032021.jpg"
+            },
+            {
+                "id": "29",
+                "titulo": "Las regiones se empoderan de la estrategia WorldSkills",
+                "destacado": "Aprendices de los departamentos ubicados en la selva y el caribe colombiano se miden en competencias pedag\u00f3gicas de habilidades para el trabajo",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4172",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Worldskills_26nov2019.jpg"
+            },
+            {
+                "id": "28",
+                "titulo": "Dos medallas de bronce para Colombia en WorldSkills International",
+                "destacado": "Por primera vez en la historia, los aprendices del SENA se suben al podio en esta importante competencia internacional y suman a esto cuatro medallas de excelencia.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4054",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Ganamos_Kazan_27agosto.jpg"
+            },
+            {
+                "id": "27",
+                "titulo": "\u00daltimo d\u00eda de competencias en WorldSkills",
+                "destacado": "La delegaci\u00f3n colombiana, conformada por 24 aprendices del SENA, buscar\u00e1 posicionarse en el medallero.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4049",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WS_COMPETENCIAS%20DIA%203-4010_26Agost.jpg"
+            },
+            {
+                "id": "26",
+                "titulo": "Colombia inicia su participaci\u00f3n en WorldSkills International",
+                "destacado": "Veinticuatro j\u00f3venes colombianos se miden con estudiantes de 63 pa\u00edses para ser los mejores en la competencia de formaci\u00f3n t\u00e9cnica y tecnol\u00f3gica que se realiza en Rusia.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4044",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/Inicia_Competencias_23agosto2019.jpg"
+            },
+            {
+                "id": "25",
+                "titulo": "Kaz\u00e1n inaugura WorldSkills International 2019",
+                "destacado": "La delegaci\u00f3n colombiana cuenta con 24 competidores que desde ahora se medir\u00e1n con otros j\u00f3venes de m\u00e1s de 60 pa\u00edses.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4043",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/kazan_22agosto.jpg"
+            },
+            {
+                "id": "24",
+                "titulo": "La selecci\u00f3n Colombia WorldSkills realiz\u00f3 intercambio cultural con One School \u2013 One Country en Rusia",
+                "destacado": "La delegaci\u00f3n nacional particip\u00f3 en esta actividad pedag\u00f3gica que conecta a 58 escuelas de este pa\u00eds con la competencia mundial de habilidades.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4041",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/BP_WK_KAZAN_21agosto2019.jpg"
+            },
+            {
+                "id": "23",
+                "titulo": "Listos los 24 competidores colombianos para WorldSkills International 2019",
+                "destacado": "Los j\u00f3venes, que viajaron el pasado fin de semana, competir\u00e1n en 24 de las 51 habilidades que har\u00e1n parte de la edici\u00f3n 45 del certamen internacional que se desarrolla entre el 22 y 27 de agosto en Rusia.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4039",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/BP_WK_KAZAN_21agosto2019.jpg"
+            },
+            {
+                "id": "22",
+                "titulo": "Presidente Duque entrega Pabell\u00f3n Nacional a la delegaci\u00f3n WorldSkills Colombia",
+                "destacado": "\"Ustedes son nuestro orgullo y cuando salgan a competir van a ser la inspiraci\u00f3n de miles de j\u00f3venes\u201d dijo el Mandatario a los competidores en el acto simb\u00f3lico.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=4030",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/BanderasWS_13agosto2019.jpg"
+            },
+            {
+                "id": "21",
+                "titulo": "Seleccionados ocho aprendices para WorldSkills Rusia",
+                "destacado": "Representar\u00e1n a nuestro pa\u00eds en las habilidades de Torno, Fresado, Peluquer\u00eda, An\u00e1lisis Qu\u00edmico, Tecnolog\u00eda Automotriz, Refrigeraci\u00f3n, Cuidado Social y Enchape de Pisos y Paredes.",
+                "link": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3882",
+                "img": "https:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WorldSkills_22abril2019.jpg"
+            },
+            {
+                "id": "20",
+                "titulo": "Inicia la segunda clasificatoria para WorldSkills Rusia 2019",
+                "destacado": "Diez regionales del SENA compiten para definir qui\u00e9nes representar\u00e1n a Colombia en ocho habilidades de la competencia mundial.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3871",
+                "img": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/NoticiasImg\/WS_Bogota_9abril2019.jpg"
+            },
+            {
+                "id": "19",
+                "titulo": "Elegida parte de la selecci\u00f3n Colombia WorldSkills que ir\u00e1 a Rusia",
+                "destacado": "11 aprendices seguir\u00e1n trabajando en sus actitudes y aptitudes para realizar su mejor presentaci\u00f3n en WorlSkills Internacional.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3780",
+                "img": ".\/img\/noticias2018\/WS_premiacion_17Dic2018.jpg"
+            },
+            {
+                "id": "18",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "destacado": "Los competidores obtuvieron cuatro medallas de oro, dos de plata y la \u00fanica mujer competidora por Colombia, fue reconocida como la Mejor de la Naci\u00f3n y la m\u00e1s destacada de la competencia. La delegaci\u00f3n colombiana fue primer puesto de WorldSkills Am\u00e9rica",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3660",
+                "img": ".\/img\/noticias2018\/WSChile2018_6oct2018ws.jpg"
+            },
+            {
+                "id": "17",
+                "titulo": "Inician en Chile las competencias WorldSkills Am\u00e9ricas 2018",
+                "destacado": "Los 11 aprendices de la selecci\u00f3n Colombia SENA mostraron su esfuerzo y dedicaci\u00f3n durante la presentaci\u00f3n de las delegaciones de los siete pa\u00edses.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3653",
+                "img": ".\/img\/noticias2018\/WorldSkills2018_03oct2018_ws.jpg"
+            },
+            {
+                "id": "16",
+                "titulo": "Selecci\u00f3n de aprendices SENA WorldSkills Am\u00e9ricas 2018, viajan a Chile",
+                "destacado": "Esta competencia de habilidades contribuye al mejoramiento de la calidad y productividad de cada uno de los participantes.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3644",
+                "img": ".\/imagen\/galery\/chile\/WSA-EQUIPO-sALTANDO.jpg"
+            },
+            {
+                "id": "15",
+                "titulo": "Equipo SENA gana medalla de oro en competencias de jardiner\u00eda en China",
+                "destacado": "Con un puntaje de 88,3 los aprendices e instructores de la entidad obtuvieron el primer lugar entre los 25 equipos participantes.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3629",
+                "img": ".\/img\/noticias2018\/ChinaJardineria_24sept2018ws.jpg"
+            },
+            {
+                "id": "14",
+                "titulo": "Pasi\u00f3n por los equipos de fr\u00edo, premiada en WorldSkills 2018",
+                "destacado": "Orley Alejandro G\u00f3mez Yali tuvo claro desde ni\u00f1o a qu\u00e9 se dedicar\u00eda en la vida. Hoy es el campe\u00f3n de WorldSkills en la habilidad t\u00e9cnica de Refrigeraci\u00f3n y Aire Acondicionado.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3583",
+                "img": ".\/img\/noticias2018\/WS_4sep2018.jpg"
+            },
+            {
+                "id": "13",
+                "titulo": "Contin\u00faa la b\u00fasqueda de la Selecci\u00f3n Colombia de WorldSkills",
+                "destacado": "106 aprendices compiten en la segunda parte de la selecci\u00f3n de WorldSkills Colombia, desde hoy y hasta el s\u00e1bado 2 de septiembre, en la capital del pa\u00eds.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3571",
+                "img": ".\/img\/noticias2018\/WS2_29agosto2018.jpg"
+            },
+            {
+                "id": "12",
+                "titulo": "Elegidos los aprendices que har\u00e1n parte de la Selecci\u00f3n Colombia de WorldSkills",
+                "destacado": "34 aprendices de todo el pa\u00eds fueron los ganadores de las medallas de oro que, en esta ocasi\u00f3n, resalt\u00f3 el trabajo de las regiones",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3505",
+                "img": ".\/img\/noticias2018\/FinalWorldSkills_24jul2018_.jpg"
+            },
+            {
+                "id": "11",
+                "titulo": "La Guajira por primera vez en dos habilidades de Worldskills",
+                "destacado": "Sariyet Baquero y Robin Buelvas, dos guajiros pioneros de su regional en An\u00e1lisis Qu\u00edmico y Procesos Contables, se convirtieron en un ejemplo a seguir para todos sus compa\u00f1eros",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3516",
+                "img": ".\/img\/noticias2018\/WorldSkills_01agos2018_ws.jpg"
+            },
+            {
+                "id": "10",
+                "titulo": "Habilidad de Microscop\u00eda, nuevo desaf\u00edo en WorldSkills",
+                "destacado": "Este a\u00f1o se exhibieron al p\u00fablico 14 habilidades piloto. Las nuevas destrezas impactan diversas t\u00e9cnicas y conocimientos de los instructores y aprendices del SENA.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3499",
+                "img": ".\/img\/noticias2018\/HabilidadPiloto_19jul2018_pws.jpg"
+            },
+            {
+                "id": "9",
+                "titulo": "Una habilidad que resalta la imagen y la belleza",
+                "destacado": "Por primera vez la Habilidad Terapia de Belleza, que es demostrativa, busca consolidar la pertinencia del talento humano en el sector de la cosmetolog\u00eda y est\u00e9tica integral a nivel nacional e internacional.",
+                "link": "http:\/\/www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3497",
+                "img": ".\/img\/noticias2018\/ws_foto_19jul2018_pws.jpg"
+            },
+            {
+                "id": "8",
+                "titulo": "Una jornada contrarreloj para lograr la medalla de oro en Colombia",
+                "destacado": "Durante ocho diarias, los aprendices SENA demuestran sus habilidades en \u00e1reas de la tecnolog\u00eda y la industria, en las competencias de WorldSkills 2018.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3495",
+                "img": ".\/img\/noticias2018\/ws_FotoComplejoSur18jul2018_pws.png"
+            },
+            {
+                "id": "7",
+                "titulo": "Joven quindiano, de participante a instructor de WorldSkills",
+                "destacado": "En las competencias de habilidades t\u00e9cnicas que se realizan en Bogot\u00e1 encontramos a un experto que forma a futuros talentos en el SENA.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3494",
+                "img": ".\/img\/noticias2018\/ws_Adrian_18jul2018_pws.jpg"
+            },
+            {
+                "id": "6",
+                "titulo": "Delegaci\u00f3n de Corea eval\u00faa las competencias de aprendices SENA",
+                "destacado": "Es la primera vez que un pa\u00eds oriental acompa\u00f1a a los participantes de Worldskills Colombia, durante la fase de clasificaci\u00f3n.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3493",
+                "img": ".\/img\/noticias2018\/ws_COREA_18jul2018_pws.png"
+            },
+            {
+                "id": "5",
+                "titulo": "\u201cCompetidor de Peluquer\u00eda, entre la fari\u00f1a y los cortes\u201d ",
+                "destacado": "Desde el Amazonas, un joven de la comunidad Bora participa en las competencias Worldskills Colombia 2018, las cuales le han impregnado novedosas experiencias de vida.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3492",
+                "img": ".\/img\/noticias2018\/ws_18jul_2018_pws.jpg"
+            },
+            {
+                "id": "4",
+                "titulo": "\u201cMi condici\u00f3n no ha sido impedimento para salir adelante\u201d ",
+                "destacado": "Gustavo Baloco tiene una limitaci\u00f3n auditiva. Sin embargo, esto no es un obst\u00e1culo para que \u00e9l pueda representar al SENA Regional Atl\u00e1ntico en Worldskills Colombia 2018.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3491",
+                "img": ".\/img\/noticias2018\/ws_Aprendiz_RegionalAtlantico_18jul2018_pws.jpg"
+            },
+            {
+                "id": "3",
+                "titulo": "\u201cMi hija fue el motor que me devolvi\u00f3 a la competencia\u201d",
+                "destacado": "Luego de afrontar una crisis en su primer d\u00eda de Worldskills Colombia 2018, una participante super\u00f3 el dif\u00edcil momento motivada por el amor que siente hacia su hija.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3489",
+                "img": "..\/\/img\/noticias2018\/Ws_17jul2018_.jpg"
+            },
+            {
+                "id": "2",
+                "titulo": "Aprendices ponen a prueba destrezas en Salud y Cuidado Social",
+                "destacado": "En el primer d\u00eda de competencias de Worldskills Colombia 2018, siete participantes de igual n\u00famero de Regionales SENA se enfrentaron para demostrar su experticia en esta t\u00e9cnica.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3488",
+                "img": "..\/img\/noticias2018\/WS_SaludCuidadoSocial_17jul2018_.jpg"
+            },
+            {
+                "id": "1",
+                "titulo": "Aprendices SENA buscan ser parte de la Selecci\u00f3n Colombia WorldSkills",
+                "destacado": "Desde hoy, y hasta el viernes, se realiza en la capital del pa\u00eds WorldSkills Colombia, evento en el que 291 aprendices de varias regiones del pa\u00eds participan con el prop\u00f3sito de ser parte de nuestra delegaci\u00f3n.",
+                "link": "www.sena.edu.co\/es-co\/Noticias\/Paginas\/noticia.aspx?IdNoticia=3486",
+                "img": "..\/img\/noticias2018\/World_Skills_16jul2018_WS.jpg"
+            }
+        ]
+    },
+    "videos": {
+        "records": [
+            {
+                "id": "14",
+                "titulo": "S\u00faper talento SENA",
+                "destacado": " Nuestros #SupertalentosSENA pronto llegar\u00e1n a #WorldSkillsKaz\u00e1n2019",
+                "link": "https://worldskills.sena.edu.co/imagen/galery/v3.mp4",
+                "img": ".\/imagen\/tumbsVideos\/tumbnail_2019.jpg"
+            },
+            {
+                "id": "13",
+                "titulo": "WorldSkills Am\u00e9ricas",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "link": "https://worldskills.sena.edu.co/video/WS-2019-web.mp4",
+                "img": ".\/imagen\/tumbsVideos\/14.PNG"
+            },
+            {
+                "id": "12",
+                "titulo": "WorldSkills Am\u00e9ricas",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "link": "https://worldskills.sena.edu.co/imagen/galery/v3.mp4",
+                "img": ".\/imagen\/tumbsVideos\/14.PNG"
+            },
+            {
+                "id": "11",
+                "titulo": "WorldSkills Am\u00e9ricas",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "link": "https://worldskills.sena.edu.co/video/WS-2019-web.mp4",
+                "img": ".\/imagen\/tumbsVideos\/14.PNG"
+            },
+            {
+                "id": "10",
+                "titulo": "WorldSkills Am\u00e9ricas habilidad Rob\u00f3tica",
+                "destacado": "WorldSkills Am\u00e9ricas",
+                "link": ".\/video\/3.mp4",
+                "img": ".\/imagen\/tumbsVideos\/1.PNG"
+            },
+            {
+                "id": "9",
+                "titulo": "WorldSkills Am\u00e9ricas 2",
+                "destacado": "WorldSkills Am\u00e9ricas",
+                "link": ".\/video\/2.mp4",
+                "img": ".\/imagen\/tumbsVideos\/6.PNG"
+            },
+            {
+                "id": "8",
+                "titulo": "WorldSkills Am\u00e9ricas 1",
+                "destacado": "WorldSkills Am\u00e9ricas",
+                "link": ".\/video\/1.mp4",
+                "img": ".\/imagen\/tumbsVideos\/7.PNG"
+            },
+            {
+                "id": "7",
+                "titulo": "WorldSkills nacional",
+                "destacado": "Final 2 fase WorldSkills nacional",
+                "link": "https:\/\/www.youtube.com\/watch?v=V9Pn4VP6hos",
+                "img": ".\/imagen\/tumbsVideos\/1.PNG"
+            },
+            {
+                "id": "6",
+                "titulo": "WORLDSKILLS COLOMBIA 2018",
+                "destacado": "Clausura WorldSkills Colombia 2018",
+                "link": "https:\/\/www.youtube.com\/watch?v=n2rN1b8x-KE",
+                "img": ".\/imagen\/tumbsVideos\/2.PNG"
+            },
+            {
+                "id": "5",
+                "titulo": "WORLDSKILLS COLOMBIA 2018",
+                "destacado": "Mujeres en competencias WorldSkills",
+                "link": "https:\/\/www.youtube.com\/watch?v=MYPqrqXes7A",
+                "img": ".\/imagen\/tumbsVideos\/3.PNG"
+            },
+            {
+                "id": "3",
+                "titulo": "WORLDSKILLS COLOMBIA 2018",
+                "destacado": "Experto Coreano en WorldSkills",
+                "link": "https:\/\/www.youtube.com\/watch?v=e8po9Pyyt9M",
+                "img": ".\/imagen\/tumbsVideos\/4.PNG"
+            },
+            {
+                "id": "1",
+                "titulo": "REGIONAL DISTRITO CAPITAL",
+                "destacado": "Preparaci\u00f3n WorldSkills Regional Distrito Capital",
+                "link": "https:\/\/www.youtube.com\/watch?v=VV4KFjhcftM",
+                "img": ".\/imagen\/tumbsVideos\/5.PNG"
+            }
+        ]
+    },
+    "competencia": {
+        "records": [
+            {
+                "id": "1",
+                "titulo": "02. Cableado de Redes de Informaci\u00f3n",
+                "destacado": "El competidor dise\u00f1a, implementa y hace mantenimiento de sistemas de cableado estructurado para edificaciones comerciales, data center, hogares y planta externa, incorporando diferentes tipos de medios y tecnolog\u00edas.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/02.CABLEADO_DE_REDES_3.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "3",
+                "titulo": "04. Mecatr\u00f3nica ",
+                "destacado": "La dupla de competidores implementa soluciones de equipos automatizados, programando dispositivos y ensamblando componentes, de acuerdo con un dise\u00f1o establecido por la competencia.  Los jurados eval\u00faan la calidad y la exactitud del producto con respecto al requerimiento dado.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/04.MECATRONICA1.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "4",
+                "titulo": "05. Ingenier\u00eda de Dise\u00f1o Mec\u00e1nico CAD",
+                "destacado": "El competidor desarrolla dise\u00f1os de piezas mec\u00e1nicas en 2D y 3D, de acuerdo con las condiciones establecidas, adem\u00e1s de procesos de ingenier\u00eda inversa.  Se valora la calidad y la exactitud del producto con respecto al requerimiento establecido desde un inicio.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/05.CAD_INGENIER\u00cdA_DE_DISEO_MECNICO.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "24",
+                "titulo": "06. Torno CNC",
+                "destacado": "El competidor fabrica piezas met\u00e1licas utilizando tornos programados por Control Num\u00e9rico Computarizado, de acuerdo con un dise\u00f1o establecido por la competencia.  Se valora la calidad y la exactitud del producto con respecto al dise\u00f1o definido.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/06.TORNO_CNC.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "5",
+                "titulo": "07. Fresado CNC",
+                "destacado": "El competidor fabrica elementos met\u00e1licos con Centros de Mecanizado programados por Control Num\u00e9rico Computarizado, de acuerdo con un dise\u00f1o establecido por el certamen.  Se eval\u00faa la calidad y la exactitud del producto con respecto al dise\u00f1o definido. ",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/07.FRESADO_CNC.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "6",
+                "titulo": "09. IT Soluciones de Software para Negocios ",
+                "destacado": "El competidor desarrolla soluciones de Software con diferentes herramientas de desarrollo disponibles y  da respuesta a la problem\u00e1tica de una empresa. La calidad y la exactitud de la soluci\u00f3n son primordiales a la hora de evaluar el trabajo.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/09.IT_SOLUCIONES_DE_SOFTWARE_PARA_NEGOCIOS.jpg",
+                "evento": "guatemala"
+            },
+            {
+                "id": "21",
+                "titulo": "10. Soldadura",
+                "destacado": "El competidor une piezas met\u00e1licas con diferentes t\u00e9cnicas y est\u00e1ndares de soldadura y crea un producto conforme a un dise\u00f1o espec\u00edfico.  Se eval\u00faa la calidad y la exactitud del elemento con respecto al dise\u00f1o establecido por el certamen.",
+                "link": "",
+                "img": "https://worldskills.sena.edu.co/img/habilidades/WS-HABILIDADES-EN-ALTA/10.SOLDADURA.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "7",
+                "titulo": "12. Enchape de Pisos y Paredes",
+                "destacado": "El competidor enchapa pisos y paredes con baldosas de acuerdo con un dise\u00f1o espec\u00edfico asignado por la organizaci\u00f3n del evento.  Al final se califica la calidad y la exactitud del producto con respecto al dise\u00f1o establecido. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/12.ENCHAPE_DE_PISOS_Y_PAREDES.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "25",
+                "titulo": "16. Electr\u00f3nica",
+                "destacado": "El competidor dise\u00f1a, implementa, diagnostica y repara componentes electr\u00f3nicos, teniendo en cuenta requerimientos espec\u00edficos.  Se valorar\u00e1 la calidad y la exactitud de los productos con respecto a los requerimientos. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/16.ELECTRNICA.jpg",
+                "evento": null
+            },
+            {
+                "id": "26",
+                "titulo": "17. Tecnolog\u00edas Web",
+                "destacado": "El competidor Incorpora la construcci\u00f3n y el mantenimiento de sitios web, usa aplicativos de software y lenguajes de programaci\u00f3n para producir p\u00e1ginas, que incluyen enlaces a otras p\u00e1ginas, elementos gr\u00e1ficos, texto, fotograf\u00eda y video, as\u00ed como la gesti\u00f3n y manejo de informaci\u00f3n a trav\u00e9s de sistemas de bases de datos para la automatizaci\u00f3n de funciones y la atenci\u00f3n de requerimientos espec\u00edficos del cliente.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/17.TECNOLOGAS_WEB.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "27",
+                "titulo": "18. Instalaciones El\u00e9ctricas",
+                "destacado": "El competidor  implementa sistemas el\u00e9ctricos, de iluminaci\u00f3n y automatizaci\u00f3n de acuerdo con un dise\u00f1o otorgado por la organizaci\u00f3n del evento.  Los jurados valoran la calidad y la exactitud del producto con respecto al dise\u00f1o establecido. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/18.INSTALACIONES-ELeCTRICAS.jpg",
+                "evento": null
+            },
+            {
+                "id": "28",
+                "titulo": "19. Control Industrial",
+                "destacado": "El competidor implementa sistemas de control industrial, que incluyen sensores, actuadores, tuber\u00edas e interruptores de acuerdo con un dise\u00f1o previo.  Se eval\u00faa la calidad y la exactitud del producto con respecto al suministrado por la organizaci\u00f3n.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/19.CONTROL-INDUSTRIAL.jpg",
+                "evento": null
+            },
+            {
+                "id": "29",
+                "titulo": "20. Mamposter\u00eda",
+                "destacado": "El competidor construye muros con elementos como ladrillos, bloques y cemento de acuerdo con un requerimiento inicial, el que m\u00e1s se aproxima en t\u00e9rminos de calidad y exactitud es el ganador.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/20.MAMPOSTERA.jpg",
+                "evento": null
+            },
+            {
+                "id": "30",
+                "titulo": "21. Sistemas de Drywall y Yesos",
+                "destacado": "El competidor fabrica construcciones livianas en Sistemas de Drywall y Yesos de acuerdo con un dise\u00f1o espec\u00edfico.  Se valora la calidad y la exactitud del producto con respecto al dise\u00f1o establecido. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/21.DRYWALL_Y_YESOS.jpg",
+                "evento": null
+            },
+            {
+                "id": "9",
+                "titulo": "23. Rob\u00f3tica M\u00f3vil",
+                "destacado": "La dupla adec\u00faa un robot m\u00f3vil, programa e implementa elementos y accesorios, de manera que cumplan con una tarea espec\u00edfica como el traslado de elementos o la organizaci\u00f3n de objetos.  Se valora la calidad y la exactitud de la respuesta del robot conforme a los requerimientos definidos en la tarea propuesta. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/23.ROBTICA_MOVIL.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "10",
+                "titulo": "24. Carpinter\u00eda de Muebles",
+                "destacado": "El competidor debe fabricar estructuras de mobiliario a base de madera de acuerdo con un dise\u00f1o brindado por la organizaci\u00f3n.  Los jueces valoran la calidad y la exactitud del producto con respecto al dise\u00f1o establecido. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/24.CARPINTERA.jpg",
+                "evento": ""
+            },
+            {
+                "id": "11",
+                "titulo": "27. Joyer\u00eda",
+                "destacado": "Son elaboraciones en oro y otros metales y piedras preciosas, para las que se utilizan una amplia variedad de t\u00e9cnicas que luego se traducen en accesorios de moda y arte creativo. Un joyero puede hacer piezas \u00fanicas para ser fijadas con gemas preciosas o prototipos para la reproducci\u00f3n. Tambi\u00e9n podr\u00eda ser capaz de replicar, renovar y restaurar cualquier pieza de valor.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/27.JOYERA.jpg",
+                "evento": ""
+            },
+            {
+                "id": "12",
+                "titulo": "29. Peluquer\u00eda ",
+                "destacado": "El competidor debe desarrollar corte, tintura y dise\u00f1o de peinados y barbas de acuerdo con criterios establecidos por el certamen.  Al final se premia la calidad y el cumplimiento del producto con respecto a los criterios definidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/29.PELUQUERA.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "13",
+                "titulo": "31. Tecnolog\u00eda de la Moda",
+                "destacado": "El competidor debe desarrollar labores de planeaci\u00f3n, dise\u00f1o, corte y confecci\u00f3n de prendas de vestir de acuerdo con requerimientos espec\u00edficos.  Se valora la calidad y el cumplimiento del producto con respecto a los criterios definidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/31TECNOLOGA_DE_LA_MODA.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "14",
+                "titulo": "33. Tecnolog\u00eda Automotriz ",
+                "destacado": "El competidor debe ejecutar procesos de mantenimiento, diagn\u00f3stico y reparaci\u00f3n de los sistemas de los veh\u00edculos como motor, transmisi\u00f3n y frenos. Se evaluar\u00e1 la calidad del trabajo y el cumplimiento con respecto a los criterios definidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/33.AUTOMOTRIZ.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "15",
+                "titulo": "34. Cocina",
+                "destacado": "El competidor planifica men\u00fas y prepara una variedad de alimentos de acuerdo a los est\u00e1ndares requeridos seg\u00fan la salud, la seguridad alimentaria y la gesti\u00f3n de una cocina comercial. La competencia incluye actividades de planeaci\u00f3n y preparaci\u00f3n de entradas, platos fuertes y postres, etc.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/34.COCINA.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "22",
+                "titulo": "35. Servicio de Restaurante ",
+                "destacado": "El competidor presta el servicio de restaurante ante comensales, lo que incluye la atenci\u00f3n al usuario, el servicio de platos, bebidas y postres de acuerdo con requerimientos espec\u00edficos.  Se valora la calidad de la atenci\u00f3n y el servicio y el cumplimiento del producto con respecto a los criterios definidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/35.SERVICIO_DE_RESTAURANTES.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "16",
+                "titulo": "37. Jardiner\u00eda de Paisaje",
+                "destacado": "La dupla de competidores dise\u00f1a, instala y hace mantenimiento a \u00e1reas de jardines de paisaje, adem\u00e1s deben desarrollar propuestas innovadoras, superen las necesidades del cliente y con las regulaciones aplicables. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/37.JARDINERA_Y_PAISAJE.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "17",
+                "titulo": "38. Refrigeraci\u00f3n y Aire Acondicionado",
+                "destacado": "El competidor implementa sistemas de refrigeraci\u00f3n y aire acondicionado en diferentes espacios. Se eval\u00faa la calidad y la exactitud del producto con respecto al dise\u00f1o establecido.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/38.REFRIGERACIN_Y_AIRE_ACONDICIONADO.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "18",
+                "titulo": "39. IT Administraci\u00f3n de Sistemas de Redes",
+                "destacado": "El competidor dise\u00f1a, implementa, diagnostica, repara y gestiona sistemas de redes de computadores, en diferentes entornos, sistemas operativos y dispositivos.  Se valora la calidad y la exactitud de la soluci\u00f3n implementada con respecto a los requerimientos establecidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/39.IT_REDES.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "19",
+                "titulo": "40. Tecnolog\u00eda del Dise\u00f1o Gr\u00e1fico",
+                "destacado": "El competidor comprende una amplia gama de actividades en las que se demuestran habilidades y destrezas relacionadas con el apoyo al crecimiento y desarrollo, salud f\u00edsica y psicosocial, el cuidado durante la enfermedad, la recuperaci\u00f3n y la rehabilitaci\u00f3n de las personas.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/40.DISEO_GRFICO.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "23",
+                "titulo": "41. Salud y Cuidado Social",
+                "destacado": "El competidor dise\u00f1a y fabrica piezas gr\u00e1ficas para la transmisi\u00f3n de mensajes definidos, de acuerdo con criterios establecidos.  Se valora la calidad y la exactitud de los productos con respecto a los requerimientos establecidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/41.SALUD_Y_CUIDADO_SOCIAL.jpg",
+                "evento": "shangai"
+            },
+            {
+                "id": "31",
+                "titulo": "46. Confecci\u00f3n de Ropa",
+                "destacado": "El competidor desarrolla labores de corte y confecci\u00f3n de prendas de vestir de acuerdo con un dise\u00f1o preestablecido.  Los jurados califican la calidad y el cumplimiento del producto con respecto al dise\u00f1o definido.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/46.CONFECCIN_DE_ROPA.jpg",
+                "evento": null
+            },
+            {
+                "id": "32",
+                "titulo": "50. Desarrollo de Aplicaciones M\u00f3viles ",
+                "destacado": "El competidor dise\u00f1a, desarrolla e implementa aplicaciones de software para su uso en dispositivos m\u00f3viles, de acuerdo con unos requerimientos espec\u00edficos.  Se valora la calidad y la exactitud de la aplicaci\u00f3n desarrollada con respecto a los requerimientos y criterios establecidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/50DESARROLLO-aPPS-MVILES.jpg",
+                "evento": "guatemala"
+            },
+            {
+                "id": "20",
+                "titulo": "52. Tecnolog\u00edas de Laboratorio Qu\u00edmico",
+                "destacado": "El competidor usa t\u00e9cnicas diversas de an\u00e1lisis, desde los m\u00e9todos gravim\u00e9tricos, volum\u00e9tricos, espectrofotom\u00e9tricos, colorim\u00e9tricos, potenciom\u00e9tricos y muchos otros para el an\u00e1lisis qu\u00edmico, buscando la excelencia en la obtenci\u00f3n de resultados tanto en tiempo de respuesta, precisi\u00f3n y exactitud.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/52.LABORATORIO_QUMICO.jpg",
+                "evento": "kazanI"
+            },
+            {
+                "id": "33",
+                "titulo": "70. Barismo ",
+                "destacado": "El competidor debe preparar caf\u00e9 a trav\u00e9s de diversas t\u00e9cnicas para bebidas de tipo Expreso, Capuchino, Bebidas Especiales y Arte Latte de acuerdo con unos requerimientos predefinidos.  Se valora la calidad de la atenci\u00f3n, el sabor y la exactitud del producto con respecto a los criterios preestablecidos.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/70.BARISMO_2.jpg",
+                "evento": null
+            },
+            {
+                "id": "34",
+                "titulo": "72. Procesos Contables ",
+                "destacado": "El competidor obtiene informaci\u00f3n financiera como resultado de la clasificaci\u00f3n, codificaci\u00f3n y contabilizaci\u00f3n de operaciones contables, an\u00e1lisis horizontal y vertical de los estados financieros; todo en base a est\u00e1ndares internacionales, normas comerciales,  laborales  y tributarias y con herramientas como hojas de c\u00e1lculo y\/o software contable SIIGO.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/72.PROCESOS-CONTABLES.jpg",
+                "evento": "guatemala"
+            },
+            {
+                "id": "35",
+                "titulo": "73. Cataci\u00f3n de Caf\u00e9",
+                "destacado": "El competidor determina sabores b\u00e1sicos y mezclas con niveles de concentraci\u00f3n y esencias arom\u00e1ticas por medio de la nariz del caf\u00e9, triangulaciones de caf\u00e9 tostado y bebidas filtradas de caf\u00e9.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/73.CATACIN_DE_CAF.jpg",
+                "evento": null
+            },
+            {
+                "id": "36",
+                "titulo": "74. Servicios Farmac\u00e9uticos",
+                "destacado": "El competidor maneja los est\u00e1ndares internacionales de los laboratorios farmac\u00e9uticos y conoce la cadena de abastecimiento que se tiene desde la adquisici\u00f3n del medicamento por parte del proveedor, hasta la entrega final del medicamento al consumidor, garantizan que los pacientes reciban sus medicamentos de la manera apropiada  de acuerdo con su necesidad cl\u00ednica. ",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/74.FARMACIA.jpg",
+                "evento": null
+            },
+            {
+                "id": "37",
+                "titulo": "75. Agricultura de Precisi\u00f3n",
+                "destacado": "El competidor da soluciones al sector agr\u00edcola con: Manejo de sistemas de informaci\u00f3n geogr\u00e1fica (procesamiento de informaci\u00f3n y generaci\u00f3n de mapas de prescripci\u00f3n y zonas de manejo), configuraci\u00f3n, calibraci\u00f3n y uso de equipos de geo posicionamiento (GPS aut\u00f3nomos, de correcci\u00f3n diferencial y RTK) y adquisici\u00f3n de informaci\u00f3n agron\u00f3mica a partir de sensores remotos y proximales.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/75.AGRICULTURA-DE-PRECISIoN.jpg",
+                "evento": null
+            },
+            {
+                "id": "38",
+                "titulo": "76. Guianza Tur\u00edstica",
+                "destacado": "El competidor demuestra su capacidad de planear, ejecutar y evaluar un recorrido dise\u00f1ado por \u00e9l mismo, con una tem\u00e1tica determinada para la prueba. Durante la competencia se eval\u00faan destrezas al aire libre, habilidades en comunicaci\u00f3n y manejo de grupo, con el fin de satisfacer las necesidades del turista.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/76.GUIANZA_TURSTICA.jpg",
+                "evento": null
+            },
+            {
+                "id": "39",
+                "titulo": "77. Energ\u00edas Renovables",
+                "destacado": "La dupla de competidores implementa sistemas de energ\u00edas renovables, lo que incluye sistemas solares fotovoltaicos para diferentes aplicaciones, tanto en zonas no interconectadas como en zonas urbanas. Se necesitan conocimientos en instalaci\u00f3n de estructuras para paneles solares, montaje y configuraci\u00f3n de equipos, dise\u00f1o CAD y dimensionamiento.",
+                "link": "",
+                "img": ".\/img\/habilidades\/WS-HABILIDADES-EN-ALTA\/77.ENERGIAS_RENOVABLES.jpg",
+                "evento": null
+            }
+        ]
+    },
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

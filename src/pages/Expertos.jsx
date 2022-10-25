@@ -6,8 +6,9 @@ import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
 import imgStat from "./../img/wsNacional-stat.jpg";
 import "./styles.scss";
-import HabilidadesCont from "./../components/HabilidadesCont"
+import Equipo from "./../components/Equipo"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { useDispatch, useSelector } from "react-redux";
 
 const data={
     expertos1:
@@ -31,6 +32,10 @@ const data={
     }
 
 const Expertos = props => {
+  const expertos= useSelector((state) =>state.expertos.records);
+
+  const dispatch=useDispatch();
+
   return (
     <TemplatePrinci>
         <Grid item xs={12} className="generalPa">
@@ -49,10 +54,10 @@ const Expertos = props => {
         </Grid>
         <Grid container>
           {
-              Object.entries(data).map((element, index) => {
+              Object.entries(expertos).map((element, index) => {
                   return(
                   <Grid item xs={12} md={4} key={element[0][0]+index}>
-                      <HabilidadesCont data={element}></HabilidadesCont>
+                      <Equipo data={element[1]}></Equipo>
               </Grid>)
               })
           }
