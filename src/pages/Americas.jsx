@@ -8,19 +8,26 @@ import imgStat from "./../img/wsamericas_stat.jpg";
 import "./styles.scss";
 import LogroCont from "./../components/LogroCont"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { useSelector } from "react-redux";
+import { getLogrosAmericasStatus, selectAllLogrosAmericas } from "../redux/logrosSlice";
+import { nanoid } from '@reduxjs/toolkit'
 
 
-const datos={
-    titulo:"Guatemala 2021",
-    parrafo:"En medio de la pandemia ocasionada por la COVID-19, la delegación colombiana se concentró en Antioquia y enfrentó a 10 países de manera virtual, los Supertalentos ganaron tres medallas de oro, tres de plata y una de bronce y además el competidor de Procesos Contables, Sebastián Arrieta, fue reconocido con el Albert Vidal por tener el mejor puntaje de toda la competencia.",
-    puesto:"PUESTO #2 EN GUATEMALA",
-    medallas:[
-        {oro:1},
-        {bronce:2},
-        {plata:3}
-    ]
-}
 const Americas = props => {
+  const logrosAmericas= useSelector(selectAllLogrosAmericas);
+  const logrosAmericasStatus=useSelector(getLogrosAmericasStatus);
+
+  //console.log(logrosAmericas)
+
+  const ajusteMedallas=(item)=>{
+    const medallas=[
+      {"oro":item.medallasOro},
+      {"bronce":item.medallasPlata},
+      {"plata":item.medallasBronce}
+  ]
+
+    return medallas
+  }
   return (
     <TemplatePrinci>
           <Grid item xs={12} className="generalPa">
@@ -42,8 +49,17 @@ const Americas = props => {
             </div>
             <div className="contLogros">
               <div className="tituloLogros"><h3>LOGROS DE LA SELECCIÓN COLOMBIA</h3></div>
-              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
-              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
+              {
+                Object.entries(logrosAmericas).map((element, index) => {
+                  //console.log(element)
+                  return(
+                      <LogroCont titulo1={element[1].titulo} parrafo1={element[1].parrafo} key={nanoid()} puesto1={element[1].puesto} medallas={ajusteMedallas(element[1])}></LogroCont>
+                    )
+                  }
+                )
+              }
+              
+             
             </div>
           </Grid>
       </TemplatePrinci>

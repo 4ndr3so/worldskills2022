@@ -46,10 +46,10 @@ function MainPage(props) {
   const counter= useSelector((state) =>state.counter.count);
   const dispatch=useDispatch();
   const [contrSin,setConrSin]=useState(true);
-  console.log("REnderiza la main page")
+  ///console.log("REnderiza la main page")
 
   const accionBtnver=(e)=>{
-    console.log("clic")
+    //console.log("clic")
     dispatch(increment());
   }
 

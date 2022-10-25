@@ -776,6 +776,1289 @@
             }
         ]
     },
+    "expertos": {
+        "records": [
+            {
+                "id": "53",
+                "nombre": "Jhon Alexander Ortiz Piza",
+                "habilidad": "02. Cableado de Redes de Informaci\u00f3n",
+                "edad": "0",
+                "descripcion": "Emprendedor, inquieto y propositivo, tiene vocaci\u00f3n de servicio y cree en la importancia del esfuerzo y el uso racional del tiempo para conseguir la excelencia, le gusta el cine y en su tiempo libre trota, toca guitarra y es atleta.     <br\/><br\/><span class=\"cursText\">\r\n\u201cMira que te mando a que te esfuerces y a que seas valiente, no temas ni desmayes porque jehov\u00e1, tu Dios, estar\u00e1 contigo a donde quiera que vayas\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/05.png"
+            },
+            {
+                "id": "46",
+                "nombre": "Daniel Ernesto Espitia",
+                "habilidad": "04. Mecatr\u00f3nica",
+                "edad": "1",
+                "descripcion": "Se considera a s\u00ed mismo como un hombre humilde que disfruta todo lo que hace y siempre se enfoca en cumplir sus sue\u00f1os, es m\u00fasico, hace astrofotograf\u00eda y juega tenis de mesa, vive con su esposa y dos perritos. <br\/><br\/><span class=\"cursText\">\u201cHay que disfrutar lo que hacemos todos los d\u00edas\u201d.<\/span>",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/04.png"
+            },
+            {
+                "id": "45",
+                "nombre": "Daniel Alejandro P\u00e9rez Loaiza",
+                "habilidad": "05.Ingenier\u00eda Mec\u00e1nica CAD",
+                "edad": "1",
+                "descripcion": "Responsable, disciplinado, entregado a su trabajo y puntual, le gusta hacer las cosas con amor y de la mejor forma posible, fue competidor de WorldSkills en el a\u00f1o 2013 y desde ese entonces, la competencia es su pasi\u00f3n. <br\/><br\/><span class=\"cursText\">\u201cNada se acaba hasta que se termina\u201d.<\/span>",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/02.png"
+            },
+            {
+                "id": "50",
+                "nombre": "Carlos Javier Brice\u00f1o Castellanos",
+                "habilidad": "06. Torno CNC",
+                "edad": "0",
+                "descripcion": "Responsable y disciplinado le gusta la tecnolog\u00eda y su pasi\u00f3n es inspirar a j\u00f3venes que est\u00e1n iniciando su etapa profesional. ",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/02.png"
+            },
+            {
+                "id": "39",
+                "nombre": "Edgar Alfonso Garz\u00f3n Sayer",
+                "habilidad": "07. Fresado",
+                "edad": "1",
+                "descripcion": "Altamente comprometido y competente, le gusta el f\u00fatbol, disfruta lo que hace y en su tiempo libre practica el ciclismo, comparte con su familia y viaja con ellos. ",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/04.png"
+            },
+            {
+                "id": "42",
+                "nombre": "Alexandra Garay P\u00e1ez",
+                "habilidad": "10. Soldadura",
+                "edad": "1",
+                "descripcion": "Empoderada, disciplinada, perseverante y aut\u00e9ntica, destaca la importancia de la honestidad, la transparencia y la justicia en la vida, le gusta romper esquemas, es artista y el \u201cNO\u201d no existe para ella. ",
+                "rol": "Experto",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/Fotos-Expertos/05.png"
+            },
+            {
+                "id": "33",
+                "nombre": "Patricia Casta\u00f1o Jim\u00e9nez",
+                "habilidad": "12. Enchape de pisos y paredes",
+                "edad": "1",
+                "descripcion": "Activa y din\u00e1mica, le encanta asumir nuevos retos para crecer, fortalecerse y transferir conocimiento, es muy familiar, ama a sus sobrinas y tiene una vida muy tranquila.<br\/><br\/><span class=\"cursText\">\r\n\u201cCon la ayuda de Dios y una buena disposici\u00f3n todo es posible\u201d\r\n\u201cEl detalle no es algo simple, es el dise\u00f1o y la vida\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/12.png"
+            },
+            {
+                "id": "54",
+                "nombre": "Walter Iv\u00e1n L\u00f3pez Malag\u00f3n",
+                "habilidad": "16. Electr\u00f3nica ",
+                "edad": "2",
+                "descripcion": "Persona amigable, le gusta el ajedrez y la rob\u00f3tica y acoge siempre a sus aprendices como si fueran sus hijos.",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/16.png"
+            },
+            {
+                "id": "41",
+                "nombre": "Oscar Fernando Aristiz\u00e1bal Cardona",
+                "habilidad": "17. Tecnolog\u00edas Web ",
+                "edad": "1",
+                "descripcion": "Le gusta la tecnolog\u00eda, los videojuegos y el ocio electr\u00f3nico, adem\u00e1s le apasiona montar en bicicleta de monta\u00f1a y dedica el tiempo libre a su bicicleta.",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/17.png"
+            },
+            {
+                "id": "55",
+                "nombre": "\r\nIv\u00e1n Giraldo Ardilla\r\n",
+                "habilidad": "18. Instalaciones El\u00e9ctricas",
+                "edad": "0",
+                "descripcion": "Tranquilo, confiable y comprensivo, le gusta ayudar a las personas que tienen deseo de superaci\u00f3n y cree en Dios, en su tiempo libre dise\u00f1a sistemas de energ\u00edas renovables, comparte con su familia y va al cine. <br\/><br\/><span class=\"cursText\">\r\n\"Con el esfuerzo y superaci\u00f3n se llega muy alto en todas las metas que te prepongas en la vida\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/18.png"
+            },
+            {
+                "id": "56",
+                "nombre": "Miguel Angel Gomez Garcia",
+                "habilidad": "19. Control Industrial",
+                "edad": "0",
+                "descripcion": "Apasionado, responsable y disciplinado, le gusta planear sus metas paso a paso para cumplirlas, sue\u00f1a con construir un hogar para sus seres queridos y en sus tiempos libres comparte tiempo con su hija, escucha m\u00fasica, sale a comer y juega f\u00fatbol y tenis de mesa.  <br\/><br\/><span class=\"cursText\">\r\n\u201cEl camino al \u00e9xito es la actitud\u201d <span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/19.png"
+            },
+            {
+                "id": "57",
+                "nombre": "Jorge Eliecer Ceron Calderon",
+                "habilidad": "20. Mamposter\u00eda",
+                "edad": "0",
+                "descripcion": "Trabajador, hogare\u00f1o y cumplidor en sus labores, le gusta lo que hace y aprender cada d\u00eda, en su tiempo libre sale a trotar o a hacer ejercicio. <br\/><br\/><span class=\"cursText\">\r\n\u201cLa perseverancia vence lo que la dicha no alcanza\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/20.png"
+            },
+            {
+                "id": "58",
+                "nombre": "Jonathan Orlando Rivera Suescun",
+                "habilidad": "21. Sistemas de Drywall y Yesos",
+                "edad": "0",
+                "descripcion": "Responsable, disciplinado y puntual, le gusta que las cosas salgan bien y siempre da el 100% y busca la mejora continua y en su tiempo libre juega f\u00fatbol. Fue competidor de Enchape de Pisos y Paredes en los a\u00f1os 2012 y 2013.",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/21.png"
+            },
+            {
+                "id": "35",
+                "nombre": "Jhonatan Estiben S\u00e1nchez Ben\u00edtez",
+                "habilidad": "23. Rob\u00f3tica M\u00f3vil",
+                "edad": "1",
+                "descripcion": "Diligente, alegre, curioso y algo t\u00edmido, siempre busca nuevas experiencias y le gusta relacionarse con otros para aprender de sus vivencias, le gusta pasear en moto y los instrumentos musicales, en su tiempo libre toca guitarra.  ",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/23.png"
+            },
+            {
+                "id": "59",
+                "nombre": "Willian David Tibavija Merch\u00e1n",
+                "habilidad": "24. Carpinter\u00eda de Muebles",
+                "edad": "0",
+                "descripcion": "Sociable, justo y pr\u00e1ctico, le gusta que las personas consigan aquello por lo que han trabajado y en su tiempo libre comparte tiempo con su familia, en especial con su hija. <br\/><br\/><span class=\"cursText\">\r\n\u201cLa meta la tienes t\u00fa\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/24.png"
+            },
+            {
+                "id": "60",
+                "nombre": "Luis Carlos Saavedra Salamanca ",
+                "habilidad": "27. Joyer\u00eda",
+                "edad": "0",
+                "descripcion": "Recursivo, persistente y estricto, le encanta la historia y el arte, en su tiempo libre hace esculturas ef\u00edmeras y con movimiento, tiene un canal de YouTube, donde expone su obra Dorado 122, una serie de 12 esculturas sobre un tesoro perdido.  <br\/><br\/><span class=\"cursText\"> \r\n\u201cAlgo tiene el agua cuando la bendicen\u201d<span> \r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/27.png"
+            },
+            {
+                "id": "31",
+                "nombre": "Sandra Lorena Casta\u00f1o Rincon",
+                "habilidad": "29. Peluquer\u00eda",
+                "edad": "1",
+                "descripcion": "Le gusta pasar tiempo con su familia, ver cine y peinar, la peluquer\u00eda es su pasi\u00f3n porque le gusta ver el cambio que crea en las personas y verlas felices, piensa que un d\u00eda sin aprendizaje es un d\u00eda perdido.<br\/><br\/><span class=\"cursText\">\r\n\u201cTrabajen por sus sue\u00f1os y no se den por vencidos, lo que cuesta, vale la pena\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/29.png"
+            },
+            {
+                "id": "34",
+                "nombre": "Lizeth Maritza Rodriguez Beltran",
+                "habilidad": "31. Tecnolog\u00eda de la moda",
+                "edad": "1",
+                "descripcion": "Proactiva y con sed de conocimiento, tiene una gran habilidad para trabajar en equipo y se considera a s\u00ed misma como una l\u00edder innata, piensa que los aprendices le dan la posibilidad de regar semillas por todo el pa\u00eds para generar progreso.<br\/><br\/><span class=\"cursText\">\r\n\u201cEl detalle no es algo simple, es el dise\u00f1o y la vida\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/31.png"
+            },
+            {
+                "id": "52",
+                "nombre": "Luis Gabriel S\u00e1nchez R\u00edos ",
+                "habilidad": "33. Tecnolog\u00eda Automotriz",
+                "edad": "0",
+                "descripcion": "Padre amoroso, amante de la comida y buen amigo, le gusta el cine y compartir tiempo con su familia, en su tiempo libre practica senderismo.<br\/><br\/><span class=\"cursText\">\r\n\u201cNo hay nada imposible\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/33.png"
+            },
+            {
+                "id": "43",
+                "nombre": "Edgar Ruiz Daza",
+                "habilidad": "34. Cocina",
+                "edad": "1",
+                "descripcion": "Enamorado del buen trabajo, comprometido y siempre dispuesto a dejarlo todo, la consigna de su vida es compartir conocimiento con las nuevas generaciones, le gusta el f\u00fatbol y leer libros de cocina y pasteler\u00eda, para mejorar la t\u00e9cnica en la cocina colombiana. <br\/><br\/><span class=\"cursText\">\u201cCompetitividad, compromiso y a dejarla toda en este mundo porque todos estamos de paso\u201d.<\/span>",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/34.png"
+            },
+            {
+                "id": "51",
+                "nombre": "Jeison David Casta\u00f1o Reina",
+                "habilidad": "35. Servicio de Restaurante",
+                "edad": "0",
+                "descripcion": "Amable, honesto, alegre y centrado, le gusta probar cosas nuevas, relajarse, leer libros y escuchar m\u00fasica, siempre da lo mejor de s\u00ed en su trabajo. ",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/35.png"
+            },
+            {
+                "id": "49",
+                "nombre": "Jorge Enrique Leiva Pab\u00f3n",
+                "habilidad": "37. Jardiner\u00eda de Paisaje",
+                "edad": "1",
+                "descripcion": "Sencillo, sincero muy perseverante, su pasi\u00f3n es WorldSkills porque ve en esta estrategia la oportunidad de potenciar la vida de los j\u00f3venes y cambiarles su visi\u00f3n del mundo, le encanta viajar y conocer otros pa\u00edses.",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/37.png"
+            },
+            {
+                "id": "48",
+                "nombre": "Jonathan D\u00edaz Ortiz",
+                "habilidad": "38. Refrigeraci\u00f3n y aire acondicionado",
+                "edad": "1",
+                "descripcion": "Le gusta explorar e investigar sobre las nuevas tecnolog\u00edas, su pasatiempo es elaborar y mantener peceras, cuya actividad comparte con su hijo y esposa. Juntos siembran plantas naturales para decorar las peceras y ven c\u00f3mo se reproducen los peces. ",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/38.png"
+            },
+            {
+                "id": "38",
+                "nombre": "Gustavo Adolfo Rodr\u00edguez Salinas",
+                "habilidad": "39. IT Administraci\u00f3n de Sistemas de Redes",
+                "edad": "1",
+                "descripcion": "Dedicado y comprometido, le gusta ense\u00f1ar a otros, la tecnolog\u00eda, los paisajes y viajar, en su tiempo libre practica el ciclismo. ",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/39.png"
+            },
+            {
+                "id": "36",
+                "nombre": "Jose Eduardo Ovalle Leal",
+                "habilidad": "40.Tecnolog\u00edas de dise\u00f1o gr\u00e1fico",
+                "edad": "1",
+                "descripcion": "Comprometido y dedicado, le gusta el deporte, reunirse con amigos y compartir con su familia; para \u00e9l los aprendices son importantes y son su mayor inter\u00e9s.<br\/><br\/><span class=\"cursText\">\u201cSiempre hay que darla toda y hay que ser lo mejor persona posible\u201d<\/span>",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/40.png"
+            },
+            {
+                "id": "32",
+                "nombre": "Marcela Meza",
+                "habilidad": "41. Salud y cuidado social",
+                "edad": "1",
+                "descripcion": "Comprometida y motivada con todo lo que realiza, le gusta ir a cine, pasear y compartir con su familia, quiere mostrar lo bueno que tiene el pa\u00eds, aprender de otras personas e integrar ese conocimiento en su labor diaria<br\/><br\/><span class=\"cursText\">\u201cLo que hacemos con pasi\u00f3n se refleja en lo que hacemos\u201d <\/span>",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/41.png"
+            },
+            {
+                "id": "61",
+                "nombre": "Ingrid Dalleny Mora T\u00e1utiva ",
+                "habilidad": "46. Confecci\u00f3n de ropa",
+                "edad": "0",
+                "descripcion": "Alegre, compa\u00f1erista, ordenada y responsable, le gusta remer un buen ambiente de trabajo y siempre est\u00e1 dispuesta a ayudar a los dem\u00e1s, en su tiempo libre hace ejercicio y comparte tiempo con sus dos hijos. <br\/><br\/><span class=\"cursText\">\r\n\u201cUno contagia lo que es y a m\u00ed me gusta siempre estar alegre y transmitir buena energ\u00eda\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/46.png"
+            },
+            {
+                "id": "62",
+                "nombre": "Christian Camilo Serna G\u00e1mez",
+                "habilidad": "50. Desarrollo de Aplicaciones M\u00f3viles  ",
+                "edad": "0",
+                "descripcion": "Alegre, responsable, paciente y generoso, le encanta crear cosas que sean \u00fatiles para los dem\u00e1s, en su tiempo libre hace m\u00fasica y lee. <br\/><br\/><span class=\"cursText\">\r\n\u201cCrea cosas que valgan la pena\u201d <span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/50.png"
+            },
+            {
+                "id": "63",
+                "nombre": "Rafael Arango Uribe",
+                "habilidad": "52. Tecnolog\u00eda de Laboratorio Qu\u00edmico",
+                "edad": "0",
+                "descripcion": "Esposo y padre de un ni\u00f1o de 8 a\u00f1os, es una persona disciplinada, inquieta y responsable, le gusta innovar constantemente y crear nuevos productos, en su tiempo libre se dedica a los videojuegos, a practicar bolos con su hijo y a compartir tiempo con su familia.<br\/><br\/><span class=\"cursText\"> \r\n\u201cLa disciplina es la clave del \u00e9xito\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/52.png"
+            },
+            {
+                "id": "64",
+                "nombre": "Luisa Mar\u00eda Tob\u00f3n Ocampo ",
+                "habilidad": "70. Barismo",
+                "edad": "0",
+                "descripcion": "Proactiva, diligente e innovadora, cree en Dios y le gusta hacer aportes constructivos, disfrutar del sabor del caf\u00e9, viajar y probar sabores de la gastronom\u00eda del mundo, sigue el consejo de su hija de disfrutar el presente. <br\/><br\/><span class=\"cursText\">\r\n\u201cNo tengan l\u00edmites del impacto de lo que vinieron a hacer en el mundo\u201d <span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/70.png"
+            },
+            {
+                "id": "65",
+                "nombre": "Yanet de Jes\u00fas Vargas Guerrero",
+                "habilidad": "72. Procesos Contables",
+                "edad": "0",
+                "descripcion": "Yanet de Jes\u00fas Vargas Guerrero\r\nExtrovertida, sencilla, amigable y comprensible, le apasiona ense\u00f1ar y est\u00e1 enamorada de lo que hace, piensa que ser instructor es transformar la vida de los aprendices, en su tiempo libre comparte con su familia y amigos<br\/><br\/><span class=\"cursText\">\r\n\u201cPor m\u00e1s dif\u00edcil que sea el obst\u00e1culo siempre hay una soluci\u00f3n, as\u00ed que el No se puede, no existe\u201d<span>",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/72.png"
+            },
+            {
+                "id": "66",
+                "nombre": "\u00c1lvaro Garz\u00f3n Garz\u00f3n",
+                "habilidad": "73. Cataci\u00f3n de Caf\u00e9 ",
+                "edad": "0",
+                "descripcion": "Creativo, alegre y se adapta f\u00e1cil a nuevos espacios, le gusta aprender cosas nuevas, asumir retos y estar al tanto de los avances del mundo del barismo, en su tiempo libre lee y juega f\u00fatbol.<br\/><br\/><span class=\"cursText\">\r\n\u201cTodo es posible\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/73.png"
+            },
+            {
+                "id": "67",
+                "nombre": "Johnny Oldaney Larrea Galeano",
+                "habilidad": "74. Servicios Farmac\u00e9uticos",
+                "edad": "0",
+                "descripcion": "Activo, alegre y en\u00e9rgico, le gusta la astronom\u00eda, las motos y salir disfrutar de la naturaleza, en su tiempo libre monta bicicleta y practica senderismo.<br\/><br\/><span class=\"cursText\"> \r\n\u201cel d\u00eda es ahora y hay que disfrutarlo al m\u00e1ximo\u201d.<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/74.png"
+            },
+            {
+                "id": "68",
+                "nombre": "Ana Milena S\u00e1nchez Parada",
+                "habilidad": "76. Guianza Tur\u00edstica ",
+                "edad": "0",
+                "descripcion": "Responsable y trabajadora, le gusta viajar y compartir su experiencia sobre los lugares que ha visitado, en su tiempo libre viaja, camina en sitios naturales, lee y comparte con sus amigos. <br\/><br\/><span class=\"cursText\">\r\n\u201cEl gu\u00eda que llega a tiempo llega tarde\u201d<span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/76.png"
+            },
+            {
+                "id": "69",
+                "nombre": "Andres Felipe Rios Sabogal",
+                "habilidad": "77. Energ\u00eda Renovables",
+                "edad": "0",
+                "descripcion": "Amigable, alegre y responsable, le gusta leer sobre nuevas tecnolog\u00edas y en su tiempo libre comparte tiempo con sus hijos Gabriela y Juan Mart\u00edn, para \u00e9l ellos son su principal energ\u00eda renovable.<br\/><br\/><span class=\"cursText\"> \r\n\u201cSiempre sean positivos\u201d <span>\r\n",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/77.png"
+            },
+            {
+                "id": "70",
+                "nombre": "Yasser Pushaina Rojas",
+                "habilidad": "IT Soluciones de Software ",
+                "edad": "1",
+                "descripcion": "Apasionado y entregado, le gusta lo que hace, ense\u00f1ar y ayudar a los dem\u00e1s, en su tiempo libre comparte con su familia, pasea, lee, y estudia  \r\n<br><br><span class=\"cursText\">\r\n\u201cLa educaci\u00f3n es el mejor camino para que todo funcione de la mejor manera\u201d<span>",
+                "rol": "Experto",
+                "foto": ".\/imagen\/competidores\/Fotos-Expertos\/Experto-IT-solu-soft.png"
+            }
+        ]
+    },
+    "compeChile": {
+        "records": [
+            {
+                "id": "27",
+                "nombre": "Orley Alejandro G\u00f3mez",
+                "habilidad": "Refrigeraci\u00f3n y Aire Acondicionado ",
+                "edad": "1",
+                "descripcion": "En\u00e9rgico y extrovertido, nacido en el seno de una familia trabajadora y emprendedora. Estudia Ingenier\u00eda Electr\u00f3nica e ingl\u00e9s y trabaja independiente como T\u00e9cnico en Refrigeraci\u00f3n; en su tiempo libre pesca, ve pel\u00edculas y escucha m\u00fasica en ingl\u00e9s.<br\/><br\/><span class=\"cursText\"> \u201cLa superaci\u00f3n de la mano nos llevar\u00e1n al \u00e9xito\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Orley-Alejandro-Gomez.jpg"
+            },
+            {
+                "id": "11",
+                "nombre": "Holman Ospina Caldas",
+                "habilidad": "Energ\u00eda Solar Fotovolt\u00e1ica",
+                "edad": "0",
+                "descripcion": "No le importa perder con tal de aprender. Le gusta montar bicicleta jugar f\u00fatbol y conocer nuevos lugares para aventurar, cuando no est\u00e1 pegado el celular pasa el tiempo aprendiendo ingl\u00e9s.\r\n.<br\/><br\/><span class=\"cursText\"> \u201cLa confianza en s\u00ed mismo es el primer secreto del \u00e9xito\u201d.\r\n<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Holman-Ospina-Caldas.jpg"
+            },
+            {
+                "id": "10",
+                "nombre": "Juan Camilo C\u00e1rdenas",
+                "habilidad": "Energ\u00eda Solar Fotovolt\u00e1ica",
+                "edad": "0",
+                "descripcion": "Introvertido y curioso, le gusta visitar lugares nuevos, disfrutar de los paisajes y pasar tiempo con su familia. Piensa las cosas muy bien antes de hacerlas. .<br\/><br\/><span class=\"cursText\"> \u201cLa \u201cInsistir, persistir, resistir y nunca desistir\u201d<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Juan-Camilo-Cardenas.jpg"
+            },
+            {
+                "id": "9",
+                "nombre": "Jhandy Leandro Vargas",
+                "habilidad": "Sistema de Irrigaci\u00f3n o Agricultura de Precisi\u00f3n",
+                "edad": "0",
+                "descripcion": "Intr\u00e9pido, alegre y espont\u00e1neo, enamorado del campo y su inspiraci\u00f3n es su familia. En su tiempo libre le encanta hacer deporte y m\u00fasica.<br\/><br\/><span class=\"cursText\">\u201cComiencen con peque\u00f1os pasos para despu\u00e9s dar grandes saltos\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Orley-Alejandro-Gomez.jpg"
+            },
+            {
+                "id": "8",
+                "nombre": "Carlos Andr\u00e9s Rodr\u00edguez",
+                "habilidad": "Sistema de Irrigaci\u00f3n o Agricultura de Precisi\u00f3n",
+                "edad": "0",
+                "descripcion": "Curioso, alegre, solidario y apasionado de la agricultura y la tecnolog\u00eda en el campo, le gusta el baloncesto y en sus ratos libres investiga sobre c\u00f3mo las tecnolog\u00edas ayudan a los campesinos.<br\/><br\/><span class=\"cursText\"> \u201cSin campo no hay civilizaci\u00f3n, sin agricultura no hay comida\u201d..<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Juan-Camilo-Cardenas.jpg"
+            },
+            {
+                "id": "6",
+                "nombre": "David Steven Reyes Qader",
+                "habilidad": "Cableado de Redes de Informaci\u00f3n",
+                "edad": "1",
+                "descripcion": "Entregado y apasionado, todo lo hace para llenar de orgullo a su familia, piensa que a pesar de las dificultades siempre hay un lado bueno en todas las cosas que suceden.<br\/><br\/><span class=\"cursText\"> \u201cNo hay nada m\u00e1s satisfactorio que un logro despu\u00e9s de tanto sacrificio\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/chile/Holman-Ospina-Caldas.jpg"
+            },
+            {
+                "id": "5",
+                "nombre": "Jenifer Cardona Guevara",
+                "habilidad": "Ingenier\u00eda Mec\u00e1nica CAD",
+                "edad": "1",
+                "descripcion": "Juiciosa, enfocada y siempre da lo mejor de s\u00ed, ama a su familia, es melliza y adora a su perrita Mu\u00f1eca, le gusta el rock cl\u00e1sico y en sus ratos libres lee libros de terror, los de Stephen King son sus favoritos.<br\/><br\/><span class=\"cursText\"> \u201cVoy a poner al mundo a arder\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/chile\/JENIFER-CARDONA-GUEVARA.jpg"
+            },
+            {
+                "id": "4",
+                "nombre": "Nelson  Alejandro Rojas Duarte",
+                "habilidad": "Jardiner\u00eda",
+                "edad": "1",
+                "descripcion": "Siempre busca lograr sus objetivos y superarse sin importar que cueste demasiado, le gusta la construcci\u00f3n y el dise\u00f1o; quiere ser ingeniero civil.  <br\/><br\/><span class=\"cursText\">\u201cSe necesitan ganas para lograr todo lo que queremos\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/chile\/NELSON-ALEJANDRO-ROJAS-DUARTE.jpg"
+            },
+            {
+                "id": "3",
+                "nombre": "Luis Carlos Figueroa",
+                "habilidad": "Jardiner\u00eda",
+                "edad": "1",
+                "descripcion": "Emocional y aventurero, le gusta dormir y montar bicicleta, quiere promover construcciones con materiales naturales no contaminantes.<br\/><br\/><span class=\"cursText\">\u201cEs mi fuerza, voluntad y amor a mi patria lo que estoy representando. Gracias Colombia\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/chile\/Luis-Carlos-Figueroa-Figueroa.jpg"
+            },
+            {
+                "id": "2",
+                "nombre": "Cristian Stiven Calle P\u00e9rez",
+                "habilidad": " Rob\u00f3tica M\u00f3vil",
+                "edad": "1",
+                "descripcion": "Dedicado, apasionado y perseverante, en su tiempo libre juega f\u00fatbol, videojuegos y comparte con su familia. Su pasi\u00f3n es construir robots y le prometi\u00f3 a su mam\u00e1 que dar\u00e1 lo mejor de \u00e9l en las competencias.<br\/><br\/><span class=\"cursText\">\u201cSi eres talentoso, practica tus habilidades todos los d\u00edas\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/chile\/CRISTIAN-STIVEN-CALLE-PeREZ.jpg"
+            },
+            {
+                "id": "1",
+                "nombre": "Emiro Jos\u00e9 Beltr\u00e1n D\u00edaz ",
+                "habilidad": " Rob\u00f3tica M\u00f3vil",
+                "edad": "1",
+                "descripcion": "Innovador y creativo, en sus tiempos libres experimenta con inventos propios, hace robots mec\u00e1nicos y estudia electr\u00f3nica, quiere ser reconocido como uno de los pioneros de la rob\u00f3tica y la tecnolog\u00eda en Colombia.<br\/><br\/><span class=\"cursText\">\u201cMi objetivo es ser mejor cada d\u00eda y as\u00ed cambiar el mundo\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/chile\/EMIRO-JOSe-BELTRaN-DiAZ-Antioquia.jpg"
+            }
+        ]
+    },
+    "compeKazan": {
+        "records": [
+            {
+                "id": "30",
+                "nombre": "Erika Paola Su\u00e1rez",
+                "habilidad": "Torno CNC",
+                "edad": "1",
+                "descripcion": "So\u00f1adora, persistente y berraca, cree que todo es posible si se desea con el coraz\u00f3n y que la disciplina es fundamental para surgir, le gusta pasar tiempo con su familia y jugar futsal.<br\/><br\/><span class=\"cursText\"> \u201cCuando haces las cosas con pasi\u00f3n te das cuenta que los l\u00edmites son mentales\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/JPG-WS-2019/WORLD-SKILLS-KAZAN-2019-DELEGACION-ERIKA-PAOLA-SUAREZ.jpg"
+            },
+            {
+                "id": "29",
+                "nombre": "Sebasti\u00e1n Castro",
+                "habilidad": "Fresado CNC",
+                "edad": "1",
+                "descripcion": "Le gusta aprender, leer y montar en bicicleta, cree fielmente en el poder de la mente y dice que lo que se piensa se puede lograr, para \u00e9l, WorldSkills le permite demostrar lo que sabe y hacer lo que le gusta.<br\/><br\/><span class=\"cursText\"> \u201cMi coraz\u00f3n y mi mente cargar\u00e1n mi cuerpo, cuando mis piernas no puedan m\u00e1s\u201d.  <\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/JPG-WS-2019/WORLD-SKILLS-KAZAN-2019-DELEGACION-SEBASTIAN-CASTRO.jpg"
+            },
+            {
+                "id": "28",
+                "nombre": "Laura Patricia Barreto",
+                "habilidad": "An\u00e1lisis Qu\u00edmico",
+                "edad": "1",
+                "descripcion": "Exigente, no se conforma con cualquier resultado, es t\u00edmida alegre disciplinada y perseverante, le gusta salir con su familia y su mejor amiga, as\u00ed como jugar baloncesto. <br\/><br\/><span class=\"cursText\">\u201cCon la disciplina y la perseverancia es posible alcanzar el \u00e9xito\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": "https://worldskills.sena.edu.co/imagen/JPG-WS-2019/WORLD-SKILLS-KAZAN-2019-DELEGACION-LAURA-PATRICIA-BARRETO.jpg"
+            },
+            {
+                "id": "26",
+                "nombre": "David Sebasti\u00e1n Sierra",
+                "habilidad": "Tecnolog\u00eda Automotriz",
+                "edad": "1",
+                "descripcion": "Siempre intenta hacer las cosas de la mejor manera posible y con una gran sonrisa en su rostro, su afici\u00f3n es la velocidad, le gustan los carros y se cataloga a s\u00ed mismo como un joven honesto. <br\/><br\/><span class=\"cursText\">\u201cTal vez un carro no te abrace, pero cualquiera no te lleva a 120 km. por hora\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-DAVID-SEBASTIAN-SIERRA.jpg"
+            },
+            {
+                "id": "25",
+                "nombre": "Anderson Carvajal",
+                "habilidad": "Enchape de Pisos y Paredes",
+                "edad": "1",
+                "descripcion": "Es alegre, le gusta dibujar, asumir retos y el rap rom\u00e1ntico, en sus tiempos libres practica atletismo y est\u00e1 orgulloso de representar a su lugar de origen, La Planada.<br\/><br\/><span class=\"cursText\">\u201cTodos somos iguales, podemos salir adelante y cumplir nuestros sue\u00f1os. Nunca se dejen vencer por nada\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-ANDERSON-CARVAJAL.jpg"
+            },
+            {
+                "id": "24",
+                "nombre": "Juan Esteban Tabares",
+                "habilidad": "Peluquer\u00eda",
+                "edad": "1",
+                "descripcion": "Extrovertido, so\u00f1ador, dedicado y disciplinado, su vida est\u00e1 enfocada en la peluquer\u00eda, su familia y amigos. Quiere llevar sus conocimientos en peluquer\u00eda a otro nivel y ve a WorldSkills como una gran oportunidad para lograr su objetivo.<br\/><br\/><span class=\"cursText\">\u201cLa dedicaci\u00f3n siempre arroja el mejor resultado\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-JUAN-ESTEBAN-TABARES.jpg"
+            },
+            {
+                "id": "22",
+                "nombre": "Wilmar Aguilar Castro",
+                "habilidad": "IT Administraci\u00f3n de Sistemas de Redes",
+                "edad": "1",
+                "descripcion": "Amable y respetuoso, le gustan las computadoras, dormir y trotar, su plan favorito es salir a comer con su mam\u00e1 y hermano menor, quiere estudiar, salir adelante y llenar de orgullo a quienes lo rodean. <br\/><br\/><span class=\"cursText\">\u201cLos recursos econ\u00f3micos no te hacen diferente, para salir adelante solo se necesitas esfuerzo y ganas\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-WILMAR-AGUILAR-CASTRO.jpg"
+            },
+            {
+                "id": "21",
+                "nombre": "Brandol Trujillo",
+                "habilidad": "Salud y Cuidado Social",
+                "edad": "1",
+                "descripcion": "Disciplinado, responsable y comprometido, siempre da el 100% para cumplir sus objetivos, le gusta compartir tiempo con su familia, el f\u00fatbol, escuchar m\u00fasica, bailar y ver pel\u00edculas. <br\/><br\/><span class=\"cursText\">\u201cDios se encarga de darnos las experiencias y nosotros de aprovecharlas al m\u00e1ximo\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-BRANDOL-TRUJILLO.jpg"
+            },
+            {
+                "id": "20",
+                "nombre": "Oscar Felipe Guerrero Amado",
+                "habilidad": "Tecnolog\u00eda Web",
+                "edad": "1",
+                "descripcion": "Apasionado, le gusta aprender y descubrir cosas nuevas, es muy unido con su familia y en sus tiempos libres juega videojuegos.<br\/><br\/><span class=\"cursText\">\u201cCon esfuerzo y dedicaci\u00f3n todo es posible y se pueden alcanzar grandes cosas\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-OSCAR-FELIPE-GUERRERO.jpg"
+            },
+            {
+                "id": "19",
+                "nombre": "Maria Mayerly Galvis Bayona",
+                "habilidad": "Cocina",
+                "edad": "1",
+                "descripcion": "Comprometida, luchadora y familiar, su prop\u00f3sito es hacer realidad todos sus sue\u00f1os, le gusta crear e innovar en la cocina, su plan favorito es salir al parque con su familia y compartir un rato agradable.<br\/><br\/><span class=\"cursText\">\u201cHay que aprovechar cada oportunidad que se presente\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-MARIA-MAYERLY-GALVIS.jpg"
+            },
+            {
+                "id": "18",
+                "nombre": "Loraines Patricia Cadena Cantillo",
+                "habilidad": "Servicio de Restaurante",
+                "edad": "1",
+                "descripcion": "Alegre, entusiasta y comprometida, le gusta leer, cuidar plantas, tejer, pintar y pasar tiempo con su perrita Emma; su motor es el amor. <br\/><br\/><span class=\"cursText\">\u201cSiempre hagan lo que aman y sonr\u00edan mucho\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-LORAINES-CADENA.jpg"
+            },
+            {
+                "id": "17",
+                "nombre": "Alexandra Garay P\u00e1ez",
+                "habilidad": "10. Soldadura",
+                "edad": "1",
+                "descripcion": "Empoderada, disciplinada, perseverante y aut\u00e9ntica, destaca la importancia de la honestidad, la transparencia y la justicia en la vida, le gusta romper esquemas, es artista y el \u201cNO\u201d no existe para ella. ",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-KEVIN-DE-LA-CRUZ.jpg"
+            },
+            {
+                "id": "16",
+                "nombre": "Andrea Sandoval Morales",
+                "habilidad": "Tecnolog\u00eda de la Moda",
+                "edad": "1",
+                "descripcion": "Creativa y apasionada, afirma que naci\u00f3 para ser dise\u00f1adora y que WorldSkills le ha cambiado la vida, le gusta ver pel\u00edculas y pasar tiempo con su familia.<br\/><br\/><span class=\"cursText\">\u201cNunca es tarde para empezar, sin perder de vista la meta\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-ANDREA-SANDOVAL.jpg"
+            },
+            {
+                "id": "15",
+                "nombre": "Ana Manuela Rodr\u00edguez Hildago",
+                "habilidad": "Tecnolog\u00edas del Dise\u00f1o Gr\u00e1fico",
+                "edad": "1",
+                "descripcion": "Tierna y so\u00f1adora, afirma que sus sue\u00f1os la llevar\u00e1n lejos y es capaz de cumplir todo lo que se propone, le gusta compartir con su familia y amigos, dibujar, salir a caminar y los videojuegos.<br\/><br\/><span class=\"cursText\">\u201cNunca se rindan, so\u00f1ar es la clave para lograr lo que quieres en la vida\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-MANUELA-RODRIGUEZ.jpg"
+            },
+            {
+                "id": "14",
+                "nombre": "Adri\u00e1n Farid Ru\u00edz",
+                "habilidad": "IT soluciones de Software para Negocio",
+                "edad": "1",
+                "descripcion": "Comprometido, con ganas de salir adelante, su vida es el SENA y pasar tiempo con sus seres queridos, le gusta ir a cine con su familia y amigos, as\u00ed como los videojuegos, sue\u00f1a con tener una empresa de Software.<br\/><br\/><span class=\"cursText\">\u201cLos santandereanos siempre tenemos un pie adelante y no damos paso atr\u00e1s\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-ADRIAN-FARID-RUIZ-MONTANA.jpg"
+            },
+            {
+                "id": "13",
+                "nombre": "Yeisson Alberto Garc\u00eda Jaramillo ",
+                "habilidad": "Mecatr\u00f3nica",
+                "edad": "1",
+                "descripcion": "Apasionado, se esfuerza todos los d\u00edas para conseguir lo que quiere, su pasi\u00f3n es la mecatr\u00f3nica, es madrugador y siempre busca mejores resultados en todo lo que hace, le gusta jugar en el computador y pasar tiempo con sus amigos. <br\/><br\/><span class=\"cursText\">\u201cDen siempre lo mejor de s\u00ed, sin importar lo que los dem\u00e1s digan\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-YEISON-GARCIA.jpg"
+            },
+            {
+                "id": "12",
+                "nombre": "Adri\u00e1n Alcaraz Arrieta",
+                "habilidad": "Mecatr\u00f3nica",
+                "edad": "1",
+                "descripcion": "Alegre y apasionado, le gusta hacer las cosas con amor y pasi\u00f3n, cree en Dios y todos los d\u00edas trabaja en su crecimiento espiritual, tiene deseo de ayudar a los dem\u00e1s, se considera a s\u00ed mismo como amable y servidor.<br\/><br\/><span class=\"cursText\">\u201cDe la mano de Dios se logran todas las cosas\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-ADRIAN-ALCARAZ.jpg"
+            },
+            {
+                "id": "7",
+                "nombre": "Orley Alejandro G\u00f3mez",
+                "habilidad": "Refrigeraci\u00f3n y Aire Acondicionado",
+                "edad": "0",
+                "descripcion": "Joven en\u00e9rgico y extrovertido, nacido en el seno de una familia trabajadora y emprendedora. Estudia Ingenier\u00eda Electr\u00f3nica e ingl\u00e9s y trabaja independiente como T\u00e9cnico en Refrigeraci\u00f3n; en su tiempo libre pesca, ve pel\u00edculas y escucha m\u00fasica en ingl\u00e9s.  <br\/><br\/><span class=\"cursText\">\u201cLa superaci\u00f3n de la mano nos llevar\u00e1n al \u00e9xito\u201d <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-ORLEY-ALEJANDRO-GOMEZ.jpg"
+            },
+            {
+                "id": "6",
+                "nombre": "David Steven Reyes Qader",
+                "habilidad": "Cableado de Redes de Informaci\u00f3n",
+                "edad": "1",
+                "descripcion": "Entregado y apasionado, todo lo hace para llenar de orgullo a su familia, piensa que a pesar de las dificultades siempre hay un lado bueno en todas las cosas que suceden.<br\/><br\/><span class=\"cursText\"> \u201cNo hay nada m\u00e1s satisfactorio que un logro despu\u00e9s de tanto sacrificio\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-DAVID-REYES.jpg"
+            },
+            {
+                "id": "5",
+                "nombre": "Jenifer Cardona Guevara",
+                "habilidad": "Ingenier\u00eda Mec\u00e1nica CAD",
+                "edad": "1",
+                "descripcion": "Juiciosa, enfocada y siempre da lo mejor de s\u00ed, ama a su familia, es melliza y adora a su perrita Mu\u00f1eca, le gusta el rock cl\u00e1sico y en sus ratos libres lee libros de terror, los de Stephen King son sus favoritos.<br\/><br\/><span class=\"cursText\"> \u201cVoy a poner al mundo a arder\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-JENNIFER-CARDONA-GUEVARA.jpg"
+            },
+            {
+                "id": "4",
+                "nombre": "Nelson  Alejandro Rojas Duarte",
+                "habilidad": "Jardiner\u00eda",
+                "edad": "1",
+                "descripcion": "Siempre busca lograr sus objetivos y superarse sin importar que cueste demasiado, le gusta la construcci\u00f3n y el dise\u00f1o; quiere ser ingeniero civil.  <br\/><br\/><span class=\"cursText\">\u201cSe necesitan ganas para lograr todo lo que queremos\u201d. <\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-NELSON-ALEJANDRO-ROJAS.jpg"
+            },
+            {
+                "id": "3",
+                "nombre": "Luis Carlos Figueroa",
+                "habilidad": "Jardiner\u00eda",
+                "edad": "1",
+                "descripcion": "Emocional y aventurero, le gusta dormir y montar bicicleta, quiere promover construcciones con materiales naturales no contaminantes.<br\/><br\/><span class=\"cursText\">\u201cEs mi fuerza, voluntad y amor a mi patria lo que estoy representando. Gracias Colombia\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-LUIS-CARLOS-FIGUEROA.jpg"
+            },
+            {
+                "id": "2",
+                "nombre": "Cristian Stiven Calle P\u00e9rez",
+                "habilidad": " Rob\u00f3tica M\u00f3vil",
+                "edad": "1",
+                "descripcion": "Dedicado, apasionado y perseverante, en su tiempo libre juega f\u00fatbol, videojuegos y comparte con su familia. Su pasi\u00f3n es construir robots y le prometi\u00f3 a su mam\u00e1 que dar\u00e1 lo mejor de \u00e9l en las competencias.<br\/><br\/><span class=\"cursText\">\u201cSi eres talentoso, practica tus habilidades todos los d\u00edas\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-CRISTIAN-STIVEN-CALLE.jpg"
+            },
+            {
+                "id": "1",
+                "nombre": "Emiro Jos\u00e9 Beltr\u00e1n D\u00edaz ",
+                "habilidad": " Rob\u00f3tica M\u00f3vil",
+                "edad": "1",
+                "descripcion": "Innovador y creativo, en sus tiempos libres experimenta con inventos propios, hace robots mec\u00e1nicos y estudia electr\u00f3nica, quiere ser reconocido como uno de los pioneros de la rob\u00f3tica y la tecnolog\u00eda en Colombia.<br\/><br\/><span class=\"cursText\">\u201cMi objetivo es ser mejor cada d\u00eda y as\u00ed cambiar el mundo\u201d.<\/span>",
+                "redes": "facebook",
+                "foto": ".\/imagen\/JPG-WS-2019\/WORLD-SKILLS-KAZAN-2019-DELEGACION-EMIRO-JOSE-BELTRAN.jpg"
+            }
+        ]
+    },
+    "guateComp": {
+        "records": [
+            {
+                "id": "77",
+                "nombre": "Sebasti\u00e1n Arrieta Hern\u00e1ndez ",
+                "habilidad": "72. Procesos Contables",
+                "edad": "1",
+                "descripcion": "Proactivo, cr\u00edtico, responsable, disciplinado y apasionado por lo que hace, siempre est\u00e1 dispuesto a dar lo mejor, es emp\u00e1tico y se preocupa por los dem\u00e1s, en su tiempo libre va al gimnasio y juega f\u00fatbol.<br><br><span class=\"cursText\">\r\n\u201cPrep\u00e1rense para recibir las oportunidades de la vida, pues solo se presentan una vez\u201d<span>\r\n",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/PROCESOS_CONTABLES.png"
+            },
+            {
+                "id": "76",
+                "nombre": "David Santiago Rodr\u00edguez Cruz",
+                "habilidad": "50. Desarrollo de Aplicaciones M\u00f3viles ",
+                "edad": "1",
+                "descripcion": "Apasionado, persistente, siempre positivo y con ganas de salir adelante, el amor es su motor y para \u00e9l es importante que las personas amen lo que hacen y a sus seres queridos, en su tiempo libre hace deporte ve pel\u00edculas y sale con sus amigos.<br><br><span class=\"cursText\">\r\n\u201cSolo necesitamos amor\u201d <span>\r\n",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/APLICACIONES_MoVILES.png"
+            },
+            {
+                "id": "75",
+                "nombre": "Jos\u00e9 Sebasti\u00e1n Dom\u00ednguez",
+                "habilidad": "40. Tecnolog\u00edas Del Dise\u00f1o Gr\u00e1fico",
+                "edad": "1",
+                "descripcion": "Siempre saca la mejor versi\u00f3n de s\u00ed mismo, es amigable, persistente y positivo, desde ni\u00f1o siempre le gust\u00f3 el dise\u00f1o gr\u00e1fico, le gusta dibujar y en su tiempo libre escucha m\u00fasica.<br><br><span class=\"cursText\">\r\n\u201cNunca vas a lograr un excelente trabajo sino amas lo que est\u00e1s haciendo\u201d<span>\r\n",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/DISEO_GRFICO.png"
+            },
+            {
+                "id": "74",
+                "nombre": "Sergio Andr\u00e9s Mar\u00edn ",
+                "habilidad": "39. IT Administraci\u00f3n de Sistemas de Redes",
+                "edad": "1",
+                "descripcion": "Comprometido, cumplido, responsable, atento y persistente, le gustan los programas animados, los videojuegos, la naturaleza y la m\u00fasica, en su tiempo libre toca guitarra\r\n<br><br><span class=\"cursText\"> \r\n\u201cTodos tenemos perspectivas diferentes\u201d<span>\r\n",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/DISEO_GRFICO.png"
+            },
+            {
+                "id": "73",
+                "nombre": "Juan Esteban Deossa ",
+                "habilidad": "17. Tecnolog\u00edas Web",
+                "edad": "1",
+                "descripcion": "Persona so\u00f1adora visionaria, disciplinada e imaginativa, sue\u00f1a con conseguir una beca para estudiar fuera de Colombia y tiene esp\u00edritu emprendedor, le gusta leer y jugar baloncesto.",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/APLICACIONES_MoVILES.png"
+            },
+            {
+                "id": "72",
+                "nombre": "Juan Diego Mej\u00eda Maestre",
+                "habilidad": "09. IT Soluciones de Software",
+                "edad": "1",
+                "descripcion": "Diciplinado espont\u00e1neo y apasionado por lo que hace, siempre quiere aprender m\u00e1s, le gustan los video juegos y en su tiempo libre ve series. \r\n<br><br><span class=\"cursText\">\r\n\u201cLe digo a los chicos de ahora que sigan sus sue\u00f1os sin importar lo lejos que los vean, entre m\u00e1s luchen por ellos, m\u00e1s cerca estar\u00e1n\u201d<span>\r\n",
+                "redes": "",
+                "foto": "https://worldskills.sena.edu.co/imagen/competidores/guate/PROCESOS_CONTABLES.png"
+            },
+            {
+                "id": "71",
+                "nombre": "Carlos Daniel Solano Fern\u00e1ndez",
+                "habilidad": "05. Ingenier\u00eda Mec\u00e1nica CAD",
+                "edad": "0",
+                "descripcion": "Optimista positivo y proactivo, sue\u00f1a con tener su propia empresa de \u00f3rtesis y pr\u00f3tesis bi\u00f3nica, en su tiempo libre ve series y practica deportes como el basquetbol, f\u00fatbol, voleibol y ciclo monta\u00f1ismo. <br><br><span class=\"cursText\">\r\n\u201cConviertan su gran sue\u00f1o en un ciclo de metas a cumplir\u201d<span>\r\n",
+                "redes": "",
+                "foto": ".\/imagen\/competidores\/guate\/CAD.png"
+            }
+        ]
+    },
+    "galeriaChile": {
+        "records": [
+            {
+                "id": "42",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g26.jpg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "41",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g25.jpg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "40",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g24.jpg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "39",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g23.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "38",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g22.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "37",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g21.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "36",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g20.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "35",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g19.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "34",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g18.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "33",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g17.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "32",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/g16.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "31",
+                "link": ".\/imagen\/galery\/g15.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "30",
+                "link": ".\/imagen\/galery\/g14.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "29",
+                "link": ".\/imagen\/galery\/g13.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "28",
+                "link": ".\/imagen\/galery\/g12.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "27",
+                "link": ".\/imagen\/galery\/g11.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "26",
+                "link": ".\/imagen\/galery\/g10.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "25",
+                "link": ".\/imagen\/galery\/g9.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "24",
+                "link": ".\/imagen\/galery\/g8.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "23",
+                "link": ".\/imagen\/galery\/g7.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "22",
+                "link": ".\/imagen\/galery\/g6.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "21",
+                "link": ".\/imagen\/galery\/g5.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "20",
+                "link": ".\/imagen\/galery\/g4.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "19",
+                "link": ".\/imagen\/galery\/g3.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "18",
+                "link": ".\/imagen\/galery\/g2.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "17",
+                "link": ".\/imagen\/galery\/g1.jpeg",
+                "destacado": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica",
+                "titulo": "Selecci\u00f3n SENA es campeona en WorldSkills Am\u00e9rica"
+            },
+            {
+                "id": "16",
+                "link": ".\/imagen\/galery\/chile\/w14.jpeg",
+                "destacado": "Equipo WorldSkill 14",
+                "titulo": "Equipo WorldSkill 14"
+            },
+            {
+                "id": "15",
+                "link": ".\/imagen\/galery\/chile\/w13.jpeg",
+                "destacado": "Equipo WorldSkill 13",
+                "titulo": "Equipo WorldSkill 13"
+            },
+            {
+                "id": "14",
+                "link": ".\/imagen\/galery\/chile\/w12.jpeg",
+                "destacado": "Equipo WorldSkill 12",
+                "titulo": "Equipo WorldSkill 12"
+            },
+            {
+                "id": "13",
+                "link": ".\/imagen\/galery\/chile\/w11.jpeg",
+                "destacado": "Equipo WorldSkill 11",
+                "titulo": "Equipo WorldSkill 11"
+            },
+            {
+                "id": "12",
+                "link": ".\/imagen\/galery\/chile\/w10.jpeg",
+                "destacado": "Equipo WorldSkill 10",
+                "titulo": "Equipo WorldSkill 10"
+            },
+            {
+                "id": "11",
+                "link": ".\/imagen\/galery\/chile\/w9.jpeg",
+                "destacado": "Equipo WorldSkill 9",
+                "titulo": "Equipo WorldSkill 9"
+            },
+            {
+                "id": "10",
+                "link": ".\/imagen\/galery\/chile\/w8.jpeg",
+                "destacado": "Equipo WorldSkill 8",
+                "titulo": "Equipo WorldSkill 8"
+            },
+            {
+                "id": "9",
+                "link": ".\/imagen\/galery\/chile\/w7.jpeg",
+                "destacado": "Equipo WorldSkill 7",
+                "titulo": "Equipo WorldSkill 7"
+            },
+            {
+                "id": "8",
+                "link": ".\/imagen\/galery\/chile\/w6.jpeg",
+                "destacado": "Equipo WorldSkill 6",
+                "titulo": "Equipo WorldSkill 6"
+            },
+            {
+                "id": "7",
+                "link": ".\/imagen\/galery\/chile\/w5.jpeg",
+                "destacado": "Equipo WorldSkill 5",
+                "titulo": "Equipo WorldSkill 5"
+            },
+            {
+                "id": "6",
+                "link": ".\/imagen\/galery\/chile\/w4.jpeg",
+                "destacado": "Equipo WorldSkill 4",
+                "titulo": "Equipo WorldSkill 4"
+            },
+            {
+                "id": "5",
+                "link": ".\/imagen\/galery\/chile\/w3.jpeg",
+                "destacado": "Equipo WorldSkill 3",
+                "titulo": "Equipo WorldSkill 3"
+            },
+            {
+                "id": "4",
+                "link": ".\/imagen\/galery\/chile\/w2.jpeg",
+                "destacado": "Equipo WorldSkill 2",
+                "titulo": "Equipo WorldSkill 2"
+            },
+            {
+                "id": "3",
+                "link": ".\/imagen\/galery\/chile\/w1.jpeg",
+                "destacado": "Equipo WorldSkill 1",
+                "titulo": "Equipo WorldSkill 1"
+            },
+            {
+                "id": "2",
+                "link": ".\/imagen\/galery\/chile\/WSA-EQUIPO-sALTANDO.jpg",
+                "destacado": "Equipo WorldSkill Am\u00e9ricas Saltando",
+                "titulo": "Equipo WorldSkill Am\u00e9ricas Saltando"
+            },
+            {
+                "id": "1",
+                "link": ".\/imagen\/galery\/chile\/WSA-EQUIPO.jpg ",
+                "destacado": "Equipo WorldSkill Am\u00e9ricas",
+                "titulo": "Equipo WorldSkill Am\u00e9ricas"
+            }
+        ]
+    },
+    "galeriaKazan": {
+        "records": [
+            {
+                "id": "88",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_46.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "87",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_45.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "86",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_44.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "85",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_43.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "84",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_42.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "83",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_41.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "82",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_40.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "81",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_39.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "80",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_38.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "79",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_37.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "78",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_36.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "77",
+                "link": "https://worldskills.sena.edu.co\/imagen\/galery\/kazanNacional2018\/ws_35.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "76",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_34.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "75",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_33.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "74",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_32.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "73",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_31.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "72",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_30.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "71",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_29.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "70",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_28.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "69",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_27.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "68",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_26.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "67",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_25.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "66",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_24.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "65",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_23.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "64",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_22.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "63",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_21.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "62",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_20.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "61",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_19.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "60",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_18.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "59",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_17.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "58",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_16.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "57",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_15.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "56",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_14.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "55",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_13.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "54",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_12.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "53",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_11.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "52",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_10.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "51",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_9.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "50",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_8.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "WorldSkills 2018"
+            },
+            {
+                "id": "49",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_7.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "48",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_6.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "47",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_5.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "46",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_4.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "45",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_3.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "44",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_2.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            },
+            {
+                "id": "43",
+                "link": ".\/imagen\/galery\/kazanNacional2018\/ws_1.jpeg",
+                "destacado": "Del 10 al 14 de diciembre se llevar\u00e1 a cabo WorldSkills, ocasi\u00f3n donde los ganadores de oro, plata y bronce de la competencia nacional desarrollada en julio, buscar\u00e1n un puesto para WorldSkills Internacional en Kaz\u00e1n Rusia 2019. ",
+                "titulo": "Mecatr\u00f3nica"
+            }
+        ]
+    },"logrosAmericas":[
+        {
+            "titulo":"Guatemala 2021",
+            "parrafo":"En medio de la pandemia ocasionada por la COVID-19, la delegación colombiana se concentró en Antioquia y enfrento a 10 países de manera virtual, los Supertalentos ganaron tres medallas de oro, tres de plata y una de bronce y además el competidor de Procesos Contables, Sebastián Arrieta, fue reconocido con el Albert Vidal por tener el mejor puntaje de toda la competencia.",
+            "puesto":"PUESTO #2 EN GUATEMALA",
+            "medallas":[
+                {"oro":1},
+                {"bronce":2},
+                {"plata":3}
+            ]
+        },{
+            "titulo":"CHILE - 2018",
+            "parrafo":"La selección Colombia obtuvo cuatro medallas de oro y dos de plata. La única mujer de la Selección Colombia, Jennifer Cardona de la regional Antioquia, fue reconocida como la Mejor de la Nación y la más destacada de la competencia. La delegación colombiana ocupó el primer puesto de WorldSkills Américas. Vér más",
+            "puesto":"Puesto #1 en Chile",
+            "medallas":[
+                {"oro":1},
+                {"bronce":2},
+                {"plata":3}
+            ]
+        },{
+            "titulo":"COLOMBIA - 2014",
+            "parrafo":"En esta oportunidad Colombia fue la sede del evento, ocupó el puesto 2 entre 17 países participantes. En la ceremonia se entregó la medallería correspondiente a las 31 habilidades en competencia. La asistencia superó todas las expectativas con 120.902 visitantes. Ver más",
+            "puesto":"Puesto #2 en Colombia",
+            "medallas":[
+                {"oro":1},
+                {"bronce":2},
+                {"plata":3}
+            ]
+        }
+    ],
     "posts": [
         {
             "id": 1,

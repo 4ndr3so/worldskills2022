@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
@@ -11,95 +11,99 @@ import ButonVerMas from "./../utils/ButonVerMas"
 import TemplatePrinci from "./../utils/TemplatePrinci"
 import { useDispatch, useSelector } from "react-redux";
 import Equipo from "../components/Equipo";
+import { getCompeChileError, getCompeChileStatus, getCompeGuatemError, getCompeGuatemStatus, getCompeKazanError, getCompeKazanStatus, selectAllCompeChile, selectAllCompeGuatem, selectAllCompeKazan } from "../redux/competidoresSlice";
+import { useEffect } from "react";
+import { fetchCompeChile, fetchCompeGuatem, fetchCompeKazan } from "../api/apiData";
 
-const data={
-    expertos1:
-        {
-            foto:"../../img/logo_habilidad.png",
-            nombre:"Juan Esteban Deossa",
-            text1:"Emprendedor, inquieto y propositivo, tiene vocación de servicio y cree en la importancia del esfuerzo y el uso racional del tiempo para conseguir la excelencia, le gusta el cine y en su tiempo libre trota, toca guitarra y es atleta. <br> “Mira que te mando a que te esfuerces y a que seas valiente, no temas ni desmayes porque jehová, tu Dios, estará contigo a donde quiera que vayas”",
-            subtitulo:"Delegada Oficial",
-            habilidad:"17 | Tecnologías Web",
-            numero:"2"
-        },
-    expertos2:
-        {
-            foto:"../../img/logo_habilidad.png",
-            nombre:"Jhon Alexander Ortiz Piza",
-            text1:"Es la máxima representante del SENA ante la organización internacional y Directora de Relaciones Corporativas de la Entidad, se encarga de representar a Colombia en todas las reuniones de alto nivel que programe WorldSkills y genera alianzas para el fortalecimiento de los procesos de formación del SENA.",
-            subtitulo:"Delegado Oficial",
-            habilidad:"02 | Cableado De Redes De Información",
-            numero:"3"
-        }
-    }
 
-const data2={
-expertos1:
-    {
-        foto:"../../img/logo_habilidad.png",
-        nombre:"David Santiago Rodríguez Cruz",
-        text1:"Emprendedor, inquieto y propositivo, tiene vocación de servicio y cree en la importancia del esfuerzo y el uso racional del tiempo para conseguir la excelencia, le gusta el cine y en su tiempo libre trota, toca guitarra y es atleta. <br> “Mira que te mando a que te esfuerces y a que seas valiente, no temas ni desmayes porque jehová, tu Dios, estará contigo a donde quiera que vayas”",
-        subtitulo:"Delegada Oficial",
-        habilidad:"50 | Desarrollo De Aplicaciones Móviles",
-        numero:"2"
-    },
-expertos2:
-    {
-        foto:"../../img/logo_habilidad.png",
-        nombre:"Sebastián Arrieta Hernández",
-        text1:"Es la máxima representante del SENA ante la organización internacional y Directora de Relaciones Corporativas de la Entidad, se encarga de representar a Colombia en todas las reuniones de alto nivel que programe WorldSkills y genera alianzas para el fortalecimiento de los procesos de formación del SENA.",
-        subtitulo:"Delegado Oficial",
-        habilidad:"72 | Procesos Contables",
-        numero:"3"
-    }
-}
-
-const data3={
-    expertos1:
-        {
-            foto:"../../img/logo_habilidad.png",
-            nombre:"José Sebastián Domínguez",
-            text1:"Emprendedor, inquieto y propositivo, tiene vocación de servicio y cree en la importancia del esfuerzo y el uso racional del tiempo para conseguir la excelencia, le gusta el cine y en su tiempo libre trota, toca guitarra y es atleta. <br> “Mira que te mando a que te esfuerces y a que seas valiente, no temas ni desmayes porque jehová, tu Dios, estará contigo a donde quiera que vayas”",
-            subtitulo:"Delegada Oficial",
-            habilidad:"40 | Tecnologías Del Diseño Gráfico",
-            numero:"2"
-        },
-    expertos2:
-        {
-            foto:"../../img/logo_habilidad.png",
-            nombre:"Sergio Andrés Marín",
-            text1:"Es la máxima representante del SENA ante la organización internacional y Directora de Relaciones Corporativas de la Entidad, se encarga de representar a Colombia en todas las reuniones de alto nivel que programe WorldSkills y genera alianzas para el fortalecimiento de los procesos de formación del SENA.",
-            subtitulo:"Delegado Oficial",
-            habilidad:"9 | IT Administración De Sistemas De Redes",
-            numero:"3"
-        }
-    }
 
 const CompetidoresColombia = props => {
-    const competidores= useSelector((state) =>state.competidores.records);
+    const competidoresChile= useSelector(selectAllCompeChile);
+    const competidoresChileStatus=useSelector(getCompeChileStatus);
+    const competidoresChileError=useSelector(getCompeChileError);
 
+    const competidoresKazan= useSelector(selectAllCompeKazan);
+    const competidoresKazanStatus=useSelector(getCompeKazanStatus);
+    const competidoresKazanError=useSelector(getCompeKazanError);
+
+    const competidoresGuatem= useSelector(selectAllCompeGuatem);
+    const competidoresGuatemStatus=useSelector(getCompeGuatemStatus);
+    const competidoresGuatemError=useSelector(getCompeGuatemError);
+    const [selctBtn,setSelctBtn]=useState([true,false,false])
+    
+    const [dataCompetidores,setDataCompetidores]=useState(competidoresChile);
     const dispatch=useDispatch();
+
+    useEffect(() => {
+        if(competidoresGuatemStatus==="idle"){
+          dispatch(fetchCompeGuatem())   
+        }else if(competidoresGuatemStatus==="succed"){
+            setDataCompetidores(competidoresGuatem);
+        }
+
+    }, [competidoresGuatemStatus,dispatch,competidoresGuatem]); 
+
+    useEffect(() => {
+        if(competidoresChileStatus==="idle"){
+            dispatch(fetchCompeChile())     
+        }
+
+       }, [competidoresChileStatus,dispatch,competidoresChile]); 
+
+    useEffect(() => {
+        if(competidoresKazanStatus==="idle"){   
+          dispatch(fetchCompeKazan())  
+        }
+
+       }, [competidoresKazanStatus,dispatch]); 
+    
+    
 
 const animate1= "animate__animated animate__flipInY";
 
-    const [dataCompetidores,setDataCompetidores]=useState(competidores);
+    
     const [animate,setAnimate]=useState(animate1);
 
 const manejarEvent =(lugar)=>{
     setAnimate(animate1);
     if(lugar==="guatemala"){
-        setDataCompetidores(competidores);
+        if(competidoresChileStatus==="succed"){
+            setDataCompetidores(competidoresGuatem);
+            }
+            setSelctBtn([true,false,false])      
     }
     if(lugar==="kazan"){
-        setDataCompetidores(competidores);
+        if(competidoresKazanStatus==="succed"){
+                setDataCompetidores(competidoresKazan);
+            }
+            setSelctBtn([false,true,false])    
     }
     if(lugar==="chile"){
-        setDataCompetidores(competidores);
+        if(competidoresChileStatus==="idle"){
+    
+            dispatch(fetchCompeChile())
+            
+          }else if(competidoresChileStatus==="succed"){
+            setDataCompetidores(competidoresChile);
+            }
+            setSelctBtn([false,false,true])  
     }
 }
 const onAnimationEnd = () => {
     setAnimate("");
   };
+  const habiliSkele=["","",""]
+  const skeleNot=habiliSkele.map((element,index)=>
+  {
+
+   return <Grid item xs={12} md={4} key={index}>
+     <div className="mt-3 " style={{marginRight:"20px"}}>
+       
+       <Skeleton variant="rectangular"  height={400}></Skeleton>
+       <Skeleton variant="rounded"   height={30} ></Skeleton></div> 
+       </Grid>
+  })
+
 
   return (
     <TemplatePrinci>
@@ -117,22 +121,22 @@ const onAnimationEnd = () => {
             <Grid container>
                 <Grid item xs={12} md={4}  >
                     <div className="btn0">
-                        <ButonVerMas textNotic="Guatemala 2021" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("guatemala",e)}></ButonVerMas>
+                        <ButonVerMas textNotic="Guatemala 2021" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("guatemala",e)} isSelected={selctBtn[0]}></ButonVerMas>
                     </div>           
                 </Grid>
                 <Grid item xs={12} md={4}  className="btnO">
                     <div className="btn0">
-                        <ButonVerMas textNotic="Kazan 2019" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("kazan",e)}></ButonVerMas>
+                        <ButonVerMas textNotic="Kazan 2019" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("kazan",e)} isSelected={selctBtn[1]}></ButonVerMas>
                     </div>   
                 </Grid>
                 <Grid item xs={12} md={4}  className="btnO">
                     <div className="btn0">
-                        <ButonVerMas textNotic="Chile 2018" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("chile",e)}></ButonVerMas>
+                        <ButonVerMas textNotic="Chile 2018" ancho={"100%"} mt="10px" mb="30px" accionBtnver={(e)=>manejarEvent("chile",e)} isSelected={selctBtn[2]}></ButonVerMas>
                     </div>  
                 </Grid>
             </Grid>
             <Grid container>
-                {
+            {   competidoresGuatemStatus==="loading" || competidoresGuatemStatus==="idle" ? skeleNot:
                     Object.entries(dataCompetidores).map((element, index) => {
                         return(
                         <Grid item xs={12} md={4} key={element[1].id+index} className={animate} onAnimationEnd={onAnimationEnd}>

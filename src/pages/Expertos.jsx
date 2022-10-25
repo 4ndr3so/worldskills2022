@@ -9,6 +9,9 @@ import "./styles.scss";
 import Equipo from "./../components/Equipo"
 import TemplatePrinci from "./../utils/TemplatePrinci"
 import { useDispatch, useSelector } from "react-redux";
+import { getExpertosError, getExpertosStatus, selectExpertos } from "../redux/expertosSlice";
+import { useEffect } from "react";
+import { fetchExpertos } from "../api/apiData";
 
 const data={
     expertos1:
@@ -32,9 +35,19 @@ const data={
     }
 
 const Expertos = props => {
-  const expertos= useSelector((state) =>state.expertos.records);
-
+  const expertos= useSelector(selectExpertos);
+  const expertosStatus=useSelector(getExpertosStatus);
+  const expertosError=useSelector(getExpertosError);
   const dispatch=useDispatch();
+
+  useEffect(() => {
+    
+    if(expertosStatus==="idle"){
+
+      dispatch(fetchExpertos())
+      
+    }
+   }, [expertosStatus,dispatch]); 
 
   return (
     <TemplatePrinci>

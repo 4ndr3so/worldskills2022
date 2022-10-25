@@ -7,8 +7,10 @@ import habilidadesReducer from './habilidadesSlice'
 import expertoReducer from "./expertosSlice"
 import competidoresReducer from "./competidoresSlice"
 import counterRenducer from "./counterSlice"
+import dataStaticaReducer from "./datosStaticosSlice"
 import thunk from 'redux-thunk';
 import noticiaSlice from './noticiaSlice';
+import logrosSlice from './logrosSlice';
 
 const composeEnhancers= window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -22,7 +24,8 @@ export const store = configureStore({
         habilidades:habilidadesReducer,
         expertos:expertoReducer,
         competidores:competidoresReducer,
-        counter:counterRenducer
-
+        counter:counterRenducer,
+        logros:logrosSlice,
+        datosEs:dataStaticaReducer
     }
 })

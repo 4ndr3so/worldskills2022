@@ -8,6 +8,9 @@ import imgStat from "./../img/internacional.png";
 import "./styles.scss";
 import LogroCont from "./../components/LogroCont"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { selectAllLogrosInternacional, getLogrosInternacionalStatus } from "../redux/logrosSlice";
+import { nanoid } from '@reduxjs/toolkit'
+import { useSelector } from "react-redux";
 
 const datos={
     titulo:"Rusia 20219",
@@ -20,6 +23,20 @@ const datos={
     ]
 }
 const Internacional = props => {
+  const logrosInter= useSelector(selectAllLogrosInternacional);
+  const logrosInterStatus=useSelector(getLogrosInternacionalStatus);
+
+  //console.log(logrosAmericas)
+
+  const ajusteMedallas=(item)=>{
+    const medallas=[
+      {"oro":item.medallasOro},
+      {"bronce":item.medallasPlata},
+      {"plata":item.medallasBronce}
+  ]
+  return medallas
+}
+
   return (
     <TemplatePrinci>
 
@@ -45,9 +62,15 @@ const Internacional = props => {
             </div>
             <div className="contLogros">
               <div className="tituloLogros"><h3>LOGROS INTERNACIONALES</h3></div>
-              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
-              <LogroCont titulo1={datos.titulo} parrafo1={datos.parrafo} puesto1={datos.puesto} medallas={datos.medallas}></LogroCont>
-            </div>
+              {
+                Object.entries(logrosInter).map((element, index) => {
+                // console.log(element)
+                  return(
+                      <LogroCont titulo1={element[1].titulo} parrafo1={element[1].parrafo} key={nanoid()} puesto1={element[1].puesto} medallas={ajusteMedallas(element[1])}></LogroCont>
+                    )
+                  }
+                )
+              }   </div>
           </Grid>
           <Grid container></Grid>
       </TemplatePrinci>

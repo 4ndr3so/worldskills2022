@@ -5,8 +5,18 @@ import Banner1 from "../../img/banner_1.png"
 import Banner2 from "../../img/banner_2.jpg"
 import Banner3 from "../../img/banner_3.jpg"
 import Carousel from 'react-bootstrap/Carousel';
+import ButonVerMas from '../../utils/ButonVerMas';
+import { useSelector } from 'react-redux';
+import { getDatosEStaError, getDatosEStaStatus, selectAllDatosESta } from '../../redux/datosStaticosSlice';
 
-const Slider = () => (
+const Slider = () => {
+
+
+  const accionBtnver=()=>{
+    window.open('http://www.google.com', '_blank');
+  }
+
+  return(
   <Carousel data-testid="Carousel" style={{minHeight:"200px"}}>
   <Carousel.Item>
     <img
@@ -16,7 +26,11 @@ const Slider = () => (
     />
     <Carousel.Caption className={styles.carouselCaption}>
       <h3>CALENDARIO WORLDSKILLS COLOMBIA</h3>
-      <p>Conozca las fechas</p>
+      <p>Conozca las fechas 
+        {
+          <ButonVerMas textNotic="Ver noticia" accionBtnver={accionBtnver} ></ButonVerMas>
+        }
+      </p>
     </Carousel.Caption>
   </Carousel.Item>
  { /*<Carousel.Item>
@@ -46,7 +60,7 @@ const Slider = () => (
     </Carousel.Caption>
 </Carousel.Item>*/ }
 </Carousel>
-);
+)};
 
 Slider.propTypes = {};
 

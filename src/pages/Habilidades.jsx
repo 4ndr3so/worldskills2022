@@ -75,7 +75,7 @@ const Habilidades = props => {
           </Grid>
           <Grid container>
           {
-            habilidadesStatus==="loading"? skeleNot:
+            habilidadesStatus==="loading" || habilidadesStatus==="idle"? skeleNot:
               Object.entries(habilidades).map((element, index) => {
                 //console.log(element[1].id)
                   return(

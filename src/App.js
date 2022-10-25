@@ -22,7 +22,25 @@ import JefeEquipos from "./pages/JefeEquipos"
 import GalImageDetalle from "./components/GalImageDetalle";
 import Videos from "./pages/Videos"
 import ScrollTop from "./utils/ScrollTop";
+import { useDispatch, useSelector } from "react-redux";
+import { getDatosEStaError, getDatosEStaStatus, selectAllDatosESta } from "./redux/datosStaticosSlice";
+import { useEffect } from "react";
+import { fetchDatosEsta } from "./api/apiData";
 function App() {
+
+  
+    const datosEsStatus=useSelector(getDatosEStaStatus);
+ 
+
+    const dispatch=useDispatch();
+
+    useEffect(() => {
+        if(datosEsStatus==="idle"){
+          dispatch(fetchDatosEsta())   
+        }
+
+    }, [datosEsStatus,dispatch]); 
+
   return (
       
       <Router>
@@ -69,7 +87,7 @@ function App() {
             element={<JefeEquipos></JefeEquipos>}
           ></Route>
           <Route
-            path="/galeriaDetalle"
+            path="/galeriaDetalle/:galeriaN"
             element={<GalImageDetalle></GalImageDetalle>}
           ></Route>
           <Route

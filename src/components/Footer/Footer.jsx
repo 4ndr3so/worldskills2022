@@ -13,7 +13,7 @@ const Footer = () => (
     <Container>
       <Grid container>
         <Grid item xs={8}>
-            <div className={styles.Footer} data-testid="Footer">
+          <div className={styles.Footer} data-testid="Footer">
             <p className={styles.titleSena}> Servicio Nacional de Aprendizaje SENA - Dirección General</p>
             <p> Calle 57 No. 8 - 69 Bogotá D.C. (Cundinamarca), Colombia</p>
             <p><br></br></p>
@@ -33,10 +33,18 @@ const Footer = () => (
               <img src={logoblanco} alt="Logo del SENa y worldSkills" className={styles.logoblanco} />
             </Grid>
             <Grid item xs={12} className={styles.alignEnd}>
-              <InstagramIcon fontSize={"large"} className={styles.iconsR}></InstagramIcon>
-              <FacebookIcon fontSize={"large"} className={styles.iconsR}></FacebookIcon>
-              <TwitterIcon fontSize={"large"} className={styles.iconsR}></TwitterIcon>
-              <YouTubeIcon fontSize={"large"} className={styles.iconsR}></YouTubeIcon>
+              <a href={"https://www.instagram.com/senacomunica/?hl=es-la"} target="_blank" rel='noreferrer'>
+                <InstagramIcon fontSize={"large"} className={styles.iconsR}></InstagramIcon>
+              </a>
+              <a href={"https://www.facebook.com/SENA/"} target="_blank" rel='noreferrer'>
+                <FacebookIcon fontSize={"large"} className={styles.iconsR}></FacebookIcon>
+              </a>
+              <a href={"https://twitter.com/SENAComunica"} target="_blank" rel='noreferrer'>
+                <TwitterIcon fontSize={"large"} className={styles.iconsR}></TwitterIcon>
+              </a>
+              <a href={"https://www.youtube.com/user/SENATV?app=desktop"} target="_blank" rel='noreferrer'>
+                <YouTubeIcon fontSize={"large"} className={styles.iconsR}></YouTubeIcon>
+              </a>
             </Grid>
           </Grid>
         </Grid>
