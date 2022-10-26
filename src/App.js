@@ -30,7 +30,7 @@ function App() {
 
   
     const datosEsStatus=useSelector(getDatosEStaStatus);
- 
+    const datosEsta=useSelector(selectAllDatosESta);
 
     const dispatch=useDispatch();
 

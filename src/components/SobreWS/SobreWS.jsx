@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './SobreWS.module.scss';
 import BotonCerrar from '../../utils/BotonCerrar';
+import { positions } from '@mui/system';
 
-const SobreWs = ({imgRe,titulo,data}) =>{
+const SobreWs = ({imgRe,titulo,data,subtitulo}) =>{
 
-
+//console.log(imgRe,titulo,data,subtitulo)
 const [visible,setVisible]= useState(false);
 
 
@@ -15,7 +16,7 @@ const apareceInfo=()=>{
 
 
 function createMarkup() {
-  return {__html: data.text1};
+  return {__html: data};
 }
 
 
@@ -39,15 +40,15 @@ return (
     { 
     visible && <div className={styles.cuadroEncima}>
                   <h3 className={styles.tituloQueEsW}>
-                    {data.titulo1}
+                    {titulo}
                   </h3>
                   {
-                    data.subtitulo && <p style={{marginBottom:"20px",marginTop:"20px",textTransform: "uppercase"}}>{data.subtitulo}</p>
+                    subtitulo && <p style={{marginBottom:"20px",marginTop:"20px",textTransform: "uppercase"}}>{subtitulo}</p>
                   }
               <div className={styles.parrQueEsW}  dangerouslySetInnerHTML={createMarkup()}>
               </div>
                   <div className={styles.cerrarBtn}>
-                    <BotonCerrar apareceInfo={apareceInfo}></BotonCerrar>
+                    <BotonCerrar apareceInfo={apareceInfo} otrosStilos={{bottom:"7px",right:"20px",position:"absolute"}}></BotonCerrar>
                   </div>
             </div>
       }

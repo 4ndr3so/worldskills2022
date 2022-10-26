@@ -18,7 +18,7 @@ function NotiComp({ children,notData, pos,place,indexNo,accionBtnver}) {
         children
       }
       <div className={'cuadroConCa ' +(place === "historico" ? "vuelveAbso" : " ")}>
-        <div className='cuadroCate'></div><div className="contText">Categoria</div>
+        <div className='cuadroCate'></div><div className="contText">Noticia</div>
       </div>
       <div className={"contNoData " + (place === "historico" ? (indexNo === 0 ? "noticiasMitad ":" ") : " ")+(place === "historico" ? (indexNo === 0 ? "imgabsulte ":" ") : " ") }>
         <h3 className='tiDataNo'>

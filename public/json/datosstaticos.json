@@ -4,10 +4,105 @@
             {
                 "img":"./img/banner_1.png",
                 "titulo":"CALENDARIO WORLDSKILLS COLOMBIA",
-                "menaje":"Conozca las fechas",
+                "mensaje":"Conozca las fechas",
                 "link":"https://www.google.com/"
             }
+        ],
+        "qswskill":{
+                "titulo":"¿Qué es Worldskills?",
+                "texto":"Es un espacio donde estudiantes técnicos y tecnólogos de todo el mundo compiten en campeonatos nacionales, continentales y mundiales, para demostrar su destreza en habilidades para el trabajo.<br/> <br/> Con esta estrategia se promueve el desarrollo de habilidades vocacionales y se intercambian conocimientos que aportan a una mejor cualificación del talento humano.",
+                "img":"./img/Recurso2-qsw.jpg"        
+        },"competenciaws":{
+            "titulo":"Competencia",
+            "texto":"Nacional<br/> Estas pruebas cuentan con una edición nacional. <br/> <br/> Américas <br/>Los ganadores, posteriormente compiten en la versión América.<br/> <br/> Internacional <br/>Y, por último, los aprendices finalistas participan en la competencia internacional.",
+            "img":"./img/Recurso3-compe.jpg"           
+        },"equipows":{
+            "titulo":"Equipo",
+            "texto":"El equipo de WorldSkills Colombia está conformado por delegados, jefes de equipo, expertos, competidores e intérpretes. <br/> <br/>Conoce cada rol y suimportancia en el desarrollo de las competencias.",
+            "img":"./img/Recurso4-equipo.jpg"           
+        },
+        "logrosamerica": [
+            {
+                "titulo":"Guatemala 2021",
+                "parrafo":"En medio de la pandemia ocasionada por la COVID-19, la delegación colombiana se concentró en Antioquia y enfrento a 10 países de manera virtual, los Supertalentos ganaron tres medallas de oro, tres de plata y una de bronce y además el competidor de Procesos Contables, Sebastián Arrieta, fue reconocido con el Albert Vidal por tener el mejor puntaje de toda la competencia.",
+                "puesto":"PUESTO #2 EN GUATEMALA",
+                "medallasOro":"3",
+                "medallasPlata":"3",
+                "medallasBronce":"1"
+            },{
+                "titulo":"CHILE - 2018",
+                "parrafo":"La selección Colombia obtuvo cuatro medallas de oro y dos de plata. La única mujer de la Selección Colombia, Jennifer Cardona de la regional Antioquia, fue reconocida como la Mejor de la Nación y la más destacada de la competencia. La delegación colombiana ocupó el primer puesto de WorldSkills Américas. Vér más",
+                "puesto":"Puesto #1 en Chile",
+                "medallasOro":"5",
+                "medallasPlata":"2",
+                "medallasBronce":"0"
+            },{
+                "titulo":"COLOMBIA - 2014",
+                "parrafo":"En esta oportunidad Colombia fue la sede del evento, ocupó el puesto 2 entre 17 países participantes. En la ceremonia se entregó la medallería correspondiente a las 31 habilidades en competencia. La asistencia superó todas las expectativas con 120.902 visitantes. Ver más",
+                "puesto":"Puesto #2 en Colombia",
+                "medallasOro":"7",
+                "medallasPlata":"17",
+                "medallasBronce":"0"
+            },{
+                "titulo":"BRASIL 2012",
+                "parrafo":"Puesto 2 entre 14 países; se desarrollaron 19 Habilidades",
+                "puesto":"Puesto #2 en Brasil",
+                "medallasOro":"5",
+                "medallasPlata":"12",
+                "medallasBronce":"2"
+            },{
+                "titulo":"BRASIL 2010",
+                "parrafo":"Puesto 2 entre 12 países; se desarrollaron 12 Habilidades. 12 Habilidades",
+                "puesto":"Puesto #2 en Brasil",
+                "medallasOro":"4",
+                "medallasPlata":"7",
+                "medallasBronce":"0"
+            }
+            ]
+        },"logrosInternacional":[
+            {
+                "titulo":"RUSIA 2019",
+                "parrafo":"24 aprendices del SENA compitieron en WorldSkills Kazán 2019 y por primera vez se subieron al podio de la competencia internacional con dos medallas de bronce en las habilidades Ingeniería de Diseño Mecánico CAD y Jardinería de Paisaje, además los jóvenes obtuvieron 4 medallas de excelencia.Ver más",
+                "puesto":"Puesto #25 en Rusia",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"2"
+            },{
+                "titulo":"ABU DHABI 2017",
+                "parrafo":"La selección Colombia ocupó el puesto 28 entre 57 países y obtuvo 8 medallas de excelencia en Cableado de Redes de Información, Mecatrónica, Ingeniería Mecánica CAD, Diseño Web, Tecnología de la Moda, Tecnología Automotriz, Cocina y Refrigeración y Aire Acondicionado.Ver más",
+                "puesto":"Puesto #28 en Abu Dhabi",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"0"
+            },{
+                "titulo":"BRASIL 2015",
+                "parrafo":"En su cuarta participación en WorldSkills Internacional,obtuvo el puesto 26 y 12 medallas de excelencia en Mecatrónica, Diseño de Ingeniería Mecánica CAD, Fresado, Soluciones de Software para Negocio, Soldadura, Diseño Web, Tecnología de la Moda, Tecnología Automotriz, Cocina, IT Administración de Sistemas de Redes, Tecnología del Diseño Gráfico, Salud y Cuidado Social. Leer más",
+                "puesto":"Puesto #26 en Brasil",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"0"
+            },{
+                "titulo":"ALEMANIA 2013",
+                "parrafo":"En esta oportunidad Colombia obtuvo seis medallas a la excelencia en WorldSkills, ocupo el puesto 33 entre 47 países y tuvo presencia en 20 Habilidades. Leer más",
+                "puesto":"Puesto #33 en Alemania",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"0"
+            },{
+                "titulo":"INGLATERRA 2011",
+                "parrafo":"Puesto 41 y una medalla de excelencia en la habilidad IT Administración de sistemas de redes.",
+                "puesto":"Puesto #41 en Reino Unido",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"0"
+            },{
+                "titulo":"CANADÁ 2009",
+                "parrafo":"Puesto 43",
+                "puesto":"Puesto #43 en Canadá",
+                "medallasOro":"0",
+                "medallasPlata":"0",
+                "medallasBronce":"0"
+            }
         ]
-    }
     
 }

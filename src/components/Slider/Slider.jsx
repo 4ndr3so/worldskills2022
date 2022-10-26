@@ -6,61 +6,60 @@ import Banner2 from "../../img/banner_2.jpg"
 import Banner3 from "../../img/banner_3.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 import ButonVerMas from '../../utils/ButonVerMas';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { getDatosEStaError, getDatosEStaStatus, selectAllDatosESta } from '../../redux/datosStaticosSlice';
+import { Skeleton } from '@mui/material';
 
 const Slider = () => {
+
+  const datosEsStatus=useSelector(getDatosEStaStatus);
+  const datosEsta=useSelector(selectAllDatosESta);
+
+  const dispatch=useDispatch();
 
 
   const accionBtnver=()=>{
     window.open('http://www.google.com', '_blank');
   }
 
+  const Cargador = ({ value }) => {
+    return <Skeleton variant="rectangular"  height={500}></Skeleton>;
+  };
+
   return(
-  <Carousel data-testid="Carousel" style={{minHeight:"200px"}}>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={Banner1}
-      alt="First slide"
-    />
-    <Carousel.Caption className={styles.carouselCaption}>
-      <h3>CALENDARIO WORLDSKILLS COLOMBIA</h3>
-      <p>Conozca las fechas 
+    <>
+      {  
+      
+      datosEsStatus!=="succed" ? <Cargador></Cargador>  :
+        
+      <Carousel data-testid="Carousel" style={{minHeight:"200px"}}>
         {
-          <ButonVerMas textNotic="Ver noticia" accionBtnver={accionBtnver} ></ButonVerMas>
+         // console.log(datosEsta.sliderImg[0])
         }
-      </p>
-    </Carousel.Caption>
-  </Carousel.Item>
- { /*<Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={Banner3}
-      alt="Second slide"
-    />
-
-    <Carousel.Caption className={styles.carouselCaption}>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={Banner2}
-      alt="Third slide"
-    />
-
-    <Carousel.Caption className={styles.carouselCaption}>
-      <h3>Third slide label</h3>
-      <p>
-        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-      </p>
-    </Carousel.Caption>
-</Carousel.Item>*/ }
-</Carousel>
-)};
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={datosEsta.sliderImg[0] && datosEsta.sliderImg[0].img}
+            alt="First slide"
+          />
+          <Carousel.Caption className={styles.carouselCaption}>
+            <h3>{datosEsta.sliderImg[0] && datosEsta.sliderImg[0].titulo}</h3>
+            <p>{datosEsta.sliderImg[0] && datosEsta.sliderImg[0].mensaje}
+              {
+                <a href={datosEsta.sliderImg[0] && datosEsta.sliderImg[0].link} target="_blank" rel="noreferrer" > 
+                  <ButonVerMas textNotic="Ver más" accionBtnver={accionBtnver} ml="10px" otrosStilos={{float:"none"}}></ButonVerMas>
+                </a>
+                
+              }
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel> 
+      
+      }
+    </>
+    )
+  };
 
 Slider.propTypes = {};
 

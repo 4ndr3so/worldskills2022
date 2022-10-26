@@ -5,9 +5,10 @@ import "./styles.scss"
 const styles={
     padding: "3px 10px 1px 10px",
 }
-const ButonVerMas = ({textNotic,ancho,mt,mb,accionBtnver,isSelected=false}) => {
+const ButonVerMas = ({textNotic,ancho,mt,mb,accionBtnver,ml,mr,isSelected=false,otrosStilos}) => {
+  //console.log(otrosStilos)
   return (
-    <button className={`butGenerico ${isSelected ? "seleccionado":""}`} style={{...styles,width:ancho,marginTop:mt,marginBottom:mb}} onClick={accionBtnver}>{textNotic}</button>
+    <button className={`butGenerico ${isSelected ? "seleccionado":""}`} style={{...otrosStilos,width:ancho,marginTop:mt,marginBottom:mb,marginLeft:ml,marginRight:mr}} onClick={accionBtnver}>{textNotic}</button>
   )
 }
 
