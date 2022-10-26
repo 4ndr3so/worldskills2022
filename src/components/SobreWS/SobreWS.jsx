@@ -6,6 +6,7 @@ import { positions } from '@mui/system';
 
 const SobreWs = ({imgRe,titulo,data,subtitulo}) =>{
 
+ 
 //console.log(imgRe,titulo,data,subtitulo)
 const [visible,setVisible]= useState(false);
 

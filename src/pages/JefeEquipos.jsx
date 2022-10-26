@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
@@ -12,6 +12,8 @@ import ButonVerMas from "../utils/ButonVerMas"
 import im1 from "./../img/interpretes.png"
 import im2 from "./../img/jefes.png"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { getDatosEStaStatus, selectAllDatosESta } from "../redux/datosStaticosSlice";
+import { useSelector } from "react-redux";
 
 const data={
     delegado1:
@@ -31,6 +33,13 @@ const data={
         }
 
 const JefeEquipos = props => {
+  const datosEsStatus=useSelector(getDatosEStaStatus);
+  const datosEsta=useSelector(selectAllDatosESta);
+
+  const Cargador = ({ value }) => {
+    return <Skeleton variant="rectangular"  height={500}></Skeleton>;
+  };
+
   return (
     <TemplatePrinci>
       <Grid item xs={12} className="generalPa">
@@ -42,12 +51,12 @@ const JefeEquipos = props => {
         </div>
       <Grid container>
           {
-             
-              Object.entries(data).map((element, index) => {
-                  console.log(element[1].titulo1)
+             datosEsStatus!=="succed" ? <Cargador></Cargador>:
+              Object.entries(datosEsta.jefes).map((element, index) => {
+                  //console.log(element)
                   return(
                   <Grid item xs={12} md={6} key={element[0][0]+index}>
-                      <SobreWS imgRe={element[1].image} titulo={element[1].titulo1} data={element[1]}></SobreWS>
+                      <SobreWS imgRe={element[1].img} titulo={element[1].titulo} data={element[1].texto}></SobreWS>
                   </Grid>)
                })
               

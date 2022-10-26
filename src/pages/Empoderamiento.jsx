@@ -13,7 +13,7 @@ const Empoderamiento = (props) => {
   return (
     <TemplatePrinci>
         <Grid item xs={12} className="generalPa">
-          <div className="tituloGeneral">
+          <div className="tituloGeneral" style={{    padding: "10px"}}>
             <h3>Empoderamientos Territoriales WorldSkills Colombia</h3>
             <p className="textoHabili">
                 Son competencias pedagógicas de habilidades para el trabajo creadas para lograr que jóvenes de todas las regiones tengan la oportunidad de integrar el equipo nacional que representa a Colombia en las justas continentales y mundiales.

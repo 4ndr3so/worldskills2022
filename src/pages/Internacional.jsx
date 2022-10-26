@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
@@ -11,6 +11,7 @@ import TemplatePrinci from "./../utils/TemplatePrinci"
 import { selectAllLogrosInternacional, getLogrosInternacionalStatus } from "../redux/logrosSlice";
 import { nanoid } from '@reduxjs/toolkit'
 import { useSelector } from "react-redux";
+import { getDatosEStaStatus, selectAllDatosESta } from "../redux/datosStaticosSlice";
 
 const datos={
     titulo:"Rusia 20219",
@@ -26,16 +27,23 @@ const Internacional = props => {
   const logrosInter= useSelector(selectAllLogrosInternacional);
   const logrosInterStatus=useSelector(getLogrosInternacionalStatus);
 
+  const datosEsStatus=useSelector(getDatosEStaStatus);
+  const datosEsta=useSelector(selectAllDatosESta);
   //console.log(logrosAmericas)
 
   const ajusteMedallas=(item)=>{
     const medallas=[
       {"oro":item.medallasOro},
-      {"bronce":item.medallasPlata},
-      {"plata":item.medallasBronce}
+      {"plata":item.medallasPlata},
+      {"bronce":item.medallasBronce}
+      
   ]
   return medallas
 }
+
+const Cargador = ({ value }) => {
+  return <Skeleton variant="rectangular"  height={500}></Skeleton>;
+};
 
   return (
     <TemplatePrinci>
@@ -63,10 +71,11 @@ const Internacional = props => {
             <div className="contLogros">
               <div className="tituloLogros"><h3>LOGROS INTERNACIONALES</h3></div>
               {
-                Object.entries(logrosInter).map((element, index) => {
+                datosEsStatus!=="succed" ? <Cargador></Cargador>:
+                Object.entries(datosEsta.logrosInternacional).map((element, index) => {
                 // console.log(element)
                   return(
-                      <LogroCont titulo1={element[1].titulo} parrafo1={element[1].parrafo} key={nanoid()} puesto1={element[1].puesto} medallas={ajusteMedallas(element[1])}></LogroCont>
+                      <LogroCont titulo1={element[1].titulo} parrafo1={element[1].parrafo} key={nanoid()} puesto1={element[1].puesto} medallas={ajusteMedallas(element[1])} link={element[1].link } bandera={element[1].bandera}></LogroCont>
                     )
                   }
                 )

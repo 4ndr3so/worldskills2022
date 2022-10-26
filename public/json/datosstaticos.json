@@ -28,81 +28,133 @@
                 "puesto":"PUESTO #2 EN GUATEMALA",
                 "medallasOro":"3",
                 "medallasPlata":"3",
-                "medallasBronce":"1"
+                "medallasBronce":"1",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=5385"
+                
             },{
                 "titulo":"CHILE - 2018",
                 "parrafo":"La selección Colombia obtuvo cuatro medallas de oro y dos de plata. La única mujer de la Selección Colombia, Jennifer Cardona de la regional Antioquia, fue reconocida como la Mejor de la Nación y la más destacada de la competencia. La delegación colombiana ocupó el primer puesto de WorldSkills Américas. Vér más",
                 "puesto":"Puesto #1 en Chile",
                 "medallasOro":"5",
                 "medallasPlata":"2",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=3660"
             },{
                 "titulo":"COLOMBIA - 2014",
                 "parrafo":"En esta oportunidad Colombia fue la sede del evento, ocupó el puesto 2 entre 17 países participantes. En la ceremonia se entregó la medallería correspondiente a las 31 habilidades en competencia. La asistencia superó todas las expectativas con 120.902 visitantes. Ver más",
                 "puesto":"Puesto #2 en Colombia",
                 "medallasOro":"7",
                 "medallasPlata":"17",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=1921"
             },{
                 "titulo":"BRASIL 2012",
                 "parrafo":"Puesto 2 entre 14 países; se desarrollaron 19 Habilidades",
                 "puesto":"Puesto #2 en Brasil",
                 "medallasOro":"5",
                 "medallasPlata":"12",
-                "medallasBronce":"2"
+                "medallasBronce":"2",
+                "bandera":"./img/bandera_guatemala.png"
+                
             },{
                 "titulo":"BRASIL 2010",
                 "parrafo":"Puesto 2 entre 12 países; se desarrollaron 12 Habilidades. 12 Habilidades",
                 "puesto":"Puesto #2 en Brasil",
                 "medallasOro":"4",
                 "medallasPlata":"7",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png"
             }
             ]
-        },"logrosInternacional":[
+        ,"logrosInternacional":[
             {
                 "titulo":"RUSIA 2019",
                 "parrafo":"24 aprendices del SENA compitieron en WorldSkills Kazán 2019 y por primera vez se subieron al podio de la competencia internacional con dos medallas de bronce en las habilidades Ingeniería de Diseño Mecánico CAD y Jardinería de Paisaje, además los jóvenes obtuvieron 4 medallas de excelencia.Ver más",
                 "puesto":"Puesto #25 en Rusia",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"2"
+                "medallasBronce":"2",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=4054"
             },{
                 "titulo":"ABU DHABI 2017",
                 "parrafo":"La selección Colombia ocupó el puesto 28 entre 57 países y obtuvo 8 medallas de excelencia en Cableado de Redes de Información, Mecatrónica, Ingeniería Mecánica CAD, Diseño Web, Tecnología de la Moda, Tecnología Automotriz, Cocina y Refrigeración y Aire Acondicionado.Ver más",
                 "puesto":"Puesto #28 en Abu Dhabi",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"http://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=3273"
             },{
                 "titulo":"BRASIL 2015",
                 "parrafo":"En su cuarta participación en WorldSkills Internacional,obtuvo el puesto 26 y 12 medallas de excelencia en Mecatrónica, Diseño de Ingeniería Mecánica CAD, Fresado, Soluciones de Software para Negocio, Soldadura, Diseño Web, Tecnología de la Moda, Tecnología Automotriz, Cocina, IT Administración de Sistemas de Redes, Tecnología del Diseño Gráfico, Salud y Cuidado Social. Leer más",
                 "puesto":"Puesto #26 en Brasil",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png",
+                "link": "https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=1566"
             },{
                 "titulo":"ALEMANIA 2013",
                 "parrafo":"En esta oportunidad Colombia obtuvo seis medallas a la excelencia en WorldSkills, ocupo el puesto 33 entre 47 países y tuvo presencia en 20 Habilidades. Leer más",
                 "puesto":"Puesto #33 en Alemania",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png",
+                "link":"https://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=1566"
             },{
                 "titulo":"INGLATERRA 2011",
                 "parrafo":"Puesto 41 y una medalla de excelencia en la habilidad IT Administración de sistemas de redes.",
                 "puesto":"Puesto #41 en Reino Unido",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png"
             },{
                 "titulo":"CANADÁ 2009",
                 "parrafo":"Puesto 43",
                 "puesto":"Puesto #43 en Canadá",
                 "medallasOro":"0",
                 "medallasPlata":"0",
-                "medallasBronce":"0"
+                "medallasBronce":"0",
+                "bandera":"./img/bandera_guatemala.png"
             }
-        ]
-    
+        ],
+        "delegados":[
+            {
+            "titulo":"Delegada Oficial",
+            "nombre":"Adriana Colmenares",
+            "texto":"Es un espacio donde estudiantes técnicos y tecnólogos de todo el mundo compiten en campeonatos nacionales, continentales y mundiales, para demostrar su destreza en habilidades para el trabajo.<br/> <br/> Con esta estrategia se promueve el desarrollo de habilidades vocacionales y se intercambian conocimientos que aportan a una mejor cualificación del talento humano.",
+            "img":"./img/delegados/delegado1.png"        
+        },
+        {
+            "titulo":"Delegado técnico",
+            "nombre":"Yesid Rusinque",
+            "texto":"Encargado de los procesos técnicos, logísticos, administrativos y operativos durante la preparación y participación de la Delegación colombiana en las competencias de habilidades WorldSkills. Es el responsable del desarrollo de las competencias de habilidades en el país, en las que se definen los aprendices que competirán a nivel mundial.<br/>  <br/>  ",
+            "img":"./img/delegados/delegado1.png"        
+        },
+        {
+            "titulo":"Delegado Técnico Asistente",
+            "nombre":"Andrés Mauricio Montaño",
+            "texto":"La organización internacional permite designar dos delegados técnicos asistentes quienes se encargan de la verificación y acompañamiento en el desarrollo de la competencia, ellos atienden conflictos o situaciones en caso de que el Delegado Técnico esté ocupado y también apoyan la supervisión de las habilidades designadas por la organización internacional.",
+            "img":"./img/delegados/delegado1.png"        
+        }],
+        "jefes":[
+            {
+            "titulo":"Intérpretes",
+            "nombre":"",
+            "texto":"Son instructores del SENA del programa de Bilingüismo, con un elevado dominio del idioma inglés, su función es acompañar al Experto Nacional y al Competidor en todas las actividades de competencia y proteger de la mejor manera los intereses del SENA y del país. <br/><br/>Así mismo, permite la correcta participación de los expertos en los procesos previos durante y post competencia y transmite al competidor las instrucciones de las competencias en idioma español para que se tengan condiciones justas.",
+            "img":"./img/interpretes.png"        
+        },
+        {
+            "titulo":"Jefes de Equipo",
+            "nombre":"Margarita Pestana, Catherin Triana y Fredy García",
+            "texto":"La selección cuenta con tres jefes de equipo encargados del cuidado, acompañamiento y aseguramiento del bienestar físico y emocional de los aprendices competidores. Ellos están pendientes de los competidores las 24 horas al día, de su confianza y autogestión y se aseguran de que cumplan correctamente con los horarios, una buena alimentación, hábitos de sueño adecuados, entre otras labores.",
+            "img":"./img/jefes.png"        
+        }]
+    }
 }

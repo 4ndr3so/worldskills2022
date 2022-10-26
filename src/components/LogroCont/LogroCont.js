@@ -25,8 +25,11 @@ const MedallaCont = ({tipoMedalla,cantidad,ancho}) => {
 
 
 
-const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) =>{ 
-  
+const LogroCont = ({titulo1,parrafo1,puesto1,medallas,link,bandera}) =>{ 
+
+  const accionBtnver=()=>{
+    window.open(link, '_blank');
+  }
   
   return(
   <div className="LogroCont" data-testid="LogroCont">
@@ -37,7 +40,7 @@ const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) =>{
     <div className='cajaMedallas'>
       <div className='tituloMeda'>
       <img
-        src={imgBandera}
+        src={bandera}
         alt="Worldskills Nacional"
         style={{float: "left"}}
       />
@@ -58,7 +61,8 @@ const LogroCont = ({titulo1,parrafo1,puesto1,medallas}) =>{
       </Grid>
         </div>
     </div>
-      {<ButonVerMas textNotic="Ver más"></ButonVerMas>}
+      {link &&
+        <ButonVerMas textNotic="Ver más" accionBtnver={accionBtnver}></ButonVerMas>}
   </div>
 )};
 

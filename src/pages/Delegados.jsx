@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
@@ -11,6 +11,8 @@ import SobreWS from "../components/SobreWS"
 import ButonVerMas from "../utils/ButonVerMas"
 import im1 from "../img/delegados/delegado1.png"
 import TemplatePrinci from "./../utils/TemplatePrinci"
+import { getDatosEStaStatus, selectAllDatosESta } from "../redux/datosStaticosSlice";
+import { useSelector } from "react-redux";
 
 const data={
     delegado1:
@@ -28,6 +30,13 @@ const data={
         }
 
 const Delegados = props => {
+  const datosEsStatus=useSelector(getDatosEStaStatus);
+  const datosEsta=useSelector(selectAllDatosESta);
+
+  const Cargador = ({ value }) => {
+    return <div className="mt-4 " style={{ marginRight: "10px" }}><Skeleton variant="rectangular" height={500}></Skeleton></div>;
+  };
+
   return (
     <TemplatePrinci>
           <Grid item xs={12} className="generalPa">
@@ -39,12 +48,12 @@ const Delegados = props => {
             </div>
           <Grid container>
               {
-                
-                  Object.entries(data).map((element, index) => {
-                      console.log(element[1].titulo1)
+                 datosEsStatus !== "succed" ? <Cargador></Cargador> :
+                  Object.entries(datosEsta.delegados).map((element, index) => {
+                     // console.log(element[1].titulo1)
                       return(
                       <Grid item xs={12} md={4} key={element[0][0]+index}>
-                          <SobreWS imgRe={im1} titulo={element[1].titulo1} data={element[1]}></SobreWS>
+                          <SobreWS imgRe={element[1].img} titulo={element[1] && element[1].titulo} data={element[1].texto} subtitulo={element[1].nombre}></SobreWS>
                       </Grid>)
                   })
                   

@@ -35,7 +35,7 @@ const WSNacional = (props) => {
               style={{ width: "100%" }}
             />
           </div>
-          <div className="titulohabilidades">
+          <div className="titulohabilidades" style={{padding:"38px"}}>
             <h3>OBJETIVOS</h3>
             <p className="textoHabili">
               Promover la educación técnica y tecnológica Inspirar la cultura de
