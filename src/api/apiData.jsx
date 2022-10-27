@@ -7,18 +7,19 @@ export const urlBase="https://worldskills.sena.edu.co/objects/";
 
 //base es la leida
 export const urls={
-    "base":{//dev
-        noticias:"http://localhost:3004/noticias",
-        videos:"http://localhost:3004/videos",
-        habilidades:"http://localhost:3004/competencia",
-        expertos:"http://localhost:3004/expertos",
-        compChile:"http://localhost:3004/compeChile",
-        compKasan:"http://localhost:3004/compeKazan",
-        compGuate:"http://localhost:3004/guateComp",
-        galChile:"http://localhost:3004/galeriaChile",
-        galKazan:"http://localhost:3004/galeriaKazan"
+    "dev":{//dev json-server --watch --host 192.168.1.3 db.json --port 3004
+        noticias:"http://192.168.1.3:3004/noticias",
+        videos:"http://192.168.1.3:3004/videos",
+        habilidades:"http://192.168.1.3:3004/competencia",
+        expertos:"http://192.168.1.3:3004/expertos",
+        compChile:"http://192.168.1.3:3004/compeChile",
+        compKasan:"http://192.168.1.3:3004/compeKazan",
+        compGuate:"http://192.168.1.3:3004/guateComp",
+        galChile:"http://192.168.1.3:3004/galeriaChile",
+        galKazan:"http://192.168.1.3:3004/galeriaKazan",
+        datosEst:"http://192.168.1.3:3000/json/datosstaticos.json"
     },
-    "test":{//test
+    "base":{//test
         noticias:'./objects/NoticiaOp.php?action=readAll',
         videos:'./objects/VideoOp.php?action=readAll',
         habilidades:'./objects/compentenciaOp.php?action=readAll',
@@ -27,7 +28,8 @@ export const urls={
         compKasan:'./objects/EquipoOp.php?action=readAllNacKazan',
         compGuate:'./objects/EquipoOp.php?action=readAllNaGuate',
         galChile:'./objects/FotoGaleryOp.php?action=readAmericas',
-        galKazan:"./objects/FotoGaleryOp.php?action=readNacioKazan"
+        galKazan:"./objects/FotoGaleryOp.php?action=readNacioKazan",
+        datosEst:"./json/datosstaticos.json"
     },
     "prod":{
         noticias:'./objects/NoticiaOp.php?action=readAll',
@@ -153,7 +155,7 @@ export const fetchGalKazam= createAsyncThunk('galKazam/fetchGalKazam',async()=>{
 export const fetchDatosEsta= createAsyncThunk('datosEst/fetchDatosEstaticos',async()=>{
     
     try{
-        const response = await axios.get("http://localhost:3000/json/datosstaticos.json")
+        const response = await axios.get(urls.base.datosEst)
        
         return response.data.records;
     }catch(err){

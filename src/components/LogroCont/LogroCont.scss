@@ -48,3 +48,8 @@
 .tituloLogocon h3{
     font-weight: 700;
 }
+@media only screen and (max-width: 900px) {
+    .oro,.plata, .bronce{  
+        margin-top: 10px;
+    }
+  }

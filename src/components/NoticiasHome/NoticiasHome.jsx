@@ -51,7 +51,7 @@ function NotiComp2({ notData, pos,place,indexNo,accionBtnver}) {
   return (
     <NotiComp notData={notData} pos={pos} place={place} indexNo={indexNo} style={{position:"relative"}} accionBtnver={accionBtnver} >
       {
-        place === "historico" && <div style={{position:"relative",minHeight: "312px"}}>
+        place === "historico" && <div className='conImgNot'>
             <img src={notData[1].img} alt={notData[1].titulo} className="imgHisNot" />
         </div>
       }
@@ -83,7 +83,7 @@ function NoticiasHome({ noticiasCom, place,accionBtnver,statusN,errorN }) {
       {
         place === "home" && <div className='titulWs'>NOTICIAS</div>
       }
-      <Grid container>
+      <Grid container style={{overflow: "hidden"}}>
         {
       
           Object.entries(notPrin).map((element, index) => {

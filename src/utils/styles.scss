@@ -32,3 +32,17 @@
 .seleccionado{
     background-color: $colorSecun;
 }
+
+
+
+.confetiStiles{
+    width: 100%;
+}
+.confetiStilesCont{
+    width: 100%;
+}
+@media only screen and (max-width: 400px) {
+    .confetiStiles{
+        width: 360px;
+    }
+  }

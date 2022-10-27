@@ -17,32 +17,31 @@ const Footer = () => (
             <p className={styles.titleSena}> Servicio Nacional de Aprendizaje SENA - Dirección General</p>
             <p> Calle 57 No. 8 - 69 Bogotá D.C. (Cundinamarca), Colombia</p>
             <p><br></br></p>
-            <p> Conmutador Nacional (601) 5461500 - Extensiones</p>
-            <p> Atención presencial: lunes a viernes 8:00 a.m. a 5:30 p.m. - Resto del país sedes y horarios</p>
-            <p> Atención telefónica: lunes a viernes 7:00 a.m. a 7:00 p.m. - sábados 8:00 a.m. a 1:00 p.m.</p>
-            <p> Atención al ciudadano: Bogotá (601) 343 0111 - Línea gratuita y resto del país 018000 910270</p>
-            <p> Atención al empresario: Bogotá (601) 343 0101 - Línea gratuita y resto del país 018000 910682</p>
-            <p>  PQRS</p>
-            <p> Chat en línea</p>
-            <p> Correo notificaciones judiciales: servicioalciudadano@sena.edu.co</p>
+            <p> <a  href={"https://www.sena.edu.co/es-co/transparencia/Paginas/mecanismosContacto.aspx"} target="_blank" rel='noreferrer' className={styles.linkFooter}>Conozca aquí los puntos de atención</a></p>
+            <p> Línea de atención al ciudadano: Bogotá +(57) 601 3430111 - Línea gratuita y resto del país 018000 910270</p>
+            <p> Línea de atención al empresario: Bogotá +(57) 601 3430101 - Línea gratuita y resto del país 018000 910682</p>
+            <p> Línea nacional, exclusiva para comunicarse con un servidor público SENA: +(57) 601 5461500</p>
+            <p> <a href={"https://www.sena.edu.co/es-co/ciudadano/Paginas/pqrs.aspx"} target="_blank" rel='noreferrer' className={styles.linkFooter}>PQRS</a> </p>
+            <p> <a href={"http://www.sena.edu.co/es-co/ciudadano/Paginas/chat.aspx"} target="_blank" rel='noreferrer' className={styles.linkFooter}>Chat en línea</a></p>
+            <p> <a href={"https://www.sena.edu.co/es-co/transparencia/Paginas/mecanismosContacto.aspx#notificacionesJudiciales"} target="_blank" rel='noreferrer' className={styles.linkFooter}>Correo notificaciones judiciales</a></p>
           </div>
         </Grid>
         <Grid item xs={4}>
           <Grid container className={styles.logos}>
             <Grid item xs={12} className={styles.alignEnd}>
-              <img src={logoblanco} alt="Logo del SENa y worldSkills" className={styles.logoblanco} />
+              <img src={logoblanco} alt="Logo del SENa y worldSkills" className={styles.logoBlanco} />
             </Grid>
             <Grid item xs={12} className={styles.alignEnd}>
-              <a href={"https://www.instagram.com/senacomunica/?hl=es-la"} target="_blank" rel='noreferrer'>
+              <a href={"https://www.instagram.com/senacomunica/?hl=es-la"} target="_blank" rel='noreferrer' >
                 <InstagramIcon fontSize={"large"} className={styles.iconsR}></InstagramIcon>
               </a>
-              <a href={"https://www.facebook.com/SENA/"} target="_blank" rel='noreferrer'>
+              <a href={"https://www.facebook.com/SENA/"} target="_blank" rel='noreferrer' >
                 <FacebookIcon fontSize={"large"} className={styles.iconsR}></FacebookIcon>
               </a>
-              <a href={"https://twitter.com/SENAComunica"} target="_blank" rel='noreferrer'>
+              <a href={"https://twitter.com/SENAComunica"} target="_blank" rel='noreferrer' >
                 <TwitterIcon fontSize={"large"} className={styles.iconsR}></TwitterIcon>
               </a>
-              <a href={"https://www.youtube.com/user/SENATV?app=desktop"} target="_blank" rel='noreferrer'>
+              <a href={"https://www.youtube.com/user/SENATV?app=desktop"} target="_blank" rel='noreferrer' >
                 <YouTubeIcon fontSize={"large"} className={styles.iconsR}></YouTubeIcon>
               </a>
             </Grid>

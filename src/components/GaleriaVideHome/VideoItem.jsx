@@ -5,11 +5,12 @@ import styles from "./GaleriaVideHome.module.scss";
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import vid1 from "../../video/WS-2019-web.mp4";
+import "./videoItm.scss"
 
 function VideoItem(props) {
   
     return (
-        <Card sx={{ maxWidth: "90%" }}>
+        <Card xs={12} className="cardTe">
           <video controls width="100%">
             <source src={props.videoInf.link} type="video/mp4" />
           Sorry, your browser doesn't support videos.

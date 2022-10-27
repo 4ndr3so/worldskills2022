@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Skeleton } from "@mui/material";
 import Banner from "./../components/Banner";
 import MainMenu from "./../components/MainMenu";
 import Footer from "./../components/Footer";
@@ -49,6 +49,18 @@ const Expertos = props => {
     }
    }, [expertosStatus,dispatch]); 
 
+   const habiliSkele=["","",""]
+  const skeleNot=habiliSkele.map((element,index)=>
+  {
+
+   return <Grid item xs={12} md={4} key={index}>
+     <div className="mt-3 " style={{marginRight:"20px"}}>
+       
+       <Skeleton variant="rectangular"  height={400}></Skeleton>
+       <Skeleton variant="rounded"   height={30} ></Skeleton></div> 
+       </Grid>
+  })
+
   return (
     <TemplatePrinci>
         <Grid item xs={12} className="generalPa">
@@ -66,7 +78,7 @@ const Expertos = props => {
           </div>  
         </Grid>
         <Grid container>
-          {
+          { expertosStatus!=="succed" ? skeleNot:
               Object.entries(expertos).map((element, index) => {
                   return(
                   <Grid item xs={12} md={4} key={element[0][0]+index}>

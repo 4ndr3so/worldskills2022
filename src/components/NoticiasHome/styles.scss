@@ -102,6 +102,11 @@ h3:hover{
     position: absolute;
     bottom: 0;
 }
+.conImgNot{
+    position:relative;
+    min-height: 312px;
+}
+
 @media only screen and (max-width: 990px) {
     .imgabsulte{
         position: relative;
@@ -115,3 +120,12 @@ h3:hover{
     width: 400px;
     padding-top: 35px;
 }
+
+@media only screen and (max-width: 900px) {
+    .conImgNot{
+        min-height: 200px;  
+    }
+    .datacontNoti{
+        padding-right:0px
+    }
+  }

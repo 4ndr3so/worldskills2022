@@ -10,7 +10,7 @@ import ButonVerMas from "../../utils/ButonVerMas"
 
 const MedallaCont = ({tipoMedalla,cantidad,ancho}) => {
   return (
-    <Grid item xs={(12/ancho)} md={(12/ancho)}>
+    <Grid item xs={(12)} md={(12/ancho)}>
         <div className={tipoMedalla=="oro" ? "oro": tipoMedalla=="plata" ? "plata": tipoMedalla=="bronce" ? "bronce":""}>
             <img
               src={tipoMedalla=="oro" ? imgMedaOro: tipoMedalla=="plata" ? imgMedaPlata: tipoMedalla=="bronce" ? imgMedaBronce:""}

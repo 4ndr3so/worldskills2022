@@ -1,7 +1,7 @@
 import React, { useEffect ,useRef,useState} from 'react'
 import PropTypes from 'prop-types'
 import { WindowSharp } from '@mui/icons-material';
-
+import "./styles.scss"
 
 const Confeti = props => {
 
@@ -243,8 +243,8 @@ const styles={
                  
   }
   return (
-    <div>
-        <canvas ref={animaCanva} id="canvas" style={{...styles}}>
+    <div className='confetiStilesCont'>
+        <canvas ref={animaCanva} id="canvas" style={{...styles}} className="confetiStiles">
         </canvas>
         
     </div>
